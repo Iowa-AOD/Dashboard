@@ -1,0 +1,6635 @@
+var originalschools = {
+  "type" : "FeatureCollection",
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.650463099792205,
+          42.025647400107459
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 1,
+        "feature_id" : 457255,
+        "feature_na" : "Harding Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 245,
+        "elev_in_ft" : 804,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.688513400273166,
+          41.977500500048109
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 2,
+        "feature_id" : 456589,
+        "feature_na" : "Fillmore Schools",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 224,
+        "elev_in_ft" : 735,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.655735100094773,
+          41.982222799642557
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 3,
+        "feature_id" : 457899,
+        "feature_na" : "Jackson School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 230,
+        "elev_in_ft" : 755,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.902087700087236,
+          42.049816400406598
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 4,
+        "feature_id" : 463182,
+        "feature_na" : "Woodbury Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 274,
+        "elev_in_ft" : 899,
+        "map_name" : "Marshalltown",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.106551100153126,
+          40.785611499671006
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 5,
+        "feature_id" : 458724,
+        "feature_na" : "James Madison Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 214,
+        "elev_in_ft" : 702,
+        "map_name" : "Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1474502400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.519334499987167,
+          41.65362810035657
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 6,
+        "feature_id" : 459455,
+        "feature_na" : "Nelson School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 216,
+        "elev_in_ft" : 709,
+        "map_name" : "Iowa City West",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.548224000337314,
+          41.651127600158645
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 7,
+        "feature_id" : 460776,
+        "feature_na" : "Roosevelt School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 229,
+        "elev_in_ft" : 751,
+        "map_name" : "Iowa City West",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.689980299750971,
+          41.969657900092045
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 8,
+        "feature_id" : 462326,
+        "feature_na" : "Trinity Lutheran School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 240,
+        "elev_in_ft" : 787,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1494979200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.712782100313632,
+          41.51527409991985
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 9,
+        "feature_id" : 1981712,
+        "feature_na" : "Pathway Christian School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 233,
+        "elev_in_ft" : 764,
+        "map_name" : "Frytown",
+        "date_date_" : 1042675200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1552435200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.666605100444997,
+          41.951236600089089
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 10,
+        "feature_id" : 457066,
+        "feature_na" : "Grant Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 252,
+        "elev_in_ft" : 827,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578700800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.580732299755766,
+          42.035832500169818
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 11,
+        "feature_id" : 458602,
+        "feature_na" : "Longfellow School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 260,
+        "elev_in_ft" : 853,
+        "map_name" : "Marion",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.710633000312669,
+          41.986320500290901
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 12,
+        "feature_id" : 458728,
+        "feature_na" : "Madison Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 260,
+        "elev_in_ft" : 853,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1494979200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.642494899619862,
+          41.997230499787804
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 13,
+        "feature_id" : 456732,
+        "feature_na" : "Franklin Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 240,
+        "elev_in_ft" : 787,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1495065600000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 14,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.669872900413964,
+          41.903515100041886
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 14,
+        "feature_id" : 460415,
+        "feature_na" : "Prairie High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 253,
+        "elev_in_ft" : 830,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 15,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.583809099910013,
+          41.685989400190692
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 15,
+        "feature_id" : 458110,
+        "feature_na" : "Kirkwood Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 221,
+        "elev_in_ft" : 725,
+        "map_name" : "Iowa City West",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 16,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.698662499574652,
+          41.965042100012965
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 16,
+        "feature_id" : 457926,
+        "feature_na" : "Jefferson High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 252,
+        "elev_in_ft" : 827,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1494979200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 17,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.136788800262877,
+          40.805145199891115
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 17,
+        "feature_id" : 462707,
+        "feature_na" : "Burlington Alternative High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 210,
+        "elev_in_ft" : 689,
+        "map_name" : "West Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1544486400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 18,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.587445100311072,
+          42.029340400439196
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 18,
+        "feature_id" : 462717,
+        "feature_na" : "Francis Marion Intermediate School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 262,
+        "elev_in_ft" : 860,
+        "map_name" : "Marion",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 19,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.544007099947692,
+          41.660869599752289
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 19,
+        "feature_id" : 462484,
+        "feature_na" : "University of Iowa",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 208,
+        "elev_in_ft" : 682,
+        "map_name" : "Iowa City West",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1525219200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 20,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.640734699746531,
+          42.016388199755681
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 20,
+        "feature_id" : 458053,
+        "feature_na" : "Kenwood School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 249,
+        "elev_in_ft" : 817,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 21,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.5957328997535,
+          42.031110300400087
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 21,
+        "feature_id" : 458385,
+        "feature_na" : "Lincoln School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 255,
+        "elev_in_ft" : 837,
+        "map_name" : "Marion",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 22,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.650168900074618,
+          41.584182799996256
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 22,
+        "feature_id" : 463092,
+        "feature_na" : "Willow Grove School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 233,
+        "elev_in_ft" : 764,
+        "map_name" : "Frytown",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 23,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.113756599687292,
+          40.810316799880468
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 23,
+        "feature_id" : 454210,
+        "feature_na" : "Apollo Central School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 197,
+        "elev_in_ft" : 646,
+        "map_name" : "Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 24,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.596071900098082,
+          42.030986899925551
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 24,
+        "feature_id" : 462555,
+        "feature_na" : "Vernon Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 254,
+        "elev_in_ft" : 833,
+        "map_name" : "Marion",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1474502400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 25,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.107557400153837,
+          40.797060499742315
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 25,
+        "feature_id" : 457149,
+        "feature_na" : "Grimes Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 211,
+        "elev_in_ft" : 692,
+        "map_name" : "Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1615680000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 26,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.656001599793967,
+          41.554738800155576
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 26,
+        "feature_id" : 454756,
+        "feature_na" : "Boone School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 233,
+        "elev_in_ft" : 764,
+        "map_name" : "Frytown",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 27,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.594127900382261,
+          42.036831000350446
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 27,
+        "feature_id" : 456363,
+        "feature_na" : "Emerson Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 256,
+        "elev_in_ft" : 840,
+        "map_name" : "Marion",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578528000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 28,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.703079900217176,
+          41.971931500438473
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 28,
+        "feature_id" : 455475,
+        "feature_na" : "Cleveland Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 238,
+        "elev_in_ft" : 781,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1494979200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 29,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.79825240022808,
+          41.941656699696978
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 29,
+        "feature_id" : 458152,
+        "feature_na" : "L D F Community School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 279,
+        "elev_in_ft" : 915,
+        "map_name" : "Gilman",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 30,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.582495099569144,
+          42.044108299958111
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 30,
+        "feature_id" : 463044,
+        "feature_na" : "Wilkins Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 260,
+        "elev_in_ft" : 853,
+        "map_name" : "Marion",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 31,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.659901199580645,
+          41.961390599796403
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 31,
+        "feature_id" : 457349,
+        "feature_na" : "Hayes School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 222,
+        "elev_in_ft" : 728,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 32,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.466606000166735,
+          41.645394500355962
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 32,
+        "feature_id" : 457636,
+        "feature_na" : "Herbert Hoover Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 212,
+        "elev_in_ft" : 696,
+        "map_name" : "Iowa City East",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 33,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.461833500415651,
+          41.670573200093145
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 33,
+        "feature_id" : 465947,
+        "feature_na" : "Railroad School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 241,
+        "elev_in_ft" : 791,
+        "map_name" : "Iowa City East",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 34,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.65941140001604,
+          42.027396200174564
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 34,
+        "feature_id" : 461332,
+        "feature_na" : "Saint Pius X Catholic Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 248,
+        "elev_in_ft" : 814,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578700800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 35,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.111774400368233,
+          40.777227399924641
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 35,
+        "feature_id" : 454662,
+        "feature_na" : "Black Hawk Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 212,
+        "elev_in_ft" : 696,
+        "map_name" : "Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1586822400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 36,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.943255399716861,
+          42.052487600022801
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 36,
+        "feature_id" : 457237,
+        "feature_na" : "Hansen School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 286,
+        "elev_in_ft" : 938,
+        "map_name" : "Marshalltown",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 37,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.681568400161495,
+          41.961112599566889
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 37,
+        "feature_id" : 458383,
+        "feature_na" : "Lincoln School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 239,
+        "elev_in_ft" : 784,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 38,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.639623400299627,
+          41.977501000071129
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 38,
+        "feature_id" : 454912,
+        "feature_na" : "Buchman School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 251,
+        "elev_in_ft" : 823,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 39,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.738571800348268,
+          41.979854599610121
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 39,
+        "feature_id" : 462171,
+        "feature_na" : "Taft Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 256,
+        "elev_in_ft" : 840,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1525132800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 40,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.115978800181438,
+          40.793650400045976
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 40,
+        "feature_id" : 460088,
+        "feature_na" : "Perkins School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 214,
+        "elev_in_ft" : 702,
+        "map_name" : "Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 41,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.594570099730277,
+          42.02377139993024
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 41,
+        "feature_id" : 461963,
+        "feature_na" : "Starry Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 258,
+        "elev_in_ft" : 846,
+        "map_name" : "Marion",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 42,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.919979699603402,
+          42.052502400165679
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 42,
+        "feature_id" : 460767,
+        "feature_na" : "Rogers Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 284,
+        "elev_in_ft" : 932,
+        "map_name" : "Marshalltown",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 43,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.631752700126981,
+          41.996963500065533
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 43,
+        "feature_id" : 462694,
+        "feature_na" : "Washington High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 254,
+        "elev_in_ft" : 833,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1495065600000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 44,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.108478600007345,
+          40.804483600138099
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 44,
+        "feature_id" : 461384,
+        "feature_na" : "Salter School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 208,
+        "elev_in_ft" : 682,
+        "map_name" : "Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 45,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.572320099792762,
+          41.676269399813009
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 45,
+        "feature_id" : 455327,
+        "feature_na" : "Coralville Central Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 210,
+        "elev_in_ft" : 689,
+        "map_name" : "Iowa City West",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 46,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.115978800181438,
+          40.79920589993236
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 46,
+        "feature_id" : 458759,
+        "feature_na" : "Mann School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 210,
+        "elev_in_ft" : 689,
+        "map_name" : "Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 47,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.504319199671272,
+          41.666805400448936
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 47,
+        "feature_id" : 460578,
+        "feature_na" : "Regina Catholic Education Center",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 236,
+        "elev_in_ft" : 774,
+        "map_name" : "Iowa City West",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1619136000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 48,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.122215399820789,
+          40.802049200110559
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 48,
+        "feature_id" : 455638,
+        "feature_na" : "Corse Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 211,
+        "elev_in_ft" : 692,
+        "map_name" : "Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1474502400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 49,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.552591100099164,
+          41.667197399640315
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 49,
+        "feature_id" : 458379,
+        "feature_na" : "Lincoln Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 217,
+        "elev_in_ft" : 712,
+        "map_name" : "Iowa City West",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 50,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.135423999917634,
+          40.81531659968141
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 50,
+        "feature_id" : 456638,
+        "feature_na" : "Burlington Christian School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 213,
+        "elev_in_ft" : 699,
+        "map_name" : "West Burlington",
+        "date_date_" : 946684800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 51,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.592942000373,
+          42.051456399593235
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 51,
+        "feature_id" : 457800,
+        "feature_na" : "Indian Creek Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 243,
+        "elev_in_ft" : 797,
+        "map_name" : "Marion",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1495152000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 52,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.615443299668527,
+          41.980150499945694
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 52,
+        "feature_id" : 456389,
+        "feature_na" : "Erskine Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 250,
+        "elev_in_ft" : 820,
+        "map_name" : "Bertram",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1474502400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 53,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.425521100218589,
+          41.919391399593451
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 53,
+        "feature_id" : 462716,
+        "feature_na" : "Washington Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 255,
+        "elev_in_ft" : 837,
+        "map_name" : "Mount Vernon",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 54,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.518326199894148,
+          41.653937399691301
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 54,
+        "feature_id" : 458599,
+        "feature_na" : "Longfellow Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 214,
+        "elev_in_ft" : 702,
+        "map_name" : "Iowa City West",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1619136000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 55,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.595397100096079,
+          41.74788139990676
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 55,
+        "feature_id" : 460073,
+        "feature_na" : "Penn Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 239,
+        "elev_in_ft" : 784,
+        "map_name" : "Iowa City West",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 56,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.883532699674333,
+          42.044432500159814
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 56,
+        "feature_id" : 460271,
+        "feature_na" : "Pleasant Hill School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 272,
+        "elev_in_ft" : 892,
+        "map_name" : "Marshalltown",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 57,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.906310599854237,
+          42.036932399810439
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 57,
+        "feature_id" : 454197,
+        "feature_na" : "Anson Park Junior High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 273,
+        "elev_in_ft" : 896,
+        "map_name" : "Marshalltown",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 58,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.14653549971348,
+          40.830871799893714
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 58,
+        "feature_id" : 457649,
+        "feature_na" : "Hope Haven School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 208,
+        "elev_in_ft" : 682,
+        "map_name" : "West Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 59,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.666626599637823,
+          41.955443099819263
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 59,
+        "feature_id" : 463109,
+        "feature_na" : "Wilson Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 241,
+        "elev_in_ft" : 791,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578700800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 60,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.492104399898096,
+          41.650829400256669
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 60,
+        "feature_id" : 460693,
+        "feature_na" : "Robert Lucas Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 234,
+        "elev_in_ft" : 768,
+        "map_name" : "Iowa City East",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1525132800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 61,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.936554700439046,
+          42.049454399900696
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 61,
+        "feature_id" : 456740,
+        "feature_na" : "Franklin Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 276,
+        "elev_in_ft" : 906,
+        "map_name" : "Marshalltown",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 62,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.739556000409038,
+          41.977413200159106
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 62,
+        "feature_id" : 462350,
+        "feature_na" : "Truman Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 260,
+        "elev_in_ft" : 853,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1494979200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 63,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.771506300175588,
+          41.547018800277442
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 63,
+        "feature_id" : 463613,
+        "feature_na" : "Washington Township Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 240,
+        "elev_in_ft" : 787,
+        "map_name" : "Amish",
+        "date_date_" : 946684800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1550016000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 64,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.527668299752179,
+          41.662794399841744
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 64,
+        "feature_id" : 455319,
+        "feature_na" : "Central Junior High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 204,
+        "elev_in_ft" : 669,
+        "map_name" : "Iowa City West",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 65,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.67238810003073,
+          42.006490399812151
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 65,
+        "feature_id" : 454095,
+        "feature_na" : "Isaac Newton Christian Academy",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 257,
+        "elev_in_ft" : 843,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 66,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.645027900417233,
+          41.986152599562899
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 66,
+        "feature_id" : 457974,
+        "feature_na" : "Johnson STEAM Academy",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 230,
+        "elev_in_ft" : 755,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1525132800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 67,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.637200099704785,
+          42.000057200279628
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 67,
+        "feature_id" : 461221,
+        "feature_na" : "Saint Matthew Catholic School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 242,
+        "elev_in_ft" : 794,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 946684800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1525132800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 68,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.665801100240571,
+          41.957448599673171
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 68,
+        "feature_id" : 461144,
+        "feature_na" : "Saint Ludmila Center",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 232,
+        "elev_in_ft" : 761,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578700800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 69,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.056255399567021,
+          40.876704800086486
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 69,
+        "feature_id" : 462177,
+        "feature_na" : "Tama School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 159,
+        "elev_in_ft" : 522,
+        "map_name" : "Kingston",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 70,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.200980899748686,
+          40.739206799554211
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 70,
+        "feature_id" : 456403,
+        "feature_na" : "Eureka School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 187,
+        "elev_in_ft" : 614,
+        "map_name" : "Dallas City",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 71,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.6876533003595,
+          41.98605349966931
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 71,
+        "feature_id" : 457291,
+        "feature_na" : "Harrison Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 226,
+        "elev_in_ft" : 741,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1494979200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 72,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.159313599742802,
+          40.824760699746548
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 72,
+        "feature_id" : 457786,
+        "feature_na" : "West Burlington Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 212,
+        "elev_in_ft" : 696,
+        "map_name" : "West Burlington",
+        "date_date_" : 946684800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 73,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.648309100284735,
+          42.024631400019132
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 73,
+        "feature_id" : 459544,
+        "feature_na" : "Summit Schools",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 252,
+        "elev_in_ft" : 827,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 74,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.463499300252465,
+          41.643907000108015
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 74,
+        "feature_id" : 465946,
+        "feature_na" : "Prairie Dale School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 212,
+        "elev_in_ft" : 696,
+        "map_name" : "Iowa City East",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 75,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.675178600112247,
+          41.935280699744567
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 75,
+        "feature_id" : 454222,
+        "feature_na" : "Area 10 College",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 220,
+        "elev_in_ft" : 722,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 76,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.647797299705587,
+          42.00180429972869
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 76,
+        "feature_id" : 460579,
+        "feature_na" : "Regis Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 246,
+        "elev_in_ft" : 807,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1495065600000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 77,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.724785500050757,
+          41.970874799732258
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 77,
+        "feature_id" : 457637,
+        "feature_na" : "Hoover Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 253,
+        "elev_in_ft" : 830,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1494979200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 78,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.719048200414079,
+          41.968524900004184
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 78,
+        "feature_id" : 458160,
+        "feature_na" : "LaSalle Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 255,
+        "elev_in_ft" : 837,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1525132800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 79,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.620335300433737,
+          41.970171199841047
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 79,
+        "feature_id" : 459186,
+        "feature_na" : "Monroe Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 277,
+        "elev_in_ft" : 909,
+        "map_name" : "Bertram",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578700800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 80,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.657173900255259,
+          41.986289999783708
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 80,
+        "feature_id" : 455509,
+        "feature_na" : "Coe College",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 231,
+        "elev_in_ft" : 758,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1495065600000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 81,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.663790399607194,
+          42.025832100171328
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 81,
+        "feature_id" : 456257,
+        "feature_na" : "Eisenhower School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 247,
+        "elev_in_ft" : 810,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 82,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.913418200089836,
+          42.046381799580445
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 82,
+        "feature_id" : 461216,
+        "feature_na" : "Marshalltown Area Catholic School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 281,
+        "elev_in_ft" : 922,
+        "map_name" : "Marshalltown",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1557446400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 83,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.653800099894681,
+          41.979338400446863
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 83,
+        "feature_id" : 458926,
+        "feature_na" : "McKinley STEAM Academy",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 231,
+        "elev_in_ft" : 758,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578700800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 84,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.866756399987821,
+          41.935660700181245
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 84,
+        "feature_id" : 458151,
+        "feature_na" : "East Marshall Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 290,
+        "elev_in_ft" : 951,
+        "map_name" : "Gilman",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1556323200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 85,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.109034300092844,
+          40.807816900429657
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 85,
+        "feature_id" : 461077,
+        "feature_na" : "Saint Johns School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 199,
+        "elev_in_ft" : 653,
+        "map_name" : "Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 86,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.789074700237165,
+          41.540165200063996
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 86,
+        "feature_id" : 458990,
+        "feature_na" : "Iowa Mennonite School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 236,
+        "elev_in_ft" : 774,
+        "map_name" : "Amish",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1550016000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 87,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.48791819966516,
+          41.661988400444386
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 87,
+        "feature_id" : 465927,
+        "feature_na" : "Helen Lemme Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 240,
+        "elev_in_ft" : 787,
+        "map_name" : "Iowa City East",
+        "date_date_" : 767750400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 88,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.598236800288078,
+          42.053474400023617
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 88,
+        "feature_id" : 458420,
+        "feature_na" : "Linn - Mar High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 255,
+        "elev_in_ft" : 837,
+        "map_name" : "Marion",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1525132800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 89,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.625691099564563,
+          41.978153399759663
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 89,
+        "feature_id" : 454129,
+        "feature_na" : "All Saints Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 257,
+        "elev_in_ft" : 843,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 946684800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 90,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.4251647996158,
+          41.641963299866461
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 90,
+        "feature_id" : 465942,
+        "feature_na" : "Center School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 237,
+        "elev_in_ft" : 778,
+        "map_name" : "Iowa City East",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 91,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.515610500024536,
+          41.643280099796812
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 91,
+        "feature_id" : 458811,
+        "feature_na" : "Mark Twain Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 222,
+        "elev_in_ft" : 728,
+        "map_name" : "Iowa City West",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1494028800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 92,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.651978200233714,
+          42.002288799588484
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 92,
+        "feature_id" : 459310,
+        "feature_na" : "Mount Mercy University",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 265,
+        "elev_in_ft" : 869,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1495065600000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 93,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.170980400325163,
+          40.797261300368746
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 93,
+        "feature_id" : 454949,
+        "feature_na" : "Buena Vista School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 203,
+        "elev_in_ft" : 666,
+        "map_name" : "West Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 94,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.140382799626479,
+          40.802708799771324
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 94,
+        "feature_id" : 459674,
+        "feature_na" : "Burlington Notre Dame Junior / Senior High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 211,
+        "elev_in_ft" : 692,
+        "map_name" : "West Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1544227200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 95,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.676778100129184,
+          42.02320539990933
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 95,
+        "feature_id" : 460127,
+        "feature_na" : "Pierce Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 253,
+        "elev_in_ft" : 830,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 96,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.425435099849949,
+          41.925982399568113
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 96,
+        "feature_id" : 455633,
+        "feature_na" : "Cornell College",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 274,
+        "elev_in_ft" : 899,
+        "map_name" : "Mount Vernon",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 97,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.162091399598353,
+          40.826705200384765
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 97,
+        "feature_id" : 461152,
+        "feature_na" : "Saint Mary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 213,
+        "elev_in_ft" : 699,
+        "map_name" : "West Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 98,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.695169299823306,
+          41.555571500424435
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 98,
+        "feature_id" : 456172,
+        "feature_na" : "East Lincoln School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 227,
+        "elev_in_ft" : 745,
+        "map_name" : "Frytown",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 99,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.690529600260788,
+          41.976074199564721
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 99,
+        "feature_id" : 460773,
+        "feature_na" : "Roosevelt Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 230,
+        "elev_in_ft" : 755,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1494979200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 100,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.631789100186779,
+          41.979062400309601
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 100,
+        "feature_id" : 457075,
+        "feature_na" : "Grant Wood Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 256,
+        "elev_in_ft" : 840,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 946684800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 101,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.531557099580425,
+          41.65612780015789
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 101,
+        "feature_id" : 461240,
+        "feature_na" : "Saint Patrick School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 202,
+        "elev_in_ft" : 663,
+        "map_name" : "Iowa City West",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 102,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.169869699826734,
+          40.877537399631365
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 102,
+        "feature_id" : 456452,
+        "feature_na" : "Excelsior School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 213,
+        "elev_in_ft" : 699,
+        "map_name" : "Sperry",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 103,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.108204299588692,
+          40.816761499943311
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 103,
+        "feature_id" : 459597,
+        "feature_na" : "North Hill Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 195,
+        "elev_in_ft" : 640,
+        "map_name" : "Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1586822400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 104,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.10764560026422,
+          40.858093699964343
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 104,
+        "feature_id" : 456016,
+        "feature_na" : "Dry Branch School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 178,
+        "elev_in_ft" : 584,
+        "map_name" : "Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 105,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.546279700247908,
+          41.662516299787455
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 105,
+        "feature_id" : 462481,
+        "feature_na" : "University of Iowa Medical Center",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 217,
+        "elev_in_ft" : 712,
+        "map_name" : "Iowa City West",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 106,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.171784299805552,
+          40.814571499675026
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 106,
+        "feature_id" : 461831,
+        "feature_na" : "Southeastern Community College West Burlington Campus",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 215,
+        "elev_in_ft" : 705,
+        "map_name" : "West Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1615680000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 107,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.920151099593511,
+          42.024246300426455
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 107,
+        "feature_id" : 456622,
+        "feature_na" : "Fisher Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 300,
+        "elev_in_ft" : 984,
+        "map_name" : "Marshalltown",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1495411200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 108,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.784133800434518,
+          41.877942499946471
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 108,
+        "feature_id" : 461503,
+        "feature_na" : "East Marshall Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 315,
+        "elev_in_ft" : 1033,
+        "map_name" : "Gilman",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 109,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.910477399912054,
+          42.053043399933017
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 109,
+        "feature_id" : 460002,
+        "feature_na" : "Palmer School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 282,
+        "elev_in_ft" : 925,
+        "map_name" : "Marshalltown",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 110,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.539891199719079,
+          41.553631400169024
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 110,
+        "feature_id" : 457501,
+        "feature_na" : "Hills Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 194,
+        "elev_in_ft" : 636,
+        "map_name" : "Hills",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 111,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.533501500393868,
+          41.655016700360477
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 111,
+        "feature_id" : 460876,
+        "feature_na" : "Sabin School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 210,
+        "elev_in_ft" : 689,
+        "map_name" : "Iowa City West",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 112,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.499695599772053,
+          41.645271300430238
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 112,
+        "feature_id" : 461827,
+        "feature_na" : "Southeast Junior High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 216,
+        "elev_in_ft" : 709,
+        "map_name" : "Iowa City East",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1494028800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 113,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.657555300037018,
+          42.000865900341068
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 113,
+        "feature_id" : 456838,
+        "feature_na" : "Garfield Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 243,
+        "elev_in_ft" : 797,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1495065600000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 114,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.680968099997756,
+          42.024594400111539
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 114,
+        "feature_id" : 457960,
+        "feature_na" : "Kennedy High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 254,
+        "elev_in_ft" : 833,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 115,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.160980000326731,
+          40.775039499573325
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 115,
+        "feature_id" : 454877,
+        "feature_na" : "Brush College School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 206,
+        "elev_in_ft" : 676,
+        "map_name" : "West Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 116,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.917421800175873,
+          42.046376800249163
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 116,
+        "feature_id" : 456934,
+        "feature_na" : "Glick School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 277,
+        "elev_in_ft" : 909,
+        "map_name" : "Marshalltown",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 117,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.108756500412142,
+          40.820594500435902
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 117,
+        "feature_id" : 455312,
+        "feature_na" : "Central Avenue School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 193,
+        "elev_in_ft" : 633,
+        "map_name" : "Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 118,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.637123999972573,
+          41.999999899975478
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 118,
+        "feature_id" : 461223,
+        "feature_na" : "Saint Matthew School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 242,
+        "elev_in_ft" : 794,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 119,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.661243300138153,
+          42.290866099590858
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 119,
+        "feature_id" : 459603,
+        "feature_na" : "North Linn High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 282,
+        "elev_in_ft" : 925,
+        "map_name" : "Troy Mills",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1580860800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 120,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.653969499792538,
+          41.990890499696832
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 120,
+        "feature_id" : 460352,
+        "feature_na" : "Polk Alternative Educational Center",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 227,
+        "elev_in_ft" : 745,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1525132800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 121,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.694614300309695,
+          41.58334870038226
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 121,
+        "feature_id" : 465954,
+        "feature_na" : "Hartsock School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 224,
+        "elev_in_ft" : 735,
+        "map_name" : "Frytown",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 122,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.57988940027559,
+          41.582239599777779
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 122,
+        "feature_id" : 454350,
+        "feature_na" : "Banner School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 203,
+        "elev_in_ft" : 666,
+        "map_name" : "Hills",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 123,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.546277499606902,
+          41.584184600439016
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 123,
+        "feature_id" : 462103,
+        "feature_na" : "Sunnyside School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 207,
+        "elev_in_ft" : 679,
+        "map_name" : "Hills",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 124,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.526215099647118,
+          41.667389400400566
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 124,
+        "feature_id" : 458761,
+        "feature_na" : "Horace Mann Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 212,
+        "elev_in_ft" : 696,
+        "map_name" : "Iowa City West",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 125,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.102965999581158,
+          40.789492200204904
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 125,
+        "feature_id" : 460461,
+        "feature_na" : "Great River Christian School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 214,
+        "elev_in_ft" : 702,
+        "map_name" : "Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1586822400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 126,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.638466599653839,
+          42.003269200013619
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 126,
+        "feature_id" : 454246,
+        "feature_na" : "Arthur Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 240,
+        "elev_in_ft" : 787,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1525132800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 127,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.424887800331703,
+          41.670573899765714
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 127,
+        "feature_id" : 465940,
+        "feature_na" : "Carthage School (historical)",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 243,
+        "elev_in_ft" : 797,
+        "map_name" : "Iowa City East",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 128,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.69544639983144,
+          41.525572000147747
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 128,
+        "feature_id" : 456443,
+        "feature_na" : "Evergreen School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 231,
+        "elev_in_ft" : 758,
+        "map_name" : "Frytown",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 129,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.118294299941965,
+          40.832432499560241
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 129,
+        "feature_id" : 462099,
+        "feature_na" : "Sunnyside Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 205,
+        "elev_in_ft" : 673,
+        "map_name" : "Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1615680000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 130,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.10736760003465,
+          40.823372099742642
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 130,
+        "feature_id" : 459736,
+        "feature_na" : "Oak Street Junior High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 197,
+        "elev_in_ft" : 646,
+        "map_name" : "Burlington",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 131,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.602677300017319,
+          42.036387899881731
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 131,
+        "feature_id" : 457858,
+        "feature_na" : "Irving School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 251,
+        "elev_in_ft" : 823,
+        "map_name" : "Marion",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 132,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.595514100095613,
+          42.040643400072895
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 132,
+        "feature_id" : 461138,
+        "feature_na" : "Saint Joseph Catholic School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 246,
+        "elev_in_ft" : 807,
+        "map_name" : "Marion",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 133,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.641400100034559,
+          42.015880400260301
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 133,
+        "feature_id" : 458052,
+        "feature_na" : "Kenwood Leadership Academy Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 249,
+        "elev_in_ft" : 817,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 134,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.62517870003694,
+          41.978056799981402
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 134,
+        "feature_id" : 454131,
+        "feature_na" : "All Saints School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 257,
+        "elev_in_ft" : 843,
+        "map_name" : "Bertram",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 135,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.659204099989211,
+          42.017585399746451
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 135,
+        "feature_id" : 463221,
+        "feature_na" : "Wright Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 244,
+        "elev_in_ft" : 801,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 136,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.170147700056248,
+          40.913369999825704
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 136,
+        "feature_id" : 456733,
+        "feature_na" : "Franklin Mills School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 218,
+        "elev_in_ft" : 715,
+        "map_name" : "Sperry",
+        "date_date_" : 294278400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 137,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.724900099759736,
+          42.024762399764995
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 137,
+        "feature_id" : 2046935,
+        "feature_na" : "Xavier High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 234,
+        "elev_in_ft" : 768,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 138,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.129590300152188,
+          40.800594800309852
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 138,
+        "feature_id" : 1995037,
+        "feature_na" : "Faith Academy",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 212,
+        "elev_in_ft" : 696,
+        "map_name" : "West Burlington",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 139,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.447506099626764,
+          42.054368300057035
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 139,
+        "feature_id" : 2047955,
+        "feature_na" : "Springville Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 260,
+        "elev_in_ft" : 853,
+        "map_name" : "Springville",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 140,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.581010100335845,
+          42.035554800313832
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 140,
+        "feature_id" : 2046987,
+        "feature_na" : "Kirkwood Community College",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 259,
+        "elev_in_ft" : 850,
+        "map_name" : "Marion",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 141,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.582902100351589,
+          41.691227399824697
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 141,
+        "feature_id" : 2002436,
+        "feature_na" : "Hillside Christian School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 240,
+        "elev_in_ft" : 787,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 142,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.15689110004422,
+          42.113422499848525
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 142,
+        "feature_id" : 1997216,
+        "feature_na" : "Clemons Lutheran School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 291,
+        "elev_in_ft" : 955,
+        "map_name" : "State Center",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1525910400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 143,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.785854399760694,
+          42.185071900048229
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 143,
+        "feature_id" : 2048016,
+        "feature_na" : "Center Point - Urbana Preschool / Primary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 246,
+        "elev_in_ft" : 807,
+        "map_name" : "Center Point",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1474502400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 144,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.427465099934352,
+          41.920279400074321
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 144,
+        "feature_id" : 2047975,
+        "feature_na" : "Mount Vernon Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 254,
+        "elev_in_ft" : 833,
+        "map_name" : "Mount Vernon",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 145,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.615535099764998,
+          41.995558400200082
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 145,
+        "feature_id" : 2046916,
+        "feature_na" : "Cedar Valley Christian School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 228,
+        "elev_in_ft" : 748,
+        "map_name" : "Bertram",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 146,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.387487599972701,
+          41.918876699600048
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 146,
+        "feature_id" : 2719837,
+        "feature_na" : "Lisbon Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 266,
+        "elev_in_ft" : 873,
+        "map_name" : "Mount Vernon",
+        "date_date_" : 1345161600000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 147,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.65439010012301,
+          41.901288400239537
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 147,
+        "feature_id" : 2720058,
+        "feature_na" : "Prairie Point 9th Grade Academy",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 243,
+        "elev_in_ft" : 797,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1344988800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 148,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.709529200312318,
+          41.953465499633182
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 148,
+        "feature_id" : 2046832,
+        "feature_na" : "Van Buren Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 252,
+        "elev_in_ft" : 827,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1474502400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 149,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.738096300004202,
+          41.980651899865336
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 149,
+        "feature_id" : 2719777,
+        "feature_na" : "Taft Alternative School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 257,
+        "elev_in_ft" : 843,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1345161600000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578700800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 150,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.658530100383814,
+          41.921964400436764
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 150,
+        "feature_id" : 2046928,
+        "feature_na" : "Prairie Edge Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 233,
+        "elev_in_ft" : 764,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 151,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.775173200382881,
+          42.316656400372608
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 151,
+        "feature_id" : 2047942,
+        "feature_na" : "Cono Christian School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 283,
+        "elev_in_ft" : 928,
+        "map_name" : "Walker",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 152,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.595620099587904,
+          41.727735399868834
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 152,
+        "feature_id" : 2719976,
+        "feature_na" : "Van Allen Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 227,
+        "elev_in_ft" : 745,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1344988800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 153,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.527835699557841,
+          42.281525200327792
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 153,
+        "feature_id" : 2047998,
+        "feature_na" : "Coggon Elementary Center",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 283,
+        "elev_in_ft" : 928,
+        "map_name" : "Coggon",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1555804800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 154,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.667966100255285,
+          41.706520399996521
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 154,
+        "feature_id" : 2720025,
+        "feature_na" : "Clear Creek Amana Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 219,
+        "elev_in_ft" : 718,
+        "map_name" : "Tiffin",
+        "date_date_" : 1345248000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 155,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.555218099835429,
+          42.045659300436398
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 155,
+        "feature_id" : 2719833,
+        "feature_na" : "Linn Grove Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 252,
+        "elev_in_ft" : 827,
+        "map_name" : "Marion",
+        "date_date_" : 1344988800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 156,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.633545100226172,
+          41.738901400379405
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 156,
+        "feature_id" : 2720057,
+        "feature_na" : "North Bend Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 236,
+        "elev_in_ft" : 774,
+        "map_name" : "Tiffin",
+        "date_date_" : 1344988800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 157,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.668985099582642,
+          42.04473940010331
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 157,
+        "feature_id" : 2048064,
+        "feature_na" : "Nixon Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 255,
+        "elev_in_ft" : 837,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 158,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.605385500440434,
+          42.050033500345819
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 158,
+        "feature_id" : 2046995,
+        "feature_na" : "Novak Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 254,
+        "elev_in_ft" : 833,
+        "map_name" : "Marion",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1495152000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 159,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.651422099949912,
+          41.910465399858367
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 159,
+        "feature_id" : 2046925,
+        "feature_na" : "Kirkwood Community College",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 265,
+        "elev_in_ft" : 869,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 160,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.315809899906924,
+          40.860901299755255
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 160,
+        "feature_id" : 2719915,
+        "feature_na" : "Danville Junior / Senior High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 218,
+        "elev_in_ft" : 715,
+        "map_name" : "Danville",
+        "date_date_" : 1345075200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1544227200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 161,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.504082499907383,
+          41.644100199664535
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 161,
+        "feature_id" : 2719829,
+        "feature_na" : "Elizabeth Tate High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 212,
+        "elev_in_ft" : 696,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1345075200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1525132800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 162,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.160936500119362,
+          41.013716000293243
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 162,
+        "feature_id" : 1995053,
+        "feature_na" : "Mediapolis Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 233,
+        "elev_in_ft" : 764,
+        "map_name" : "Mediapolis",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1552435200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 163,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.583896600347771,
+          41.682880800008945
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 163,
+        "feature_id" : 2002446,
+        "feature_na" : "Northwest Junior High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 214,
+        "elev_in_ft" : 702,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1539129600000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 164,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.161220300076764,
+          40.818376499775695
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 164,
+        "feature_id" : 1994950,
+        "feature_na" : "West Burlington Arnold Junior / Senior High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 214,
+        "elev_in_ft" : 702,
+        "map_name" : "West Burlington",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1583107200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 165,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.49989459995578,
+          41.836399300087692
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 165,
+        "feature_id" : 2002518,
+        "feature_na" : "Stone Academy (historical)",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 241,
+        "elev_in_ft" : 791,
+        "map_name" : "Solon",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 166,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.721962699918606,
+          41.986122099955026
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 166,
+        "feature_id" : 2719836,
+        "feature_na" : "Jackson Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 260,
+        "elev_in_ft" : 853,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1345161600000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1494979200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 167,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.595623199550971,
+          41.723784599879423
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 167,
+        "feature_id" : 2719773,
+        "feature_na" : "North Central Junior High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 231,
+        "elev_in_ft" : 758,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1345075200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1539129600000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 168,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.59306809971298,
+          42.023310400254843
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 168,
+        "feature_id" : 2046986,
+        "feature_na" : "Marion High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 260,
+        "elev_in_ft" : 853,
+        "map_name" : "Marion",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 169,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.654977100212989,
+          41.901072400171188
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 169,
+        "feature_id" : 2719879,
+        "feature_na" : "Prairie Point Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 243,
+        "elev_in_ft" : 797,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1345075200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 170,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.665416899969898,
+          41.901071699599299
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 170,
+        "feature_id" : 2719978,
+        "feature_na" : "Prairie Ridge Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 247,
+        "elev_in_ft" : 810,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1344988800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578700800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 171,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.563072099597662,
+          41.650765400003252
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 171,
+        "feature_id" : 2002397,
+        "feature_na" : "Ernest Horn Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 229,
+        "elev_in_ft" : 751,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 172,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.824243700386432,
+          42.106793400095398
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 172,
+        "feature_id" : 1997197,
+        "feature_na" : "GMG Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 305,
+        "elev_in_ft" : 1001,
+        "map_name" : "Le Grand",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1557446400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 173,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.664135099854946,
+          41.902645399865378
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 173,
+        "feature_id" : 2046929,
+        "feature_na" : "Prairie View Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 252,
+        "elev_in_ft" : 827,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578700800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 174,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.779029799785405,
+          42.007686400107332
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 174,
+        "feature_id" : 1997180,
+        "feature_na" : "East Marshall High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 285,
+        "elev_in_ft" : 935,
+        "map_name" : "Le Grand",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 175,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.718789499635648,
+          42.099440400054448
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 175,
+        "feature_id" : 2048029,
+        "feature_na" : "Toddville Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 245,
+        "elev_in_ft" : 804,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 176,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.388626399788507,
+          41.918876699600048
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 176,
+        "feature_id" : 2047987,
+        "feature_na" : "Lisbon Middle / High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 264,
+        "elev_in_ft" : 866,
+        "map_name" : "Mount Vernon",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 177,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.70603010010899,
+          42.064144400144016
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 177,
+        "feature_id" : 2719958,
+        "feature_na" : "Andrews Christian Academy",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 244,
+        "elev_in_ft" : 801,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 1345075200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 178,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.908806199646335,
+          42.001278000279569
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 178,
+        "feature_id" : 1997121,
+        "feature_na" : "Marshalltown Community College",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 304,
+        "elev_in_ft" : 997,
+        "map_name" : "Marshalltown",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1495411200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 179,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.571002799839277,
+          41.673626800436523
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 179,
+        "feature_id" : 2002440,
+        "feature_na" : "Coralville School (historical)",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 200,
+        "elev_in_ft" : 656,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 180,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.444846100167354,
+          42.055388300329867
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 180,
+        "feature_id" : 2047954,
+        "feature_na" : "Springville Middle / High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 257,
+        "elev_in_ft" : 843,
+        "map_name" : "Springville",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 181,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.9073414000855,
+          42.035366100065517
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 181,
+        "feature_id" : 1997130,
+        "feature_na" : "Anson Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 282,
+        "elev_in_ft" : 925,
+        "map_name" : "Marshalltown",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1495411200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 182,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.525134100158539,
+          42.208803300132274
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 182,
+        "feature_id" : 2048130,
+        "feature_na" : "Central City Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 256,
+        "elev_in_ft" : 840,
+        "map_name" : "Central City",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1551744000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 183,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.507050199706896,
+          41.634464400112051
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 183,
+        "feature_id" : 2002390,
+        "feature_na" : "Grant Wood Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 215,
+        "elev_in_ft" : 705,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1619136000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 184,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.388557699678074,
+          41.918746500250847
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 184,
+        "feature_id" : 2719838,
+        "feature_na" : "Lisbon Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 264,
+        "elev_in_ft" : 866,
+        "map_name" : "Mount Vernon",
+        "date_date_" : 1344988800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578528000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 185,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.159951300012438,
+          40.820757499858757
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 185,
+        "feature_id" : 1994951,
+        "feature_na" : "West Burlington Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 215,
+        "elev_in_ft" : 705,
+        "map_name" : "West Burlington",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1615680000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 186,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.491833800189681,
+          41.650850799624777
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 186,
+        "feature_id" : 2002383,
+        "feature_na" : "Lucas Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 234,
+        "elev_in_ft" : 768,
+        "map_name" : "Iowa City East",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 187,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.908532499974854,
+          42.001099599966608
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 187,
+        "feature_id" : 1997122,
+        "feature_na" : "Buena Vista University - Marshalltown Campus",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 304,
+        "elev_in_ft" : 997,
+        "map_name" : "Marshalltown",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1306800000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 188,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.587399400362017,
+          42.029166100135456
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 188,
+        "feature_id" : 2046985,
+        "feature_na" : "Francis Marion Intermediate School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 262,
+        "elev_in_ft" : 860,
+        "map_name" : "Marion",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 189,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.165632299890717,
+          42.015305200174907
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 189,
+        "feature_id" : 1997154,
+        "feature_na" : "West Marshall Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 326,
+        "elev_in_ft" : 1070,
+        "map_name" : "State Center",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1544659200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 190,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.525794199842437,
+          42.208935100274687
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 190,
+        "feature_id" : 2720033,
+        "feature_na" : "Central City Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 256,
+        "elev_in_ft" : 840,
+        "map_name" : "Central City",
+        "date_date_" : 1344988800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578700800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 191,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.908302699809724,
+          42.029930200118713
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 191,
+        "feature_id" : 1997129,
+        "feature_na" : "Marshalltown High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 288,
+        "elev_in_ft" : 945,
+        "map_name" : "Marshalltown",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1495411200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 192,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.501964100063105,
+          41.808011400205999
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 192,
+        "feature_id" : 2002520,
+        "feature_na" : "Lakeview Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 225,
+        "elev_in_ft" : 738,
+        "map_name" : "Ely",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1557360000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 193,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.526729099967952,
+          42.208766300224625
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 193,
+        "feature_id" : 2720032,
+        "feature_na" : "Central City Middle / High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 256,
+        "elev_in_ft" : 840,
+        "map_name" : "Central City",
+        "date_date_" : 1345075200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 194,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.653191099689479,
+          41.972843400402667
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 194,
+        "feature_id" : 2046822,
+        "feature_na" : "Metro High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 224,
+        "elev_in_ft" : 735,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 195,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.66860910022973,
+          41.901270400308761
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 195,
+        "feature_id" : 2046930,
+        "feature_na" : "Prairie Creek Intermediate School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 254,
+        "elev_in_ft" : 833,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 196,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.58153210012631,
+          41.654074399713807
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 196,
+        "feature_id" : 2002402,
+        "feature_na" : "West High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 231,
+        "elev_in_ft" : 758,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 197,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.16125029966156,
+          41.014220000152932
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 197,
+        "feature_id" : 2719810,
+        "feature_na" : "Mediapolis High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 233,
+        "elev_in_ft" : 764,
+        "map_name" : "Mediapolis",
+        "date_date_" : 1345075200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1552435200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 198,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.426928499650501,
+          41.484486299802938
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 198,
+        "feature_id" : 2719699,
+        "feature_na" : "Lone Tree Junior - Senior High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 220,
+        "elev_in_ft" : 722,
+        "map_name" : "Lone Tree",
+        "date_date_" : 1345161600000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1550016000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 199,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.315761600017765,
+          40.860414399604906
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 199,
+        "feature_id" : 1995093,
+        "feature_na" : "Danville Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 219,
+        "elev_in_ft" : 718,
+        "map_name" : "Danville",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1544227200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 200,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.791659000162667,
+          42.188299299772893
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 200,
+        "feature_id" : 2720060,
+        "feature_na" : "Center Point - Urbana High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 243,
+        "elev_in_ft" : 797,
+        "map_name" : "Center Point",
+        "date_date_" : 1344988800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 201,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.866864000273381,
+          41.935822900106814
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 201,
+        "feature_id" : 1997209,
+        "feature_na" : "Ferguson Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 289,
+        "elev_in_ft" : 948,
+        "map_name" : "Gilman",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 202,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.717307100342396,
+          41.968863400325745
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 202,
+        "feature_id" : 2046903,
+        "feature_na" : "Saint Jude Center - Holy Family School System",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 253,
+        "elev_in_ft" : 830,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 203,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.103200799976889,
+          40.812539000374613
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 203,
+        "feature_id" : 1995035,
+        "feature_na" : "Great River Christian School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 188,
+        "elev_in_ft" : 617,
+        "map_name" : "Burlington",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 204,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.576182099823995,
+          41.706526400273219
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 204,
+        "feature_id" : 2002438,
+        "feature_na" : "Kate Wickham Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 219,
+        "elev_in_ft" : 718,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 205,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.615166400209148,
+          42.070209499968485
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 205,
+        "feature_id" : 2719834,
+        "feature_na" : "Oak Ridge Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 258,
+        "elev_in_ft" : 846,
+        "map_name" : "Marion",
+        "date_date_" : 1345075200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1495152000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 206,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.532120100362306,
+          41.663402400000791
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 206,
+        "feature_id" : 2719703,
+        "feature_na" : "La James International College",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 210,
+        "elev_in_ft" : 689,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1344988800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1603152000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 207,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.494141400305352,
+          41.651130700121769
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 207,
+        "feature_id" : 2720000,
+        "feature_na" : "Willowwind School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 229,
+        "elev_in_ft" : 751,
+        "map_name" : "Iowa City East",
+        "date_date_" : 1345248000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1525132800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 208,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.620720599675906,
+          42.149830399953032
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 208,
+        "feature_id" : 2048024,
+        "feature_na" : "Alburnett Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 273,
+        "elev_in_ft" : 896,
+        "map_name" : "Central City",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1474502400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 209,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.783528199666648,
+          41.877768800389902
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 209,
+        "feature_id" : 1997205,
+        "feature_na" : "East Marshall Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 313,
+        "elev_in_ft" : 1027,
+        "map_name" : "Gilman",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 210,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.685375500179134,
+          42.02244449971397
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 210,
+        "feature_id" : 2719908,
+        "feature_na" : "Good Shepherd Evangelical Lutheran School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 256,
+        "elev_in_ft" : 840,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 1344988800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1474502400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 211,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.713506999748176,
+          41.94959710002621
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 211,
+        "feature_id" : 2719792,
+        "feature_na" : "Kaplan University - Cedar Rapids Campus",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 238,
+        "elev_in_ft" : 781,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1345161600000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578700800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 212,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.665253100150437,
+          41.904148399928772
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 212,
+        "feature_id" : 2046927,
+        "feature_na" : "Prairie Crest Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 255,
+        "elev_in_ft" : 837,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578700800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 213,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.426670899642261,
+          41.484216999614887
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 213,
+        "feature_id" : 2002508,
+        "feature_na" : "Lone Tree Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 220,
+        "elev_in_ft" : 722,
+        "map_name" : "Lone Tree",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1550016000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 214,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.136340800287655,
+          40.805625099718611
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 214,
+        "feature_id" : 1995038,
+        "feature_na" : "Burlington High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 210,
+        "elev_in_ft" : 689,
+        "map_name" : "West Burlington",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1474502400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 215,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.171866599963607,
+          42.019483499863668
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 215,
+        "feature_id" : 1997155,
+        "feature_na" : "West Marshall Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 326,
+        "elev_in_ft" : 1070,
+        "map_name" : "State Center",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1544659200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 216,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.161353299914822,
+          41.014690500266454
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 216,
+        "feature_id" : 2719866,
+        "feature_na" : "Mediapolis Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 233,
+        "elev_in_ft" : 764,
+        "map_name" : "Mediapolis",
+        "date_date_" : 1345075200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1552435200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 217,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.678963399641134,
+          41.969943999615964
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 217,
+        "feature_id" : 2046827,
+        "feature_na" : "Taylor Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 223,
+        "elev_in_ft" : 732,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1494979200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 218,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.506395200078373,
+          41.659515399715985
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 218,
+        "feature_id" : 2002384,
+        "feature_na" : "City High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 233,
+        "elev_in_ft" : 764,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 219,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.597321099788871,
+          41.645013400048413
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 219,
+        "feature_id" : 2002403,
+        "feature_na" : "Irving Weber Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 240,
+        "elev_in_ft" : 787,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 220,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.904404000244369,
+          42.018638700115957
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 220,
+        "feature_id" : 1997123,
+        "feature_na" : "Hoglan Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 292,
+        "elev_in_ft" : 958,
+        "map_name" : "Marshalltown",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1525132800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 221,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.752228500245053,
+          41.970699299732928
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 221,
+        "feature_id" : 2046931,
+        "feature_na" : "Coolidge Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 257,
+        "elev_in_ft" : 843,
+        "map_name" : "Fairfax",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1494979200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 222,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          9.9987573776161298e-11,
+          9.9987573776161298e-11
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 222,
+        "feature_id" : 2046984,
+        "feature_na" : "Grace Baptist School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 0,
+        "elev_in_ft" : 0,
+        "map_name" : "Marion",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 223,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.60123139970932,
+          42.018098499845962
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 223,
+        "feature_id" : 2719763,
+        "feature_na" : "Grace Baptist Academy",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 252,
+        "elev_in_ft" : 827,
+        "map_name" : "Marion",
+        "date_date_" : 1345161600000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578700800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 224,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.453783700257532,
+          41.941116899625285
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 224,
+        "feature_id" : 2047961,
+        "feature_na" : "Abbe Creek School (historical)",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 238,
+        "elev_in_ft" : 781,
+        "map_name" : "Mount Vernon",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 225,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.111534200442975,
+          40.783095200183368
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 225,
+        "feature_id" : 1995036,
+        "feature_na" : "Childrens Christian Academy",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 215,
+        "elev_in_ft" : 705,
+        "map_name" : "Burlington",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 226,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.714329099708152,
+          42.039321400262452
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 226,
+        "feature_id" : 2046934,
+        "feature_na" : "Viola Gibson Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 249,
+        "elev_in_ft" : 817,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 227,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.628334799711183,
+          42.044441200201277
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 227,
+        "feature_id" : 2046981,
+        "feature_na" : "Bowman Woods Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 251,
+        "elev_in_ft" : 823,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1525132800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 228,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.430169099624209,
+          41.920355399981759
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 228,
+        "feature_id" : 2047974,
+        "feature_na" : "Mount Vernon High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 248,
+        "elev_in_ft" : 814,
+        "map_name" : "Mount Vernon",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 229,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.921009599613285,
+          41.880749400064815
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 229,
+        "feature_id" : 1997182,
+        "feature_na" : "East Marshall Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 317,
+        "elev_in_ft" : 1040,
+        "map_name" : "Laurel",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1553817600000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 230,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.137721300097894,
+          40.831967499700397
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 230,
+        "feature_id" : 2720055,
+        "feature_na" : "Aldo Leopold Intermediate School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 204,
+        "elev_in_ft" : 669,
+        "map_name" : "West Burlington",
+        "date_date_" : 1344988800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1615680000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 231,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.526963099967077,
+          41.680049899683183
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 231,
+        "feature_id" : 2002375,
+        "feature_na" : "Bohumil Shimek Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 237,
+        "elev_in_ft" : 778,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1483142400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 232,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.674547099768802,
+          41.706387400158462
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 232,
+        "feature_id" : 2002526,
+        "feature_na" : "Clear Creek Amana High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 215,
+        "elev_in_ft" : 705,
+        "map_name" : "Tiffin",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 233,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.584892600413127,
+          41.697237200336588
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 233,
+        "feature_id" : 2002435,
+        "feature_na" : "Cornerstone Christian School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 241,
+        "elev_in_ft" : 791,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 234,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.502866999612309,
+          41.803430699767034
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 234,
+        "feature_id" : 2719698,
+        "feature_na" : "Solon High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 235,
+        "elev_in_ft" : 771,
+        "map_name" : "Ely",
+        "date_date_" : 1344988800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1557360000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 235,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.792867400310229,
+          41.724865600267265
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 235,
+        "feature_id" : 2002494,
+        "feature_na" : "Clear Creek Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 237,
+        "elev_in_ft" : 778,
+        "map_name" : "Oxford",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1551052800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 236,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.785958999907905,
+          42.189084300000502
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 236,
+        "feature_id" : 2048015,
+        "feature_na" : "Center Point - Urbana Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 252,
+        "elev_in_ft" : 827,
+        "map_name" : "Center Point",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 237,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.666756700061626,
+          41.955403099773264
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 237,
+        "feature_id" : 2720031,
+        "feature_na" : "Wilson Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 241,
+        "elev_in_ft" : 791,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1345248000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578700800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 238,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.931369699651896,
+          42.046414400004608
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 238,
+        "feature_id" : 1997128,
+        "feature_na" : "Miller Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 279,
+        "elev_in_ft" : 915,
+        "map_name" : "Marshalltown",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 239,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.661702000247089,
+          42.291703300067297
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 239,
+        "feature_id" : 2047941,
+        "feature_na" : "North Linn Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 281,
+        "elev_in_ft" : 922,
+        "map_name" : "Troy Mills",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1580860800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 240,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.140415300225868,
+          40.802258500229641
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 240,
+        "feature_id" : 2719928,
+        "feature_na" : "Burlington Notre Dame Catholic Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 212,
+        "elev_in_ft" : 696,
+        "map_name" : "West Burlington",
+        "date_date_" : 1345075200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1544227200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 241,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.619702600394646,
+          42.150338900020245
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 241,
+        "feature_id" : 2719702,
+        "feature_na" : "Alburnett Senior High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 273,
+        "elev_in_ft" : 896,
+        "map_name" : "Central City",
+        "date_date_" : 1345161600000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1474588800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 242,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.679985700379746,
+          42.038173699856429
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 242,
+        "feature_id" : 2048063,
+        "feature_na" : "Hiawatha Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 252,
+        "elev_in_ft" : 827,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1495065600000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 243,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.661232600004439,
+          42.291397800368259
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 243,
+        "feature_id" : 2719835,
+        "feature_na" : "North Linn Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 282,
+        "elev_in_ft" : 925,
+        "map_name" : "Troy Mills",
+        "date_date_" : 1345075200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1580860800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 244,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.509334099988678,
+          41.64473949982812
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 244,
+        "feature_id" : 2002388,
+        "feature_na" : "Kirkwood Community College - Iowa City Campus",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 211,
+        "elev_in_ft" : 692,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 245,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.679346599865653,
+          41.975000800246789
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 245,
+        "feature_id" : 2046826,
+        "feature_na" : "Saint Patrick Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 221,
+        "elev_in_ft" : 725,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 246,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.599441100426418,
+          41.74321439962489
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 246,
+        "feature_id" : 2720056,
+        "feature_na" : "Buford Garner Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 234,
+        "elev_in_ft" : 768,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1344988800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578787200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 247,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.917053599743781,
+          42.031555200412242
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 247,
+        "feature_id" : 2719708,
+        "feature_na" : "Lenihan Intermediate School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 286,
+        "elev_in_ft" : 938,
+        "map_name" : "Marshalltown",
+        "date_date_" : 1344988800000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1525132800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 248,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.649536799883379,
+          42.063793199596546
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 248,
+        "feature_id" : 2048030,
+        "feature_na" : "Westfield Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 270,
+        "elev_in_ft" : 886,
+        "map_name" : "Cedar Rapids North",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1495152000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 249,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.598023199610964,
+          42.058540299994888
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 249,
+        "feature_id" : 2719931,
+        "feature_na" : "Excelsior Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 250,
+        "elev_in_ft" : 820,
+        "map_name" : "Marion",
+        "date_date_" : 1345161600000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1495152000000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 250,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.495744899607416,
+          41.805378400193092
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 250,
+        "feature_id" : 2002517,
+        "feature_na" : "Solon Middle School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 240,
+        "elev_in_ft" : 787,
+        "map_name" : "Solon",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1474502400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 251,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.425726400153223,
+          41.919452100234309
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 251,
+        "feature_id" : 2047973,
+        "feature_na" : "Washington Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 254,
+        "elev_in_ft" : 833,
+        "map_name" : "Mount Vernon",
+        "date_date_" : 1096848000000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : null,
+        "time_dat_2" : ""
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 252,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.170411600315049,
+          42.019607500186055
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 252,
+        "feature_id" : 1997156,
+        "feature_na" : "West Marshall High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Marshall",
+        "elev_in_m" : 325,
+        "elev_in_ft" : 1066,
+        "map_name" : "State Center",
+        "date_date_" : 1063670400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1544659200000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 253,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.160958699884077,
+          40.818142599601345
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 253,
+        "feature_id" : 2719916,
+        "feature_na" : "West Burlington Junior / Senior High School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Des Moines",
+        "elev_in_m" : 214,
+        "elev_in_ft" : 702,
+        "map_name" : "West Burlington",
+        "date_date_" : 1345161600000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1544486400000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 254,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.593535099665075,
+          41.739994400421267
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 254,
+        "feature_id" : 2002466,
+        "feature_na" : "Heritage Christian School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Johnson",
+        "elev_in_m" : 235,
+        "elev_in_ft" : 771,
+        "map_name" : "Iowa City West",
+        "date_date_" : 1064534400000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1538697600000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 255,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.660213099754685,
+          41.906157399944107
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 255,
+        "feature_id" : 2046926,
+        "feature_na" : "Prairie Heights Elementary School",
+        "feature_cl" : "School",
+        "state_alph" : "IA",
+        "county_nam" : "Linn",
+        "elev_in_m" : 256,
+        "elev_in_ft" : 840,
+        "map_name" : "Cedar Rapids South",
+        "date_date_" : 1095811200000,
+        "time_date_" : "00:00:00.000",
+        "date_dat_2" : 1578268800000,
+        "time_dat_2" : "00:00:00.000"
+      }
+    }
+  ]
+}
