@@ -8,7 +8,7 @@
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width">
              
-            <title>ARI Home</title>
+            <title>ARI Violations</title>
             
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,39 +20,39 @@
             integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
             crossorigin=""></script>
             
+            <!--KVS geoJSON-->    
+            <script src="violations.geojson"></script>
+            <script src="AlcRelatedCrashes"></script>
+            <script src="OnOutletCluster"></script>
+            <script src="OffOutletCluster"></script>
             
-            <script src = "Leaflet.SvgShapeMarkers-gh-pages/dist/leaflet-svg-shape-markers.min.js"></script>
-           
             <div class="navbar">
-	                <a href="https://iowa-aod.github.io/Dashboard/">Home</a>
-	                <a href="https://iowa-aod.github.io/Dashboard/Sales/">Sales</a>
-	                <a href="https://iowa-aod.github.io/Dashboard/Violations/">Violations</a>
-	                <a href="https://iowa-aod.github.io/Dashboard/Community/">Community Monitoring</a>
-	                <a href="https://iowa-aod.github.io/Dashboard/Learn/">Click Here to Learn More</a>
-	            </div>
-
+                <a href="https://aripublicsciencecollaborative.github.io/Dashboard/">Home</a>
+                <a href="https://aripublicsciencecollaborative.github.io/Dashboard/Sales/">Sales</a>
+                <a href="https://aripublicsciencecollaborative.github.io/Dashboard/Violations/">Violations</a>
+                <a href="https://aripublicsciencecollaborative.github.io/Dashboard/Health/">Health & Safety</a>
+                <a href="https://aripublicsciencecollaborative.github.io/Dashboard/Tobacco/">Tobacco</a>
+                <a href="https://aripublicsciencecollaborative.github.io/Dashboard/Executive/">Click Here to Learn More</a>
+            </div>
 
               
 
             <!--Boot Strap-->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+            <script src = "Leaflet.SvgShapeMarkers-gh-pages/dist/leaflet-svg-shape-markers.min.js"></script>
               
-            <script src="StateOutletsTotal.geojson"></script>
-            <script src= "StateOffOutlets_2019"></script>
-            <script src = "StateOnOutlets_2019"></script>
-            <script src = "OnOutletCluster"></script>
-            <script src = "OffOutletCluster"></script>
-            <script src = "schools"></script>
-            <script src = "AlcRelatedCrashes"></script>
 
      
                 <style>
+ 
+                  
                     h1 {text-align: center; font-size: 50px}
                     h2 {text-align: center; margin-left: 10px}
                     h3 {text-align: left; margin-left:auto;border-left:auto; padding: 5px}
                     h4 {text-align: center; margin-left:auto;border-left:auto; margin-left: 10px; font-size: 20px}
-                    h5 {margin-left: 10px}
+                    h5 {text-align: left; margin-left:auto;border-left:auto; margin-left: 10px; margin-right: 10px;font-size: 22px}
                     h6 {text-align: left; margin-left:auto;border-left:auto; margin-left: 15px; font-size: 20px}
 
 
@@ -63,10 +63,11 @@
                     width: 25%;
                     } 
 
-                    #map1container {border: 1px solid#0a0a0a; position:absolute; background-color:#ecf7fc; color:black; text-align:left; margin-right: 8px; margin-left:5px; width:600px; height:800px; padding 0; }
+
+                    #map1container {border: 1px solid#0a0a0a; position:absolute; background-color:#ecf7fc; color:black; text-align:left; margin-right: 5px; margin-left:5px; width:600px; height:800px;padding 0; }
                     #map1 {border: 1px solid#0a0a0a; position:relative;  margin-left: 600px; width:1250px; height:800px; padding 0; overflow:hidden;}
 
-                      /* The navigation bar */
+                     /* The navigation bar */
                      .navbar {
                     overflow: hidden;
                     background-color: #333;
@@ -96,8 +97,8 @@
                     margin-top: 30px; /* Add a top margin to avoid content overlay */
                     }
                 
-                /* Legend */
-                    .legend {
+ /* Legend */
+ .legend {
                         line-height: 18px;
                         color: #555;
                         background color:cornsilk
@@ -135,133 +136,67 @@
                         height: 10px;
                         margin-top: 8px;
                         }
-
                 </style>
         
         </head>
 
     <body>   
            
+       
         <!--Title-->
        
- <!--       <img src="ARI.jpg" height=30% width=30% > -->           
- <img src= "IAIP.png">                                                                   
- <img src="logonew.jpg" height=20% width=20% margin-right=100px >
-
        
-
-
-            <h4><b>On & Off-Premise Alcohol Establishments, Schools, & OWIs in Iowa, 2019 </b></h4>      
-
-        <div id='map1container'> 
-        <h6><b>  Background:</b>  The Alcoholic Beverages Division (ABD) is responsible for the licensing of establishments for the production and sale of alcohol in the state. Additionally, the ABD is responsible for oversight of licensed alcohol establishments to ensure compliance with liquor laws, such as selling alcohol to minors. </h6>
-        <h6><b>  Map: </b>  The map to the right contains information on alcohol outlets, alcohol outlet densities, schools, and alcohol-related car crashes for the entire state in 2019. On-premise outlets are identified with green circles and off-premise outlets are denoted with blue circles. Schools are shown with a purple triangle and car crashes are a red ‘X’ mark. With these map features, members of the ABD are able to assess spatial patterns anywhere in the state. Any community in Iowa can use this map to see if they have alcohol risk factors such as clusters of outlets or OWI car crashes. Community leaders and action groups can also assess the proximity of alcohol establishments to schools.</h6>
-        <h6><b>  Interactivity:</b>   Click on the map layer feature in the top right corner of the map to see a list of map elements. The map allows users to view statewide alcohol outlets (on and off-premise), outlet clusters (densities), schools, and car crashes. Check the squares to see violations for one or more years. Check or uncheck the squares for alcohol outlet clusters and alcohol-related car crashes. Use the buttons on the top left of the map to zoom in or out. Click on any of the shapes on the map to see learn more about the map feature (e.g. school, outlet).</h6>
-        <h6><b>  Definitions:</b>   Alcohol outlet clusters are defined as five or more outlets within .15 miles of at least one other outlet in the cluster. Clusters are a known health risk and their proximity to schools is a known risk to underage drinking. On-premise outlets refer to establishments that sell alcohol on-site, such as restaurants, bars, and taverns. Off-premise outlets are licensed to sell alcohol for off-premise consumption and include gas stations, grocery stores, and liquor stores. </h6>
-        </div>
+   <!--       <img src="ARI.jpg" height=30% width=30% > -->           
+   <img src= "IAIP.png">                                                                   
+   <img src="logonew.jpg" height=20% width=20% margin-right=100px >
+  
+       
+        <h4><b>Violations among Alcohol Establishments, 2008-2019</b> </h4>
+   
+            </div>
+            <div id='map1container'> <h5><b>Background: </b> The Alcoholic Beverages Division (ABD) is responsible for the licensing of establishment for the production and sale of alcohol in the state. Additionally, the ABD is responsible for oversight of licensed alcohol establishments to ensure compliance with liquor laws, such as selling alcohol to minors. </h5>
+                <h5><b> Map: </b>The map to the right was designed to help the Alcoholic Beverages Division, communities, and public health agencies identify the locations of alcohol establishment violations recorded by ABD compliance officers. Red dots identify violations involving the sale of alcohol to a minor (42% of all violations) and grey dots identify all other violations. The map also includes information on the locations of alcohol outlet clusters, which are a known environmental health risk. </h5>
+                <h5><b>Interactivity: </b>Click on the map layer feature in the top right corner of the map to see a list of map elements. The map allows users to view statewide alcohol violations by year. Check the squares to see violations for one or more years. Check or uncheck the squares for alcohol outlet clusters and alcohol-related car crashes. Use the buttons on the top left of the map to zoom in or out. Click on any of the circles to see learn more about the violation. </h5>
+                <h5><b>Definitions: </b>Alcohol outlet clusters are defined as five or more outlets within .15 miles of at least one other outlet in the cluster. On-premise outlets refer to establishments that sell alcohol on-site, such as restaurants, bars, and taverns. Off-premise outlets are licensed to sell alcohol for off-premise consumption and include gas stations, grocery stores, and liquor stores. </h5>
+                </div>
         <div id='map1' class="center"></div>
         <h6><b>Sources:</b> 
-            <br> Iowa Alcoholic Beverages Division, Alcohol Licenses Dataset, 2019
-            <br> Iowa Department of Transportation, Drug/Alcohol Related Crashes, 2019
-<!--        <br> U.S. Geological Survey, Geographic Names Project, U.S. Geographic Names Information System (GNIS), Schools, 2021 -->
-            <br> Iowa Department of Education, Iowa Public School Building Directory, 2019
-            <br> Iowa Department of Education, Iowa Non-Public School K-12 English Learners (EL) by Building & Grade, 2019
+    <br>            Iowa Alcoholic Beverages Division, Alcohol Licenses Dataset, 2019
+    <br>        Iowa Alcoholic Beverages Division, Alcohol Violations Dataset, 2008-2019
+    <br>       Iowa Department of Transportation, Drug/Alcohol Related Crashes, 2019
+            
             <br>
-            <br>
-            <h3> <b>Date Last Updated: March 7, 2022 </b></h3>
-            <br>
-    
+  
 
-     
-            <script>   
-                      
-                    //Outlet Data Maps
-                    var map1 = L.map('map1').setView([42.1, -93.5], 8);
-                            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-                            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-                            maxZoom: 18,
-                            id: 'mapbox/streets-v11',
-                            accessToken: 'pk.eyJ1Ijoia3ZhbnNlbG91cyIsImEiOiJjazZsbHE2NGwwZDdtM2tvNmRjc2N0NHo5In0.h_W_-4R3haPMK-IDBTcL-w' 
-                            }).addTo(map1);   
-                    
-                    var osm1 = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-                            attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors',
-                            maxZoom: 18
-                            }).addTo(map1);
+ 
+        <script>   
+                  
+                //Violations Data Map 
+                var map1 = L.map('map1').setView([42.1, -93.5], 8);
+                        L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+                        attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors',
+                        maxZoom: 18,
+                        id: 'mapbox/streets-v11',
+                        accessToken: 'pk.eyJ1Ijoia3ZhbnNlbG91cyIsImEiOiJjazZsbHE2NGwwZDdtM2tvNmRjc2N0NHo5In0.h_W_-4R3haPMK-IDBTcL-w' 
+                        }).addTo(map1);      
+                
+                var osmS1 = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+                        attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors',
+                        maxZoom: 18
+                        }).addTo(map1);
 
-                             
-                    var circle1 = {
-                        radius: 5,
-                        fillColor: "darkgreen",
+
+                var circle1 = {
+                        radius: 4,
+                        fillColor: "gray",
                         color: "black",
-                        weight: .5,
+                        weight: 1,
                         opacity: 1,
                         fillOpacity: 0.8
-                        };   
+                        };
 
-                    var circle2 = {
-                        radius: 5,
-                        fillColor: "darkblue",
-                        color: "grey",
-                        weight: .5,
-                        opacity: 1,
-                        fillOpacity: 0.8
-                        };                  
-
-
-                var on= L.geoJSON(onoutlets, { 
-                            filter: function(feature, layer) {
-                                return feature.type == "Feature";
-                            },
-                            pointToLayer: function(feature, coordinates) {
-                            return L.circleMarker(coordinates, circle1);
-                            },
-                            onEachFeature: function (feature, layer) {
-                            popupOptions = {maxWidth: 200}; 
-                            layer.bindPopup("<br><b> Name: </b>" + feature.properties.doing_business_as +
-                            "<br> <b>Address: </b>" + feature.properties.address +  
-                            "<br><b>Year: </b>" + feature.properties.sixmosactiveyear +
-                            "<br><b>Number Of Licenses: </b>" + feature.properties.numlics 
-                             )},
-                        }).addTo(map1);
-                    
-                var off= L.geoJSON(offoutlets, { 
-                            filter: function(feature, layer) {
-                                return feature.type == "Feature";
-                            },
-                            pointToLayer: function(feature, coordinates) {
-                            return L.circleMarker(coordinates, circle2);
-                            },
-                            onEachFeature: function (feature, layer) {
-                            popupOptions = {maxWidth: 200}; 
-                            layer.bindPopup("<br><b> Name: </b>" + feature.properties.doing_business_as +
-                            "<br> <b>Address: </b>" + feature.properties.address +  
-                            "<br><b>Year: </b>" + feature.properties.sixmosactiveyear +
-                            "<br><b>Number Of Licenses: </b>" + feature.properties.numlics 
-                             )},
-                        }).addTo(map1);
-
-                var schools = L.geoJSON(schools,  { 
-                            filter: function(feature, layer) {
-                                return feature.type == "Feature";
-                            },
-                            pointToLayer: function(feature, coordinates) {
-                             return   L.shapeMarker(coordinates, {
-                            color: "black",
-                            fillColor: "purple",        
-                            shape: "triangle",
-                            radius: 5,
-                            weight: .5,
-                            fillOpacity: 0.8
-	                        });
-                            },
-                            onEachFeature: function (feature, layer) {
-                            popupOptions = {maxWidth: 200}; 
-                            layer.bindPopup("<br><b> Name: </b>" + feature.properties.feature_na)
-                            },
-                            } 
-                            );
-
+                
+                
                 var crashes = L.geoJSON(crashes,  { 
                             filter: function(feature, layer) {
                                 return feature.type == "Feature";
@@ -279,7 +214,230 @@
                             layer.bindPopup("<br><b> Severity: </b>" + feature.properties.CSEVERITY )
                             },
                             } 
-                            );
+                            ).bringToFront(100);        
+                
+                
+                var nineteen= L.geoJSON(violations, { 
+                            filter: function(feature, layer) {
+                                return feature.properties.year == "2019";
+                            },
+                            pointToLayer: function(feature, coordinates) {
+                            return L.circleMarker(coordinates,circle1);
+                            },
+                            onEachFeature: function (feature, layer) {
+                            popupOptions = {maxWidth: 200}; 
+                            layer.bindPopup("<b>Violation Count: </b>" + feature.properties.violation_count +  
+                            "<br><b>Violation: </b>"+ feature.properties.violation_name+
+                            "<br><b>Year: </b>" +feature.properties.year)
+                        }, style: function(feature) {
+                              switch (feature.properties.violation_name) {
+                                 case 'Minors': return {color: "black", fillColor: "#BE030B"};
+                            }
+                        }}).addTo(map1);
+
+
+                
+                var eighteen= L.geoJSON(violations, { 
+                            filter: function(feature, layer) {
+                                return feature.properties.year == "2018";
+                            },
+                            pointToLayer: function(feature, coordinates) {
+                            return L.circleMarker(coordinates,circle1);
+                            },
+                            onEachFeature: function (feature, layer) {
+                            popupOptions = {maxWidth: 200}; 
+                            layer.bindPopup("<b>Violation Count: </b>" + feature.properties.violation_count +  
+                            "<br><b>Violation: </b>"+ feature.properties.violation_name+
+                            "<br><b>Year: </b>" +feature.properties.year 
+                            )
+                        }, style: function(feature) {
+                              switch (feature.properties.violation_name) {
+                                 case 'Minors': return {color: "black", fillColor: "#BE030B"};
+                            }
+                        }}).addTo(map1);
+                
+                var seventeen=  L.geoJSON(violations, { 
+                            filter: function(feature, layer) {
+                                return feature.properties.year == "2017";
+                            },
+                            pointToLayer: function(feature, coordinates) {
+                            return L.circleMarker(coordinates,circle1);
+                            },
+                            onEachFeature: function (feature, layer) {
+                            popupOptions = {maxWidth: 200}; 
+                            layer.bindPopup("<b>Violation Count: </b>" + feature.properties.violation_count +  
+                            "<br><b>Violation: </b>"+ feature.properties.violation_name+
+                            "<br><b>Year: </b>" +feature.properties.year 
+                            )
+                        }, style: function(feature) {
+                              switch (feature.properties.violation_name) {
+                                 case 'Minors': return {color: "black", fillColor: "#BE030B"};
+                            }
+                        }}).addTo(map1);
+                     
+                var sixteen=  L.geoJSON(violations, { 
+                            filter: function(feature, layer) {
+                                return feature.properties.year == "2016";
+                            },
+                            pointToLayer: function(feature, coordinates) {
+                            return L.circleMarker(coordinates,circle1);
+                            },
+                            onEachFeature: function (feature, layer) {
+                            popupOptions = {maxWidth: 200}; 
+                            layer.bindPopup("<b>Violation Count: </b>" + feature.properties.violation_count +  
+                            "<br><b>Violation: </b>"+ feature.properties.violation_name+
+                            "<br><b>Year: </b>" +feature.properties.year 
+                            )
+                        }, style: function(feature) {
+                              switch (feature.properties.violation_name) {
+                                 case 'Minors': return {color: "black", fillColor: "#BE030B"};
+                            }
+                        }}).addTo(map1);
+                
+                 var fifteen=  L.geoJSON(violations, { 
+                            filter: function(feature, layer) {
+                                return feature.properties.year == "2015";
+                            },
+                            pointToLayer: function(feature, coordinates) {
+                            return L.circleMarker(coordinates,circle1);
+                            },
+                            onEachFeature: function (feature, layer) {
+                            popupOptions = {maxWidth: 200}; 
+                            layer.bindPopup("<b>Violation Count: </b>" + feature.properties.violation_count +  
+                            "<br><b>Violation: </b>"+ feature.properties.violation_name+
+                            "<br><b>Year: </b>" +feature.properties.year
+                            )
+                        }, style: function(feature) {
+                              switch (feature.properties.violation_name) {
+                                 case 'Minors': return {color: "black", fillColor: "#BE030B"};
+                            }
+                        }}).addTo(map1);
+                
+                 var fourteen =  L.geoJSON(violations, { 
+                            filter: function(feature, layer) {
+                                return feature.properties.year == "2014";
+                            },
+                            pointToLayer: function(feature, coordinates) {
+                            return L.circleMarker(coordinates,circle1);
+                            },
+                            onEachFeature: function (feature, layer) {
+                            popupOptions = {maxWidth: 200}; 
+                            layer.bindPopup("<b>Violation Count: </b>" + feature.properties.violation_count +  
+                            "<br><b>Violation: </b>"+ feature.properties.violation_name+
+                            "<br><b>Year: </b>" +feature.properties.year )
+                        }, style: function(feature) {
+                              switch (feature.properties.violation_name) {
+                                 case 'Minors': return {color: "black", fillColor: "#BE030B"};
+                            }
+                        }}).addTo(map1);
+
+                var thirteen=  L.geoJSON(violations, { 
+                            filter: function(feature, layer) {
+                                return feature.properties.year == "2013";
+                            },
+                            pointToLayer: function(feature, coordinates) {
+                            return L.circleMarker(coordinates,circle1);
+                            },
+                            onEachFeature: function (feature, layer) {
+                            popupOptions = {maxWidth: 200}; 
+                            layer.bindPopup("<b>Violation Count: </b>" + feature.properties.violation_count +  
+                            "<br><b>Violation: </b>"+ feature.properties.violation_name+
+                            "<br><b>Year: </b>" +feature.properties.year )
+                        }, style: function(feature) {
+                              switch (feature.properties.violation_name) {
+                                 case 'Minors': return {color: "black", fillColor: "#BE030B"};
+                            }
+                        }}).addTo(map1);
+                
+                var twelve=  L.geoJSON(violations, { 
+                            filter: function(feature, layer) {
+                                return feature.properties.year == "2012";
+                            },
+                            pointToLayer: function(feature, coordinates) {
+                            return L.circleMarker(coordinates,circle1);
+                            },
+                            onEachFeature: function (feature, layer) {
+                            popupOptions = {maxWidth: 200}; 
+                            layer.bindPopup("<b>Violation Count: </b>" + feature.properties.violation_count +  
+                            "<br><b>Violation: </b>"+ feature.properties.violation_name+
+                            "<br><b>Year: </b>" +feature.properties.year )
+                        }, style: function(feature) {
+                              switch (feature.properties.violation_name) {
+                                 case 'Minors': return {color: "black", fillColor: "#BE030B"};
+                            }
+                        }}).addTo(map1);
+                
+                var eleven=  L.geoJSON(violations, { 
+                            filter: function(feature, layer) {
+                                return feature.properties.year == "2011";
+                            },
+                            pointToLayer: function(feature, coordinates) {
+                            return L.circleMarker(coordinates,circle1);
+                            },
+                            onEachFeature: function (feature, layer) {
+                            popupOptions = {maxWidth: 200}; 
+                            layer.bindPopup("<b>Violation Count: </b>" + feature.properties.violation_count +  
+                            "<br><b>Violation: </b>"+ feature.properties.violation_name+
+                            "<br><b>Year: </b>" +feature.properties.year )
+                        }, style: function(feature) {
+                              switch (feature.properties.violation_name) {
+                                 case 'Minors': return {color: "black", fillColor: "#BE030B"};
+                            }
+                        }}).addTo(map1);
+
+                var ten=  L.geoJSON(violations, { 
+                            filter: function(feature, layer) {
+                                return feature.properties.year == "2010";
+                            },
+                            pointToLayer: function(feature, coordinates) {
+                            return L.circleMarker(coordinates,circle1);
+                            },
+                            onEachFeature: function (feature, layer) {
+                            popupOptions = {maxWidth: 200}; 
+                            layer.bindPopup("<b>Violation Count: </b>" + feature.properties.violation_count +  
+                            "<br><b>Violation: </b>"+ feature.properties.violation_name+
+                            "<br><b>Year: </b>" +feature.properties.year )
+                        }, style: function(feature) {
+                              switch (feature.properties.violation_name) {
+                                 case 'Minors': return {color: "black", fillColor: "#BE030B"};
+                            }
+                        }}).addTo(map1);
+
+                var nine =  L.geoJSON(violations, { 
+                            filter: function(feature, layer) {
+                                return feature.properties.year == "2009";
+                            },
+                            pointToLayer: function(feature, coordinates) {
+                            return L.circleMarker(coordinates,circle1);
+                            },
+                            onEachFeature: function (feature, layer) {
+                            popupOptions = {maxWidth: 200}; 
+                            layer.bindPopup("<b>Violation Count: </b>" + feature.properties.violation_count +  
+                            "<br><b>Violation: </b>"+ feature.properties.violation_name+
+                            "<br><b>Year: </b>" +feature.properties.year )
+                        }, style: function(feature) {
+                              switch (feature.properties.violation_name) {
+                                 case 'Minors': return {color: "black", fillColor: "#BE030B"};
+                            }
+                        }}).addTo(map1);
+
+                var eight=  L.geoJSON(violations, { 
+                            filter: function(feature, layer) {
+                                return feature.properties.year == "2008";
+                            },
+                            pointToLayer: function(feature, coordinates) {
+                            return L.circleMarker(coordinates,circle1);
+                            },
+                            onEachFeature: function (feature, layer) {
+                            popupOptions = {maxWidth: 200}; 
+                            layer.bindPopup("<b>Violation Count: </b>" + feature.properties.violation_count +  
+                            "<br><b>Violation: </b>"+ feature.properties.violation_name+
+                            "<br><b>Year: </b>" +feature.properties.year )
+                        }, style: function(feature) {
+                              switch (feature.properties.violation_name) {
+                                 case 'Minors': return {color: "black", fillColor: "#BE030B"};
+                            }
+                        }}).addTo(map1);
 
                         function styleOn(feature) {
                             return {
@@ -290,7 +448,7 @@
                                 color: 'darkgreen',
                                 fillOpacity: 0.2
                             };
-                        };
+                        }
 
                         function styleOff(feature) {
                             return {
@@ -306,41 +464,46 @@
                 var OnClusters =  L.geoJson(onoutletcluster, {style: styleOn})
                 var OffClusters =  L.geoJson(offoutletcluster, {style: styleOff})
                
-
-                var basemap1 = {
-                        "Open Street Map": osm1
-                           };  
-                    
-
-
+                var basemapS1 = {
+                    "Open Street Map" : osmS1,
+                };
                 var overlayMaps1 = {
-                        "On-Premise Outlets": on,
-                        "Off-Premise Outlets": off,
-                        "On-Premise Clusters": OnClusters,
-                        "Off-Premise Clusters": OffClusters,
-                        "Schools": schools, 
+                        "2019 Violations": nineteen,
+                        "2018 Violations": eighteen,
+                        "2017 Violations": seventeen,
+                        "2016 Violations": sixteen,
+                        "2015 Violations": fifteen,
+                        "2014 Violations": fourteen,
+                        "2013 Violations": thirteen,
+                        "2012 Violations": twelve,
+                        "2011 Violations": eleven,
+                        "2010 Violations": ten,
+                        "2009 Violations": nine,
+                        "2008 Violations": eight,
+                        "Alcohol Outlet Clusters, On-Premise": OnClusters,
+                        "Alcohol Outlet Clusters, Off-Premise": OffClusters,
                         "Alcohol-Related Automobile Crashes": crashes
-                    }; 
+                        };			
 
-                    L.control.layers(basemap1, overlayMaps1).addTo(map1);	
+                    L.control.layers(basemapS1, overlayMaps1).addTo(map1);	
+
 
                     var legend1 = L.control({position: 'bottomleft'}); 
                         legend1.onAdd = function (map1) {
                             var div = L.DomUtil.create('div', 'info legend');
-                            grades = [""],
-                            labels = ["pointLegendHome2.png"];
+                            grades = [" Violations Involving Minors", " All Other Violations"],
+                            labels = ["minorMarker.png", "violationMarker.png",];
                             for (var i = 0; i < grades.length; i++) {
                               div.innerHTML +=
-                              (" <img src="+ labels[i] +" height='120' width='140'>") + grades[i] +'<br>';
+                              (" <img src="+ labels[i] +" height='10' width='10'>") + grades[i] +'<br>';
                                 }
 
                          return div;
                         } ;
                         legend1.addTo(map1)
-        
-                    </script>
+
+                </script>
         
     </body>
     
 </html>
-
