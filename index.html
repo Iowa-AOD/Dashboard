@@ -39,13 +39,19 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
               
-            <script src="StateOutletsTotal.geojson"></script>
-            <script src= "StateOffOutlets_2019"></script>
-            <script src = "StateOnOutlets_2019"></script>
-            <script src = "OnOutletCluster"></script>
-            <script src = "OffOutletCluster"></script>
-            <script src = "schools"></script>
-            <script src = "AlcRelatedCrashes"></script>
+        <!--     <script src="StateOutletsTotal.geojson"></script>
+           <script src= "StateOffOutlets_2019"></script>
+            <script src = "StateOnOutlets_2019"></script> --> 
+            <script src= "StateOffOutlets_2021"></script>
+            <script src = "StateOnOutlets_2021"></script>
+          <!--  <script src = "OnOutletCluster"></script>
+            <script src = "OffOutletCluster"></script> -->
+            <script src = "OnOutletCluster_2021"></script>
+            <script src = "OffOutletCluster_2021"></script>
+            <script src = "schools_2223"></script>
+         <!--   <script src = "schools"></script>
+            <script src = "AlcRelatedCrashes"></script> -->
+            <script src = "AlcRelatedCrashes_2021"></script>
 
      
                 <style>
@@ -152,7 +158,7 @@
        
 
 
-            <h4><b>On & Off-Premise Alcohol Establishments, Schools, & OWIs in Iowa, 2019 </b></h4>      
+            <h4><b>On & Off-Premise Alcohol Establishments, Schools, & OWIs in Iowa, 2021 </b></h4>      
 
         <div id='map1container'> 
         <h6><b>  Background:</b>  The Alcoholic Beverages Division (ABD) is responsible for the licensing of establishments for the production and sale of alcohol in the state. Additionally, the ABD is responsible for oversight of licensed alcohol establishments to ensure compliance with liquor laws, such as selling alcohol to minors. </h6>
@@ -162,14 +168,14 @@
         </div>
         <div id='map1' class="center"></div>
         <h6><b>Sources:</b> 
-            <br> Iowa Alcoholic Beverages Division, Alcohol Licenses Dataset, 2019
-            <br> Iowa Department of Transportation, Drug/Alcohol Related Crashes, 2019
+            <br> Iowa Alcoholic Beverages Division, Alcohol Licenses Dataset, 2021
+            <br> Iowa Department of Transportation, Drug/Alcohol Related Crashes, 2021
 <!--        <br> U.S. Geological Survey, Geographic Names Project, U.S. Geographic Names Information System (GNIS), Schools, 2021 -->
-            <br> Iowa Department of Education, Iowa Public School Building Directory, 2019
-            <br> Iowa Department of Education, Iowa Non-Public School K-12 English Learners (EL) by Building & Grade, 2019
+            <br> Iowa Department of Education, Iowa Public School Building Directory, 2022/2023
+            <br> Iowa Department of Education, Iowa Non-Public School K-12 English Learners (EL) by Building & Grade, 2022/2023
             <br>
             <br>
-            <h3> <b>Date Last Updated: August 18, 2022 </b></h3>
+            <h3> <b>Date Last Updated: October 25th, 2022 </b></h3>
             <br>
     
 
@@ -210,7 +216,7 @@
                         };                  
 
 
-                var on= L.geoJSON(onoutlets, { 
+                var on= L.geoJSON(onoutlets2021, { 
                             filter: function(feature, layer) {
                                 return feature.type == "Feature";
                             },
@@ -224,30 +230,51 @@
                             fillOpacity: 0.8
 	                        });
                         },
-                            onEachFeature: function (feature, layer) {
+                        onEachFeature: function (feature, layer) {
                             popupOptions = {maxWidth: 200}; 
-                            layer.bindPopup("<br><b> Name: </b>" + feature.properties.doing_business_as +
+                            layer.bindPopup( "<br><b> Name: </b>" + feature.properties.d_b_a +
                             "<br> <b>Address: </b>" + feature.properties.address +  
-                            "<br><b>Year: </b>" + feature.properties.sixmosactiveyear +
-                            "<br><b>Number Of Licenses: </b>" + feature.properties.numlics 
+                            "<br><b>Year: </b>" + "2021" +
+                            "<br><b>Number Of Licenses: </b>" + feature.properties.n_lcnss 
                              )},
                         }).addTo(map1);
+
+
+                     //       onEachFeature: function (feature, layer) {
+                     //       popupOptions = {maxWidth: 200}; 
+                     //       layer.bindPopup( "<br><b> Name: </b>" + feature.properties.doing_business_as +
+                     //       "<br> <b>Address: </b>" + feature.properties.address +  
+                     //       "<br><b>Year: </b>" + feature.properties.sixmosactiveyear +
+                     //       "<br><b>Number Of Licenses: </b>" + feature.properties.numlics 
+                    //       )},
+                    //    }).addTo(map1);
                     
-                var off= L.geoJSON(offoutlets, { 
+                var off= L.geoJSON(offoutlets2021, { 
                             filter: function(feature, layer) {
                                 return feature.type == "Feature";
                             },
                             pointToLayer: function(feature, coordinates) {
                             return L.circleMarker(coordinates, circle2);
                             },
+
                             onEachFeature: function (feature, layer) {
                             popupOptions = {maxWidth: 200}; 
-                            layer.bindPopup("<br><b> Name: </b>" + feature.properties.doing_business_as +
+                            layer.bindPopup("<br><b> Name: </b>" + feature.properties.d_b_a +
                             "<br> <b>Address: </b>" + feature.properties.address +  
-                            "<br><b>Year: </b>" + feature.properties.sixmosactiveyear +
-                            "<br><b>Number Of Licenses: </b>" + feature.properties.numlics 
+                            "<br><b>Year: </b>" + "2021" +
+                            "<br><b>Number Of Licenses: </b>" + feature.properties.n_lcnss 
                              )},
                         }).addTo(map1);
+
+
+                //            onEachFeature: function (feature, layer) {
+                //            popupOptions = {maxWidth: 200}; 
+                //            layer.bindPopup("<br><b> Name: </b>" + feature.properties.doing_business_as +
+                //            "<br> <b>Address: </b>" + feature.properties.address +  
+                //            "<br><b>Year: </b>" + feature.properties.sixmosactiveyear +
+                //            "<br><b>Number Of Licenses: </b>" + feature.properties.numlics 
+                //             )},
+                //        }).addTo(map1);
 
                 var schools = L.geoJSON(schools,  { 
                             filter: function(feature, layer) {
@@ -265,12 +292,12 @@
                             },
                             onEachFeature: function (feature, layer) {
                             popupOptions = {maxWidth: 200}; 
-                            layer.bindPopup("<br><b> Name: </b>" + feature.properties.feature_na)
+                            layer.bindPopup("<br><b> Name: </b>" + feature.properties.school_name)
                             },
                             } 
                             );
 
-                var crashes = L.geoJSON(crashes,  { 
+                var crashes = L.geoJSON(crashes2021,  { 
                             filter: function(feature, layer) {
                                 return feature.type == "Feature";
                             },
@@ -284,7 +311,7 @@
                             },
                             onEachFeature: function (feature, layer) {
                             popupOptions = {maxWidth: 200}; 
-                            layer.bindPopup("<br><b> Severity: </b>" + feature.properties.CSEVERITY )
+                            layer.bindPopup("<br><b> Severity: </b>" + feature.properties.Crash_Severity )
                             },
                             } 
                             );
@@ -298,7 +325,7 @@
                                 color: 'darkgreen',
                                 fillOpacity: 0.2
                             };
-                        };
+                        }
 
                         function styleOff(feature) {
                             return {
@@ -311,8 +338,11 @@
                         }
 
 
-                var OnClusters =  L.geoJson(onoutletcluster, {style: styleOn})
-                var OffClusters =  L.geoJson(offoutletcluster, {style: styleOff})
+                var OnClusters =  L.geoJson(onoutletcluster2021,{style: styleOn})
+                          
+                        
+                        
+                var OffClusters =  L.geoJson(offoutletcluster2021, {style: styleOff})
                
 
                 var basemap1 = {
