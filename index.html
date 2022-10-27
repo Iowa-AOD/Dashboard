@@ -162,9 +162,9 @@
 
         <div id='map1container'> 
         <h6><b>  Background:</b>  The Alcoholic Beverages Division (ABD) is responsible for the licensing of establishments for the production and sale of alcohol in the state. Additionally, the ABD is responsible for oversight of licensed alcohol establishments to ensure compliance with liquor laws, such as selling alcohol to minors. </h6>
-        <h6><b>  Map: </b>  The map to the right contains information on alcohol outlets, alcohol outlet densities, schools, and alcohol-related car crashes for the entire state in 2019. On-premise outlets are identified with green circles and off-premise outlets are denoted with blue circles. Schools are shown with a purple triangle and car crashes are a red ‘X’ mark. With these map features, members of the ABD are able to assess spatial patterns anywhere in the state. Any community in Iowa can use this map to see if they have alcohol risk factors such as clusters of outlets or OWI car crashes. Community leaders and action groups can also assess the proximity of alcohol establishments to schools.</h6>
-        <h6><b>  Interactivity:</b>   Click on the map layer feature in the top right corner of the map to see a list of map elements. The map allows users to view statewide alcohol outlets (on and off-premise), outlet clusters (densities), schools, and car crashes. Check the squares to see violations for one or more years. Check or uncheck the squares for alcohol outlet clusters and alcohol-related car crashes. Use the buttons on the top left of the map to zoom in or out. Click on any of the shapes on the map to see learn more about the map feature (e.g. school, outlet).</h6>
-        <h6><b>  Definitions:</b>   Alcohol outlet clusters are defined as five or more outlets within .15 miles of at least one other outlet in the cluster. Clusters are a known health risk and their proximity to schools is a known risk to underage drinking. On-premise outlets refer to establishments that sell alcohol on-site, such as restaurants, bars, and taverns. Off-premise outlets are licensed to sell alcohol for off-premise consumption and include gas stations, grocery stores, and liquor stores. </h6>
+        <h6><b>  Map: </b>  The map to the right contains information on alcohol establishments, clusters, schools, and alcohol-related car crashes for the entire state in 2021. On-premise establishments are identified with green squares and off-premise establishments are denoted with blue circles. Schools are shown with a purple triangle and car crashes are a red ‘X’ mark. With these map features, members of the ABD are able to assess spatial patterns anywhere in the state. Any community in Iowa can use this map to see if they have alcohol risk factors such as clusters of establishments or OWI car crashes. Community leaders and action groups can also assess the proximity of alcohol establishments to schools.</h6>
+        <h6><b>  Interactivity:</b>   Click on the map layer feature in the top right corner of the map to see a list of map elements. The map allows users to view statewide alcohol establishments (on and off-premise), clusters of establishments, schools, and car crashes.  Check or uncheck the squares to view establishment clusters and alcohol-related car crashes. Use the buttons on the top left of the map to zoom in or out. Click on any of the shapes on the map to learn more about the map feature (e.g. school, establishments).</h6>
+        <h6><b>  Definitions:</b>   Clusters are defined as five or more establishments within .15 miles of at least one other establishment in the cluster. Clusters are a known health risk and their proximity to schools is a known risk to underage drinking. On-premise establishments refer to locations that sell alcohol on-site, such as restaurants, bars, and taverns. Off-premise establishments are licensed to sell alcohol for off-premise consumption including gas stations, grocery stores, and liquor stores. </h6>
         </div>
         <div id='map1' class="center"></div>
         <h6><b>Sources:</b> 
@@ -175,7 +175,7 @@
             <br> Iowa Department of Education, Iowa Non-Public School K-12 English Learners (EL) by Building & Grade, 2022/2023
             <br>
             <br>
-            <h3> <b>Date Last Updated: October 25th, 2022 </b></h3>
+            <h3> <b>Date Last Updated: October 27th, 2022 </b></h3>
             <br>
     
 
@@ -352,8 +352,8 @@
 
 
                 var overlayMaps1 = {
-                        "On-Premise Outlets": on,
-                        "Off-Premise Outlets": off,
+                        "On-Premise Establishments": on,
+                        "Off-Premise Establishments": off,
                         "On-Premise Clusters": OnClusters,
                         "Off-Premise Clusters": OffClusters,
                         "Schools": schools, 
@@ -366,10 +366,10 @@
                         legend1.onAdd = function (map1) {
                             var div = L.DomUtil.create('div', 'info legend');
                             grades = [""],
-                            labels = ["pointLegendHome3.png"];
+                            labels = ["pointLegendHome4.png"];
                             for (var i = 0; i < grades.length; i++) {
                               div.innerHTML +=
-                              (" <img src="+ labels[i] +" height='120' width='140'>") + grades[i] +'<br>';
+                              (" <img src="+ labels[i] +" height='160' width='140'>") + grades[i] +'<br>';
                                 }
 
                          return div;
