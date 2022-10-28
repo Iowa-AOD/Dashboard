@@ -53,6 +53,14 @@
             <script src = "AlcRelatedCrashes"></script> -->
             <script src = "AlcRelatedCrashes_2021"></script>
 
+            <div class="content">
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
+                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+                <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+               </div>
+
      
                 <style>
                     h1 {text-align: center; font-size: 50px}
@@ -143,6 +151,53 @@
                         margin-top: 8px;
                         }
 
+     
+.mfp-hide {
+    display: none!important;
+}
+.button {
+    padding: 20px 40px;
+    border-color: #0a0a0a;
+    font-size: 17px;
+    font-size: 1.7rem;
+    font-family: "museo-sans", Arial, Verdana;
+    font-weight: 500;
+    margin-top: 40px;
+    display: inline-block;
+}
+.button {
+    border: 2px solid rgb(15, 15, 15);
+    color: rgb(24, 24, 24);
+    text-transform: uppercase;
+    transition: all 0.15s ease-in-out;
+}
+.button .fa {
+    margin-left: 20px;
+}
+.button:hover {
+    background-color: rgba(0,0,0,0.7); 
+}
+
+span {
+    font-size: 23px;
+    font-size: 2.3rem;
+    display: block;
+    font-family: "museo-sans", Arial, Verdana;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 25px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+.content {
+  text-align: left;
+}
+
+
                 </style>
         
         </head>
@@ -155,8 +210,9 @@
  <img src= "IADMP.png">                                                                   
  <img src="logonew.jpg" height=20% width=20% margin-right=100px >
 
-       
-
+ <a href="#videoStory" class="button more" id="videoLink">Click Here to Learn How to Use This Dashboard<i class="fa fa-play-circle" aria-hidden="true">&nbsp;</i></a>
+ <div id="videoStory" class="mfp-hide" style="max-width: 90%; margin: 0 auto;"margin-left = 75% margin-right=10px >
+<center> <iframe width="1120" height="630" src="https://www.youtube.com/embed/BIshuKnO34g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>                </div> 
 
             <h4><b>On & Off-Premise Alcohol Establishments, Schools, & OWIs in Iowa, 2021 </b></h4>      
 
@@ -181,6 +237,12 @@
 
      
             <script>   
+
+$('#videoLink')
+.magnificPopup({
+	  type:'inline',
+	  midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+  })
                       
                     //Outlet Data Maps
                     var map1 = L.map('map1').setView([42.1, -93.5], 8);
