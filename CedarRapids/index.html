@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+
+    <html>
+
+        <head>
+            
+
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width">
+             
+            <title>ARI Health & Safety</title>
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!--Add Leaflet CSS-->
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+            <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+            
+            <!--Load in Heat plugin -->
+            <script src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+            <script src="https://code.jquery.com/jquery-3.1.0.js"></script>  
+            
+            <!--KVS geoJSON-->    
+            <script src="StateOutlets.geojson"></script>
+            <script src ="MarshalltownSAI"></script>
+            <script src = "AlcRelatedCrashes"></script>
+            <script src= "StateOffOutlets_2019"></script>
+            <script src = "StateOnOutlets_2019"></script>
+            <script src = "schools"></script>
+            <script src = "CedarRapidsSAI"></script>
+            <script src = "OnOutletCluster"></script>
+            <script src = "OffOutletCluster"></script>
+            <script src = "AVI_Target" ></script>
+
+            <div class="content">
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
+                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+                <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+               </div>
+
+
+             <!--Boot Strap-->
+             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+            <script src = "Leaflet.SvgShapeMarkers-gh-pages/dist/leaflet-svg-shape-markers.min.js"></script>
+            <!--Boot Strap-->
+              <link rel=“stylesheet” href=“https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css”> 
+              <link rel=“stylesheet” href=“https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css”> 
+
+              <div class="navbar">
+                <a href="https://iowa-aod.github.io/Dashboard/">State-wide Data</a>
+                <div class="dropdown">
+                    <a class="dropbtn">Community Data
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+                    <div class="dropdown-content">
+                      <a href="https://iowa-aod.github.io/Dashboard/Burlington/">Burlington</a>
+                      <a href="https://iowa-aod.github.io/Dashboard/CedarRapids/">Cedar Rapids</a>
+                      <a href="https://iowa-aod.github.io/Dashboard/IowaCity/">Iowa City</a>
+                      <a href="https://iowa-aod.github.io/Dashboard/Marshalltown/">Marshalltown</a>
+                    </div>
+                  </div> 
+                <a href="https://iowa-aod.github.io/Dashboard/Sales/">Liquor Sales</a>
+                <a href="https://iowa-aod.github.io/Dashboard/Violations/">Alcohol Violations</a>
+                <a href="https://iowa-aod.github.io/Dashboard/Policy/">Policy Resources</a>
+                <a href="https://iowa-aod.github.io/Dashboard/Resources/">Training</a>
+                <a href="https://iowa-aod.github.io/Dashboard/Learn/">Click Here to Learn More</a>
+                <a href="https://iowa-aod.github.io/Dashboard/Feedback/">Share with Us!</a>
+                </div>       
+
+                <style>
+
+                    h1 {text-align: center; font-size: 50px}
+                    h2 {text-align: center; margin-left: 10px}
+                    h3 {text-align: left; margin-left:auto;border-left:auto; padding: 5px}
+                    h4 {text-align: left; margin-left:auto;border-left:auto; margin-left: 10px; font-size: 20px}
+                    h5 {text-align: left; margin-left:auto;border-left:auto; margin-left: 10px; margin-right: 10px;font-size: 19px}
+                    h6 {text-align: left; margin-left:auto;border-left:auto; margin-left: 15px; font-size: 20px}
+
+                    .center {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 25%;
+                    } 
+                   
+                    #map1container {border: 1px solid#0a0a0a;  position:absolute; background-color:#ecf7fc; color:black; text-align:left; margin-right: 5px; margin-left:5px; width:600px; height:790px;padding 0; } 
+                    #map1 {border: 1px solid#0a0a0a; position: relative; margin-left: 600px; width:1000px; height:790px;  padding 0; overflow:hidden;}  
+                 
+                   
+                    /* The navigation bar */
+                    .navbar {
+                    background-color: #333;
+                    position: relative;
+                    top: 0; /* Position the navbar at the top of the page */
+                    width: 100%; /* Full width */
+                    }*
+
+                    /* Links inside the navbar */
+                    .navbar a {
+                    float: left;
+                    display: block;
+                    font-size: 16px;
+                    color: #f2f2f2;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    } 
+
+                    .navbar-drop {
+                    position: relative;
+                    }
+
+                    .dropdown {
+                    float: left;
+                    }
+
+                    .dropdown .dropbtn {
+                    font-size: 16px;  
+                    border: none;
+                    outline: none;
+                    color: white;
+                    padding: 14px 16px;
+                    background-color: inherit;
+                    font-family: inherit;
+                    margin: 0;
+                    }
+
+                    .navbar a:hover, .dropdown:hover .dropbtn {
+                    background-color: #f2f2f2;
+                    color: black;
+                    }
+
+                    .dropdown-content {
+                    display: none;
+                    background-color: #f9f9f9;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    z-index: 1;
+                    position: absolute;
+                    top: 50px;
+                    }
+
+                    .dropdown-content a {
+                    float: none;
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+                    text-align: left;
+                    }
+
+                    .dropdown-content a:hover {
+                    background-color: #ddd;
+                    }
+
+                    .dropdown:hover .dropdown-content {
+                    display: block;
+                    }
+
+                    /* Change background on mouse-over */
+                    .navbar a:hover {
+                    background: #ddd;
+                    color: black;
+                    } 
+                    /* Main content */
+                    .main {
+                    margin-top: 30px; /* Add a top margin to avoid content overlay */
+                    }
+
+
+                     /* Legend */
+                    .legend {
+                        line-height: 18px;
+                        color: #555;
+                        background color:cornsilk
+                        }
+                    .legend i {
+                        width: 20px;
+                        height: 20px;
+                        float: left;
+                        margin-right: 8px;
+                        opacity: 0.7;
+                        }
+                    .info {
+                        padding: 6px 8px;
+                        font: 20px/20px Arial, Helvetica, sans-serif;
+                        background: white;
+                        background: rgba(255,255,255,0.8);
+                        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+                        border-radius: 5px;
+                        }
+                    .info h4 {
+                        margin: 0 0 5px;
+                        color: #777;
+                        }
+                        
+                    .legend .circle {
+                        border-radius: 50%;
+                        width: 10px;
+                        height: 10px;
+                        margin-top: 8px;
+                        }
+
+                    .legend .triangle {
+                        border-radius: 50%;
+                        width: 10px;
+                        height: 10px;
+                        margin-top: 8px;
+                        }
+
+                    .mfp-hide {
+                            display: none!important;
+                        }
+
+               
+                    /* Buttons */
+                    .button {
+                        padding: 10px 10px;
+                        border-color: #0a0a0a;
+                        font-size: 17px;
+                        font-size: 1.7rem;
+                        font-family: "museo-sans", Arial, Verdana;
+                        font-weight: 500;
+                        margin-top: 40px;
+                        display: inline-block;
+                        }
+                        
+                    .button {
+                        border: 2px solid rgb(15, 15, 15);
+                        color: rgb(24, 24, 24);
+                        text-transform: uppercase;
+                        transition: all 0.15s ease-in-out;
+                        }
+                        
+                    .button .fa {
+                        margin-left: 20px;
+                        }
+                    
+                    .button:hover {
+                        background-color: rgba(0,0,0,0.7); 
+                        }
+
+                        * {
+                        margin: 0;
+                        padding: 0;
+                        border: 0;
+                        outline: none;
+                        }
+                    
+                    .content {
+                        text-align: left;
+                        }
+
+                </style>
+        
+        </head>
+
+    <body>   
+        <!--Title-->
+      
+        <img src= "IADMP.png">                                                                   
+        <img src="logonew.jpg" height=20% width=20% margin-right=100px >
+       
+       <br>
+       <a href="#videoStory" class="button more" id="videoLink">Click here to learn more about alcohol establishments in Cedar Rapids, IA<i class="fa fa-play-circle" aria-hidden="true">&nbsp;</i> </a>
+        <div id="videoStory" class="mfp-hide" style="max-width: 90%; margin: 0 auto;">
+       <center> <iframe width="1120" height="630" src="https://www.youtube.com/embed/76F2MfVesdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>                </div> 
+       
+        
+      
+        <!--Headings and Maps-->
+        <h4><b>Alcohol Establishments, Calls for Service, Alcohol Related Automobile Accidents, & Schools in Cedar Rapids, 2019 </b> </h4>   
+        <div id='map1container'>
+            <h2>Cedar Rapids Alcohol Establishment </h2>   
+            <h5><b>Background: </b>Too many alcohol establishments concentrated in one area is a known environmental health risk that increases the likelihood of underage and excess drinking. Communities are advised to monitor the clustering of alcohol establishment in close proximity to each other, giving special attention to clusters of either on-premise or off-premise alcohol establishments.</h5>
+            <h5><b>Map: </b>The map to the right was designed to help the residents of Cedar Rapids identify the locations of alcohol establishments, including clusters of alcohol retailers, that pose a health risk to the community. The map also includes information on the location of all K-12 schools and the locations of alcohol-related crashes. The map also includes neighborhood-level features that identify areas of high crime, family instability, and alcohol-specific calls for service that are likely made worse by the presence of alcohol establishment clusters.</h5>
+            <h5><b>Interactivity: </b>Click on the map layer feature in the top right corner of the map to see a list of map elements such as on-premise establishments or schools. Check the circles and squares to add one or more layers to the map. Use the buttons on the top left of the map to zoom in or out. Click on a map feature to learn more.</h5>
+            <h5><b>Definitions: </b>Clusters are defined here as five or more establishments within .15 miles of at least one other establishment. <u>Calls related to violence</u> include calls for service to address suspected assault, robbery, carjacking, or stabbing. <u>Calls related to families </u> include calls for service related to suspected abuse, abandonment, or neglect, domestic disturbances, missing runaway, found runaway, or runaway. <u>Calls related to alcohol</u> include calls for service to perform bar checks, suspected driving under the influence, or suspected impaired driving. <u>Calls related to off-premise alcohol </u> include calls for suspected driving under the influence or suspected impaired driving. <u>Alcohol Vulnerability Index </u>identifies communities with a high concentration of risk factors associated with alcohol use disorder.</h5>
+            </div> 
+            
+
+
+        <div id='map1' class="center">
+        </div>
+        <h6><b>Sources:</b> 
+            <br> Cedar Rapids Police Department, Calls for Service, 2019
+            <br> Iowa Alcoholic Beverages Division, Alcohol Licenses Dataset, 2019
+            <br> Iowa Department of Transportation, Drug/Alcohol Related Crashes, 2019
+            <br> Iowa Department of Education, Iowa Public School Building Directory, 2019
+            <br> Iowa Department of Education, Iowa Non-Public School K-12 English Learners (EL) by Building & Grade, 2019                  
+            <br>
+            <br>    
+      
+        <h3> <b>Date Last Updated: March 17, 2023 </b></h3>
+            <script>   
+                $('#videoLink')
+                .magnificPopup({
+                    type:'inline',
+                    midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+                })
+
+
+                         
+                    //Cedar Rapids Maps, Marker Information, Layers, & Layer Control
+                    //All variables 
+                    var map1 = L.map('map1').setView([41.96, -91.6656], 11.5);
+                    L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+                        attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors',
+                        maxZoom: 18,
+                        id: 'mapbox/streets-v11',
+                        accessToken: 'pk.eyJ1Ijoia3ZhbnNlbG91cyIsImEiOiJjazZsbHE2NGwwZDdtM2tvNmRjc2N0NHo5In0.h_W_-4R3haPMK-IDBTcL-w' 
+                        }).addTo(map1);      
+                    
+                    var circle1 = {
+                        radius: 5,
+                        fillColor: "darkgreen",
+                        color: "black",
+                        weight: .5,
+                        opacity: 1,
+                        fillOpacity: 0.8
+                        };   
+
+                    var circle2 = {
+                        radius: 5,
+                        fillColor: "darkblue",
+                        color: "grey",
+                        weight: .5,
+                        opacity: 1,
+                        fillOpacity: 0.8
+                        };    
+
+                    var on= L.geoJSON(onoutlets, { 
+                            filter: function(feature, layer) {
+                                return feature.type == "Feature";
+                            },
+                            pointToLayer: function(feature, coordinates) {
+                                return L.shapeMarker(coordinates, {
+                            color: "black",
+                            fillColor: "darkgreen",        
+                            shape: "square",
+                            radius: 5,
+                            weight: .5,
+                            fillOpacity: 0.8
+	                        });
+                        },
+                            onEachFeature: function (feature, layer) {
+                            popupOptions = {maxWidth: 200}; 
+                            layer.bindPopup("<br><b> Name: </b>" + feature.properties.doing_business_as +
+                            "<br> <b>Address: </b>" + feature.properties.address +  
+                            "<br><b>Year: </b>" + feature.properties.sixmosactiveyear +
+                            "<br><b>Number Of Licenses: </b>" + feature.properties.numlics 
+                             )},
+                        }).bringToFront(100);
+                    
+                    
+                    var off= L.geoJSON(offoutlets, { 
+                            filter: function(feature, layer) {
+                                return feature.type == "Feature";
+                            },
+                            pointToLayer: function(feature, coordinates) {
+                            return L.circleMarker(coordinates, circle2);
+                            },
+                            onEachFeature: function (feature, layer) {
+                            popupOptions = {maxWidth: 200}; 
+                            layer.bindPopup("<br><b> Name: </b>" + feature.properties.doing_business_as +
+                            "<br> <b>Address: </b>" + feature.properties.address +  
+                            "<br><b>Year: </b>" + feature.properties.sixmosactiveyear +
+                            "<br><b>Number Of Licenses: </b>" + feature.properties.numlics 
+                             )},
+                        }).bringToFront(100);
+
+                    var schools = L.geoJSON(schools,  { 
+                            filter: function(feature, layer) {
+                                return feature.type == "Feature";
+                            },
+                            pointToLayer: function(feature, coordinates) {
+                             return   L.shapeMarker(coordinates, {
+                            color: "black",
+                            fillColor: "purple",        
+                            shape: "triangle",
+                            radius: 5,
+                            weight: .5,
+                            fillOpacity: 0.8
+	                        });
+                            },
+                            onEachFeature: function (feature, layer) {
+                            popupOptions = {maxWidth: 200}; 
+                            layer.bindPopup("<br><b> Name: </b>" + feature.properties.name2)
+                            },
+                            } 
+                            ).bringToFront(100);
+
+                    var crashes = L.geoJSON(crashes,  { 
+                            filter: function(feature, layer) {
+                                return feature.type == "Feature";
+                            },
+                            pointToLayer: function(feature, coordinates) {
+                            return L.shapeMarker(coordinates, {
+                            color: "darkred",      
+                            shape: "x",
+	                    	radius: 10,
+                            weight: 2
+	                        });
+                            },
+                            onEachFeature: function (feature, layer) {
+                            popupOptions = {maxWidth: 200}; 
+                            layer.bindPopup("<br><b> Severity: </b>" + feature.properties.CSEVERITY )
+                            },
+                            } 
+                            ).bringToFront(100);
+
+                    // highlightFeature Functions 
+
+                    function highlightFeature(e) {
+                         var layer = e.target;
+                            layer.setStyle({
+                            weight: 5,
+                            color: '#666',
+                            dashArray: '',
+                            fillOpacity: 0.7
+                        });
+                        if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+                            layer.bringToBack();
+                        }
+                        }
+
+                    function resetHighlightCO(e){
+                                    CSAI.resetStyle(e.target);
+                                    }
+                    function resetHighlightCF(e) {
+                                    CSAI_family.resetStyle(e.target);
+                                    }
+                    function resetHighlightCV(e) {
+                                    CSAI_violent.resetStyle(e.target);
+                                    }   
+                    function resetHighlightCA(e){
+                                    CSAI_alc.resetStyle(e.target);
+                                    }                              
+                    function resetHighlightCNA(e) {
+                                    CSAI_narralc.resetStyle(e.target);
+                                    }                              
+                    function resetHighlightCOn(e) {
+                                    CSAI_On.resetStyle(e.target);
+                                    }        
+                    function resetHighlightCOff(e) {
+                                    CSAI_Off.resetStyle(e.target);
+                                    }         
+                    function resetHighlightAVI(e) {
+                                    AVI.resetStyle(e.target);
+                                    }                            
+                    //onEachFeature Functions                             
+                    function onEachFeatureCO(feature, layer) {
+                                    layer.on({
+                                        mouseover: highlightFeature,
+                                        mouseout: resetHighlightCO
+                                    });
+                                    if (feature.properties) {
+                                        layer.bindPopup("<b> Density Score of Establishments: </b>" + feature.properties.SAIoutlet_miles.toFixed(2) +
+                                                        "<br> <b> Number of Alcohol Establishments: </b> " + feature.properties.outlet_count +
+                                                        "<br> <b> Number of On-Premise Alcohol Establishments: </b> " + feature.properties.Onoutlet_count + 
+                                                        "<br> <b> Number of Off-Premise Alcohol Establishments: </b> " + feature.properties.Offoutlet_count + 
+                                                        "<br> <b> Number of Calls Related to Families: </b> " + feature.properties.family_count + 
+                                                        "<br> <b> Number of Calls Related to Violence: </b> " + feature.properties.violent_count + 
+                                                        "<br> <b> Number of Calls Related to Alcohol: </b> " + feature.properties.alc1_count +
+                                                        "<br> <b> Number of Calls Related to Off-premise Alcohol: </b> " + feature.properties.narralc1_count + 
+                                                        "<br> <b> Number of Alcohol Related Car Crashes: </b> " + feature.properties.crash_count );
+                                        }
+                                        }
+
+                        
+                    function onEachFeatureCF(feature, layer) {
+                                layer.on({
+                                    mouseover: highlightFeature,
+                                    mouseout: resetHighlightCF
+                                });
+                                if (feature.properties) {
+                                    layer.bindPopup("<b>SAI Calls Related to Families: </b>" + feature.properties.SAIfamily_miles.toFixed(2) );
+                                    }
+                                    }
+                        
+                    function onEachFeatureCV(feature, layer) {
+                                layer.on({
+                                    mouseover: highlightFeature,
+                                    mouseout: resetHighlightCV
+                                });
+                                if (feature.properties) {
+                                    layer.bindPopup("<b>SAI Calls Related to Violence: </b>" + feature.properties.SAIviolent_miles.toFixed(2) );
+                                    }
+                                    }
+
+                    function onEachFeatureCA(feature, layer) {
+                                layer.on({
+                                    mouseover: highlightFeature,
+                                    mouseout: resetHighlightCA
+                                });
+                                if (feature.properties) {
+                                    layer.bindPopup("<b>SAI Calls Related to Alcohol: </b>" + feature.properties.SAIalc1_miles.toFixed(2) );
+                                    }
+                                    }
+
+                    function onEachFeatureCNA(feature, layer) {
+                                layer.on({
+                                    mouseover: highlightFeature,
+                                    mouseout: resetHighlightCNA
+                                });
+                                if (feature.properties) {
+                                    layer.bindPopup("<b>SAI Calls Related to Off-premise Alcohol: </b>" + feature.properties.SAInarralc1_miles.toFixed(2) );
+                                    }
+                                    }
+
+                    function onEachFeatureCOn(feature, layer) {
+                                layer.on({
+                                    mouseover: highlightFeature,
+                                    mouseout: resetHighlightCOn
+                                });
+                                if (feature.properties) {
+                                    layer.bindPopup("<b>SAI On-Premise Alcohol Outlets: </b>" + feature.properties.SAIOnoutlet_miles.toFixed(2) );
+                                    }
+                                    }
+
+                    function onEachFeatureCOff(feature, layer) {
+                                layer.on({
+                                    mouseover: highlightFeature,
+                                    mouseout: resetHighlightCOff
+                                });
+                                if (feature.properties) {
+                                    layer.bindPopup("<b>SAI Off-Premise Alcohol Outlets: </b>" + feature.properties.SAIOffoutlet_miles.toFixed(2) );
+                                    }
+                                    }
+                   
+                    function onEachFeatureAVI(feature, layer) {
+                                layer.on({
+                                    mouseover: highlightFeature,
+                                    mouseout: resetHighlightAVI
+                                });
+                                if (feature.properties) {
+                                    layer.bindPopup("<b>AVI: </b>" + feature.properties.AVI );
+                                    }
+                                    }
+                
+                    //get color functions 
+                    function getColorC1(d) {
+                                return   d > 16.077736? '#c67718' :
+                                    d > 9.313716   ? '#fbb664' :
+                                    d > 0   ? '#fed9ad80' :
+                                                '#white';
+                                                }
+
+                            
+                    function getColorC2(d) {
+                                return  d > 54.233366 ? '#c67718' :
+                                    d > 33.255352   ? '#fbb664' :
+                                    d > 0   ? '#fed9ad80' :
+                                                '#white';
+                                                }
+
+                        
+                    function getColorC3(d) {
+                                return  d > 24.517983 ? '#c67718' :
+                                    d > 11.9551   ? '#fbb664' :
+                                    d > 0   ? '#fed9ad80' :
+                                                '#white';
+                                                }
+
+                            
+                    function getColorC4(d) {
+                                return  d > 15.673219 ? '#c67718' :
+                                    d > 9.075954   ? '#fbb664' :
+                                    d > 0   ? '#fed9ad80' :
+                                                '#white';
+                                                }
+
+                            
+                    function getColorC5(d) {
+                                return  d > 12.095957 ? '#c67718' :
+                                    d > 7.046176   ? '#fbb664' :
+                                    d > 0   ? '#fed9ad80' :
+                                                '#white';
+                                                }
+
+                    function getColorC6(d) {
+                                return  d > 11.455359 ? '#c67718' :
+                                    d > 6.968766   ? '#fbb664' :
+                                    d > 0   ? '#fed9ad80' :
+                                                '#white';
+                                                }
+                            
+
+                    function getColorC7(d) {
+                                return  d > 11.668378 ? '#c67718' :
+                                    d > 7.248416  ? '#fbb664' :
+                                    d > 0   ? '#fed9ad80' :
+                                                '#white';
+                                                }
+                    function getColorAVI(d) {
+                                return   d > 4 ? '#c67718' :
+                                    d > 3   ? '#f29526' :
+                                    d > 2   ? '#fbb664' :
+                                    d > 1   ? '#fdcc92' :
+                                    d > 0   ? '#fed9ad80' :
+                                                '#white';
+                                                }
+                    //style functions             
+                    function styleC1(feature) {
+                                return {
+                                    fillColor: getColorC1((feature.properties.SAIoutlet_miles)),
+                                    weight: 2,
+                                    opacity: 1,
+                                    color: 'black',
+                                    fillOpacity: 0.9
+                                };
+                            }
+
+
+                    function styleC2(feature) {
+                                return {
+                                    fillColor: getColorC2((feature.properties.SAIfamily_miles)),
+                                    weight: 2,
+                                    opacity: 1,
+                                    color: 'black',
+                                    fillOpacity: 0.9
+                                };
+                            }
+
+                    function styleC3(feature) {
+                                return {
+                                    fillColor: getColorC3((feature.properties.SAIviolent_miles)),
+                                    weight: 2,
+                                    opacity: 1,
+                                    color: 'black',
+                                    fillOpacity: 0.9
+                                };
+                            }
+                    function styleC4(feature) {
+                                return {
+                                    fillColor: getColorC4((feature.properties.SAIalc1_miles)),
+                                    weight: 2,
+                                    opacity: 1,
+                                    color: 'black',
+                                    fillOpacity: 0.9
+                                };
+                            }
+
+                    function styleC5(feature) {
+                                return {
+                                    fillColor: getColorC5((feature.properties.SAInarralc1_miles)),
+                                    weight: 2,
+                                    opacity: 1,
+                                    color: 'black',
+                                    fillOpacity: 0.9
+                                };
+                            }
+                        
+                    function styleC6(feature) {
+                                return {
+                                    fillColor: getColorC6((feature.properties.SAIOnoutlet_miles)),
+                                    weight: 2,
+                                    opacity: 1,
+                                    color: 'black',
+                                    fillOpacity: 0.9
+                                };
+                            }
+
+                    function styleC7(feature) {
+                                return {
+                                    fillColor: getColorC7((feature.properties.SAIOffoutlet_miles)),
+                                    weight: 2,
+                                    opacity: 1,
+                                    color: 'black',
+                                    fillOpacity: 0.9
+                                };
+                            }
+
+                    function styleOn(feature) {
+                                return {
+                                    fillColor: 'darkgreen',
+                                    weight: 3,
+                                    opacity: 1,
+                                    radius: 10, 
+                                    color: 'darkgreen',
+                                    fillOpacity: 0.2
+                                };
+                            }
+
+                    function styleOff(feature) {
+                                return {
+                                    fillColor: 'darkblue',
+                                    weight: 3,
+                                    opacity: 1,
+                                    color: 'darkblue',
+                                    fillOpacity: 0.2
+                                };
+                            }
+
+                    function styleAVI(feature) {
+                                return {
+                                    fillColor: getColorAVI((feature.properties.AVI)),
+                                    weight: 2,
+                                    opacity: 1,
+                                    color: 'black',
+                                    fillOpacity: 0.9
+                                };
+                            }
+
+                    //variables for map with style and on each feature settings 
+                    var CSAI_family = L.geoJson(Cdata, {style: styleC2, onEachFeature: onEachFeatureCF}).bringToBack(0);
+                    var CSAI_violent= L.geoJson(Cdata, {style: styleC3, onEachFeature: onEachFeatureCV}).bringToBack(0);
+                    var CSAI_alc= L.geoJson(Cdata, {style: styleC4, onEachFeature: onEachFeatureCA}).bringToBack(0);
+                    var CSAI_narralc= L.geoJson(Cdata, {style: styleC5, onEachFeature: onEachFeatureCNA}).bringToBack(0);
+                    var AVI = L.geoJson(AVI, {style: styleAVI, onEachFeature: onEachFeatureAVI}).bringToBack(0).addTo(map1);
+
+                    var deselect = L.geoJson(Mdata, {style: styleC1, onEachFeature: onEachFeatureCO}).bringToBack(0);
+                    var ConClusters =  L.geoJson(onoutletcluster, {style: styleOn});
+                    var CoffClusters =  L.geoJson(offoutletcluster, {style: styleOff});
+
+                      
+                    var basemapC1 = {
+                                        "Alcohol Vulnerability Index (beta)" : AVI,   
+                                        "Calls Related to Families": CSAI_family,
+                                        "Calls Related to Violence": CSAI_violent,
+                                        "Calls Related to Alcohol": CSAI_alc,
+                                        "Calls Related to Off-premise Alcohol": CSAI_narralc,
+                                        "Deselect Census Block Data": deselect
+                                        };  
+
+
+                    var overlayMapsC1 = {
+                                        "On-Premise Establishments": on,
+                                        "Off-Premise Establishments": off,
+                                        "On-Premise Clusters": ConClusters,
+                                        "Off-Premise Clusters": CoffClusters,
+                                        "Schools": schools, 
+                                        "Alcohol-Related Automobile Crashes": crashes
+                                        };			
+
+                    L.control.layers(basemapC1, overlayMapsC1).addTo(map1);	
+ 
+                     //Legends
+                    var legend1 = L.control({position: 'bottomleft'}); 
+                                            legend1.onAdd = function (map1) {
+                                                var div = L.DomUtil.create('div', 'info legend');
+                                                grades = [""],
+                                                labels = ["pointLegendHome4.png"];
+                                                for (var i = 0; i < grades.length; i++) {
+                                                div.innerHTML +=
+                                                (" <img src="+ labels[i] +" height='160' width='140'>") + grades[i] +'<br>';
+                                                    }
+
+                                            return div;
+                                            } ;
+                                            legend1.addTo(map1)
+                                            
+
+                    var legend2 = L.control({position: 'bottomright'}); 
+                                            legend2.onAdd = function (map1) {
+                                                var div = L.DomUtil.create('div', 'info legend');
+                                                grades = [""],
+                                                labels = ["DensityLegend.png"];
+                                                for (var i = 0; i < grades.length; i++) {
+                                                div.innerHTML +=
+                                                (" <img src="+ labels[i] +" height=150 width=120>") + grades[i] +'<br>';
+                                                    }
+
+                                            return div;
+                                            } ;
+                                            legend2.addTo(map1)
+                                                                
+
+
+		             
+            </script>
+        
+        </body>
+        
+</html>
+
