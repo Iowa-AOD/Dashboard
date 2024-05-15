@@ -375,10 +375,10 @@
                         },
                             onEachFeature: function (feature, layer) {
                             popupOptions = {maxWidth: 200}; 
-                            layer.bindPopup("<br><b> Name: </b>" + feature.properties.doing_business_as +
-                            "<br> <b>Address: </b>" + feature.properties.address +  
-                            "<br><b>Year: </b>" + feature.properties.sixmosactiveyear +
-                            "<br><b>Number Of Licenses: </b>" + feature.properties.numlics 
+                            layer.bindPopup("<b> Name: </b>" + feature.properties.d_b_a +
+                            "<br><b>Address: </b>" + feature.properties.formatted_address +  
+                            "<br><b>Year: </b>" + feature.properties.year.toFixed(0) +
+                            "<br><b>Number Of Licenses: </b>" + feature.properties.n_licenses
                              )},
                         }).bringToFront(100);
   
@@ -392,10 +392,10 @@
                                 },
                                 onEachFeature: function (feature, layer) {
                                 popupOptions = {maxWidth: 200}; 
-                                layer.bindPopup("<br><b> Name: </b>" + feature.properties.doing_business_as +
-                                "<br> <b>Address: </b>" + feature.properties.address +  
-                                "<br><b>Year: </b>" + feature.properties.sixmosactiveyear +
-                                "<br><b>Number Of Licenses: </b>" + feature.properties.numlics 
+                                layer.bindPopup("<b> Name: </b>" + feature.properties.d_b_a +
+                            "<br><b>Address: </b>" + feature.properties.formatted_address +  
+                            "<br><b>Year: </b>" + feature.properties.year.toFixed(0) +
+                            "<br><b>Number Of Licenses: </b>" + feature.properties.n_licenses
                                 )},
                             }).bringToFront(100);
 
@@ -415,7 +415,7 @@
                                 },
                                 onEachFeature: function (feature, layer) {
                                 popupOptions = {maxWidth: 200}; 
-                                layer.bindPopup("<br><b> Name: </b>" + feature.properties.name2)
+                                layer.bindPopup("<b> Name: </b>" + feature.properties.SchoolName)
                                 },
                                 } 
                                 ).bringToFront(100);
@@ -434,7 +434,7 @@
                                 },
                                 onEachFeature: function (feature, layer) {
                                 popupOptions = {maxWidth: 200}; 
-                                layer.bindPopup("<br><b> Severity: </b>" + feature.properties.CSEVERITY )
+                                layer.bindPopup("<b> Severity: </b>" + feature.properties.Crash_Severity )
                                 },
                                 } 
                                 ).bringToFront(100);
