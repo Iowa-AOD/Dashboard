@@ -1,0 +1,6480 @@
+var onoutlets ={
+   "type":"FeatureCollection",
+   "name":"on_point_outlets_2018_2024.geojson",
+   "crs":{
+      "type":"name",
+      "properties":{
+         "name":"urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+   },
+   "features":[
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"MCOTTO'S",
+            "formatted_address":"100 Chamber Dr, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.104238,
+            "long":-91.265104,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.265104,
+               42.104238
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hot Shots Bar & Grill",
+            "formatted_address":"101 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108148,
+            "long":-91.285439,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.285439,
+               42.108148
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"AMERICINN LODGE AND SUITES",
+            "formatted_address":"101 Harley Ave, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.124041,
+            "long":-91.264713,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.264713,
+               42.124041
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Eagles Club # 4466",
+            "formatted_address":"102 Lindner Ct, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.250858,
+            "long":-91.193831,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.193831,
+               42.250858
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"ruzicka meat processing, inc.",
+            "formatted_address":"10277 Shaw Rd, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class B Beer Permit",
+            "lat":42.082613,
+            "long":-91.267636,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.267636,
+               42.082613
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"La Hacienda Mexican Restaurant",
+            "formatted_address":"103 S Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.237448,
+            "long":-91.184216,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.184216,
+               42.237448
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Office Lounge",
+            "formatted_address":"105 W 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.237953,
+            "long":-91.190016,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.190016,
+               42.237953
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Scooters Bar & Grill",
+            "formatted_address":"10537 Shaw Rd, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.085428,
+            "long":-91.268739,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.268739,
+               42.085428
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Schakey's Place",
+            "formatted_address":"106 W Broadway St, Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.983861,
+            "long":-90.956643,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.956643,
+               41.983861
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Northside Bar",
+            "formatted_address":"114 N Cedar St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.238577,
+            "long":-91.189534,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.189534,
+               42.238577
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Grove Bar & Grill",
+            "formatted_address":"11668 County Rd E17 E 17, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.17265,
+            "long":-91.105264,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.105264,
+               42.17265
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Anamosa Bowling Center",
+            "formatted_address":"117 N Ford St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.109061,
+            "long":-91.285349,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.285349,
+               42.109061
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Tyler & Downing's Eatery",
+            "formatted_address":"122 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108381,
+            "long":-91.284503,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284503,
+               42.108381
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Jitney",
+            "formatted_address":"126 E 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.238035,
+            "long":-91.188594,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.188594,
+               42.238035
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Rack's Swinging Door LLC/Rack's Swinging Door LLC",
+            "formatted_address":"127 W Main St, Wyoming, IA 52362",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Liquor License/Class C Retail Alcohol License",
+            "lat":42.058777,
+            "long":-91.006555,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.006555,
+               42.058777
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"La Hacienda Mexican Restaurant",
+            "formatted_address":"1304 E 3rd St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.104756,
+            "long":-91.269843,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.269843,
+               42.104756
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Fawn Creek Country Club",
+            "formatted_address":"1601 130th St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.117548,
+            "long":-91.264624,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.264624,
+               42.117548
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Tucker's Tavern/Tucker's Tavern",
+            "formatted_address":"201 E Main St, Anamosa, IA 52205",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Liquor License/Class C Retail Alcohol License",
+            "lat":42.10818,
+            "long":-91.284223,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284223,
+               42.10818
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Sportsmans Den",
+            "formatted_address":"202 Broadway St, Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.98362,
+            "long":-90.954866,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.954866,
+               41.98362
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Monticello Area Chamber of Commerce",
+            "formatted_address":"204 E 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class B Beer Permit",
+            "lat":42.23829,
+            "long":-91.187519,
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.187519,
+               42.23829
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Debs Sports Bar",
+            "formatted_address":"210 W Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108402,
+            "long":-91.286212,
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.286212,
+               42.108402
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Hillside Sports Bar and Grill",
+            "formatted_address":"21592 Business Highway 151, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.245678,
+            "long":-91.17714,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.17714,
+               42.245678
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"BAMBOO GARDEN",
+            "formatted_address":"226 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Special Class C Liquor License",
+            "lat":42.108435,
+            "long":-91.282211,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.282211,
+               42.108435
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Whiskey River Pub and Grub",
+            "formatted_address":"248 N Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.240421,
+            "long":-91.183127,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.183127,
+               42.240421
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"El Cerrito",
+            "formatted_address":"300 W Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.108377,
+            "long":-91.287016,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.287016,
+               42.108377
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Bonfire Bar & Grill",
+            "formatted_address":"306 Jackson St, Olin, IA 52320",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.99739,
+            "long":-91.141738,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.141738,
+               41.99739
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hale Tap",
+            "formatted_address":"5522 Sanford St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.012614,
+            "long":-91.05947,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.05947,
+               42.012614
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Happy Joe's Pizza & Ice Cream Parlor",
+            "formatted_address":"601 S Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class B Beer Permit",
+            "lat":42.232936,
+            "long":-91.185783,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.185783,
+               42.232936
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Monticello Golf Club",
+            "formatted_address":"712 N Maple St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.24412,
+            "long":-91.18878,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.18878,
+               42.24412
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Legacy Lanes, Inc.",
+            "formatted_address":"901 N Birch St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.249461,
+            "long":-91.199831,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.199831,
+               42.249461
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Little Bear Recreation Club",
+            "formatted_address":"9036 Highway 136, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.063635,
+            "long":-91.014391,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.014391,
+               42.063635
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Legionaire Ballroom",
+            "formatted_address":"Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.98363,
+            "long":-90.95626,
+            "accuracy":1.0,
+            "accuracy_type":"place",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2018.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.95626,
+               41.98363
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Mcotto's Family Restaurant",
+            "formatted_address":"100 Chamber Dr, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.104238,
+            "long":-91.265104,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.265104,
+               42.104238
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hot Shots Bar & Grill",
+            "formatted_address":"101 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108148,
+            "long":-91.285439,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.285439,
+               42.108148
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"AMERICINN LODGE AND SUITES",
+            "formatted_address":"101 Harley Ave, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.124041,
+            "long":-91.264713,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.264713,
+               42.124041
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Eagles Club # 4466",
+            "formatted_address":"102 Lindner Ct, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.250858,
+            "long":-91.193831,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.193831,
+               42.250858
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"ruzicka meat processing, inc.",
+            "formatted_address":"10277 Shaw Rd, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class B Beer Permit",
+            "lat":42.082613,
+            "long":-91.267636,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.267636,
+               42.082613
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"La Hacienda Mexican Restaurant",
+            "formatted_address":"103 S Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.237448,
+            "long":-91.184216,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.184216,
+               42.237448
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Office Lounge",
+            "formatted_address":"105 W 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.237953,
+            "long":-91.190016,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.190016,
+               42.237953
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Scooters Bar & Grill",
+            "formatted_address":"10537 Shaw Rd, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.085428,
+            "long":-91.268739,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.268739,
+               42.085428
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Schakey's Place",
+            "formatted_address":"106 W Broadway St, Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.983861,
+            "long":-90.956643,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.956643,
+               41.983861
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Northside Bar",
+            "formatted_address":"114 N Cedar St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.238577,
+            "long":-91.189534,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.189534,
+               42.238577
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Grove Bar & Grill",
+            "formatted_address":"11668 County Rd E17 E 17, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.17265,
+            "long":-91.105264,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.105264,
+               42.17265
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Anamosa Bowling Center",
+            "formatted_address":"117 N Ford St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.109061,
+            "long":-91.285349,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.285349,
+               42.109061
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Tyler & Downing's Eatery",
+            "formatted_address":"122 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108381,
+            "long":-91.284503,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284503,
+               42.108381
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Jitney",
+            "formatted_address":"126 E 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.238035,
+            "long":-91.188594,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.188594,
+               42.238035
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Rack's Swinging Door LLC/Rack's Swinging Door LLC",
+            "formatted_address":"127 W Main St, Wyoming, IA 52362",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Liquor License/Class C Retail Alcohol License",
+            "lat":42.058777,
+            "long":-91.006555,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.006555,
+               42.058777
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"LA HACIENDA MEXICAN RESTAURANT",
+            "formatted_address":"1304 E 3rd St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.104756,
+            "long":-91.269843,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.269843,
+               42.104756
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Fawn Creek Country Club",
+            "formatted_address":"1601 130th St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.117548,
+            "long":-91.264624,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.264624,
+               42.117548
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Tucker's Tavern",
+            "formatted_address":"201 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.10818,
+            "long":-91.284223,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284223,
+               42.10818
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Sportsmans Den",
+            "formatted_address":"202 Broadway St, Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.98362,
+            "long":-90.954866,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.954866,
+               41.98362
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Monticello Area Chamber of Commerce",
+            "formatted_address":"204 E 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class B Beer Permit",
+            "lat":42.23829,
+            "long":-91.187519,
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.187519,
+               42.23829
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Debs Sports Bar",
+            "formatted_address":"210 W Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108402,
+            "long":-91.286212,
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.286212,
+               42.108402
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Hillside Sports Bar and Grill",
+            "formatted_address":"21592 Business Highway 151, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.245678,
+            "long":-91.17714,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.17714,
+               42.245678
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"BAMBOO GARDEN",
+            "formatted_address":"226 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Special Class C Liquor License",
+            "lat":42.108435,
+            "long":-91.282211,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.282211,
+               42.108435
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Whiskey River Pub and Grub",
+            "formatted_address":"248 N Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.240421,
+            "long":-91.183127,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.183127,
+               42.240421
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"los tres agaves",
+            "formatted_address":"300 W Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.108377,
+            "long":-91.287016,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.287016,
+               42.108377
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Bonfire Bar & Grill/The Bonfire Bar & Grill",
+            "formatted_address":"306 Jackson St, Olin, IA 52320",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Liquor License/Class C Retail Alcohol License",
+            "lat":41.99739,
+            "long":-91.141738,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.141738,
+               41.99739
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hale Tap",
+            "formatted_address":"5522 Sanford St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.012614,
+            "long":-91.05947,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.05947,
+               42.012614
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Diamond Pi Company",
+            "formatted_address":"601 S Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class B Beer Permit",
+            "lat":42.232936,
+            "long":-91.185783,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.185783,
+               42.232936
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Monticello Golf Club",
+            "formatted_address":"712 N Maple St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.24412,
+            "long":-91.18878,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.18878,
+               42.24412
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Legacy Lanes, Inc.",
+            "formatted_address":"901 N Birch St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.249461,
+            "long":-91.199831,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.199831,
+               42.249461
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Little Bear Recreation Club",
+            "formatted_address":"9036 Highway 136, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.063635,
+            "long":-91.014391,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.014391,
+               42.063635
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Legionaire Ballroom",
+            "formatted_address":"Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.98363,
+            "long":-90.95626,
+            "accuracy":1.0,
+            "accuracy_type":"place",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2019.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.95626,
+               41.98363
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Mcotto's Family Restaurant",
+            "formatted_address":"100 Chamber Dr, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.104238,
+            "long":-91.265104,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.265104,
+               42.104238
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hot Shots Bar & Grill",
+            "formatted_address":"101 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108148,
+            "long":-91.285439,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.285439,
+               42.108148
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"AMERICINN LODGE AND SUITES",
+            "formatted_address":"101 Harley Ave, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.124041,
+            "long":-91.264713,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.264713,
+               42.124041
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Eagles Club # 4466",
+            "formatted_address":"102 Lindner Ct, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.250858,
+            "long":-91.193831,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.193831,
+               42.250858
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"La Hacienda Mexican Restaurant",
+            "formatted_address":"103 S Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.237448,
+            "long":-91.184216,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.184216,
+               42.237448
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Glass Tap",
+            "formatted_address":"105 W 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.237953,
+            "long":-91.190016,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.190016,
+               42.237953
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Scooters Bar & Grill",
+            "formatted_address":"10537 Shaw Rd, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.085428,
+            "long":-91.268739,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.268739,
+               42.085428
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Schakey's Place",
+            "formatted_address":"106 W Broadway St, Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.983861,
+            "long":-90.956643,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.956643,
+               41.983861
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Legacy Lanes, Inc.",
+            "formatted_address":"112 E 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.238283,
+            "long":-91.1892,
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.1892,
+               42.238283
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Northside Bar",
+            "formatted_address":"114 N Cedar St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.238577,
+            "long":-91.189534,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.189534,
+               42.238577
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Grove Bar & Grill",
+            "formatted_address":"11668 County Rd E17 E 17, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.17265,
+            "long":-91.105264,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.105264,
+               42.17265
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Anamosa Bowling Center",
+            "formatted_address":"117 N Ford St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.109061,
+            "long":-91.285349,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.285349,
+               42.109061
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Tyler & Downing's Eatery",
+            "formatted_address":"122 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108381,
+            "long":-91.284503,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284503,
+               42.108381
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Jitney",
+            "formatted_address":"126 E 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.238035,
+            "long":-91.188594,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.188594,
+               42.238035
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Rack's Swinging Door LLC",
+            "formatted_address":"127 W Main St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.058777,
+            "long":-91.006555,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.006555,
+               42.058777
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"LA HACIENDA MEXICAN RESTAURANT",
+            "formatted_address":"1304 E 3rd St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.104756,
+            "long":-91.269843,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.269843,
+               42.104756
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Fawn Creek Country Club",
+            "formatted_address":"1601 130th St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.117548,
+            "long":-91.264624,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.264624,
+               42.117548
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Tucker's Tavern",
+            "formatted_address":"201 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.10818,
+            "long":-91.284223,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284223,
+               42.10818
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Sportsmans Den",
+            "formatted_address":"202 Broadway St, Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.98362,
+            "long":-90.954866,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.954866,
+               41.98362
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Monticello Area Chamber of Commerce",
+            "formatted_address":"204 E 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class B Beer Permit",
+            "lat":42.23829,
+            "long":-91.187519,
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.187519,
+               42.23829
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Debs Sports Bar",
+            "formatted_address":"210 W Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108402,
+            "long":-91.286212,
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.286212,
+               42.108402
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Hillside Sports Bar and Grill",
+            "formatted_address":"21592 Business Highway 151, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.245678,
+            "long":-91.17714,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.17714,
+               42.245678
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"BAMBOO GARDEN",
+            "formatted_address":"226 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Special Class C Liquor License",
+            "lat":42.108435,
+            "long":-91.282211,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.282211,
+               42.108435
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Whiskey River Pub and Grub",
+            "formatted_address":"248 N Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.240421,
+            "long":-91.183127,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.183127,
+               42.240421
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"los tres agaves",
+            "formatted_address":"300 W Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.108377,
+            "long":-91.287016,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.287016,
+               42.108377
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Bonfire Bar & Grill",
+            "formatted_address":"306 Jackson St, Olin, IA 52320",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.99739,
+            "long":-91.141738,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.141738,
+               41.99739
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hale Tap",
+            "formatted_address":"5522 Sanford St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.012614,
+            "long":-91.05947,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.05947,
+               42.012614
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Diamond Pi Company",
+            "formatted_address":"601 S Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class B Beer Permit",
+            "lat":42.232936,
+            "long":-91.185783,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.185783,
+               42.232936
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Monticello Golf Club",
+            "formatted_address":"712 N Maple St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.24412,
+            "long":-91.18878,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.18878,
+               42.24412
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Legacy Lanes, Inc.",
+            "formatted_address":"901 N Birch St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.249461,
+            "long":-91.199831,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.199831,
+               42.249461
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Little Bear Recreation Club/Little Bear Recreation Club",
+            "formatted_address":"9036 Highway 136, Wyoming, IA 52362",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Liquor License/Class C Retail Alcohol License",
+            "lat":42.063635,
+            "long":-91.014391,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.014391,
+               42.063635
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Legionaire Ballroom",
+            "formatted_address":"Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.98363,
+            "long":-90.95626,
+            "accuracy":1.0,
+            "accuracy_type":"place",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2020.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.95626,
+               41.98363
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Mcotto's Family Restaurant",
+            "formatted_address":"100 Chamber Dr, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.104238,
+            "long":-91.265104,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.265104,
+               42.104238
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hot Shots Bar & Grill",
+            "formatted_address":"101 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108148,
+            "long":-91.285439,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.285439,
+               42.108148
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"AMERICINN LODGE AND SUITES",
+            "formatted_address":"101 Harley Ave, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.124041,
+            "long":-91.264713,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.264713,
+               42.124041
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Eagles Club # 4466",
+            "formatted_address":"102 Lindner Ct, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.250858,
+            "long":-91.193831,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.193831,
+               42.250858
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"ruzicka's meat processing",
+            "formatted_address":"10277 Shaw Rd, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class B Beer Permit",
+            "lat":42.082613,
+            "long":-91.267636,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.267636,
+               42.082613
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"La Hacienda Mexican Restaurant",
+            "formatted_address":"103 S Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.237448,
+            "long":-91.184216,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.184216,
+               42.237448
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Glass Tap",
+            "formatted_address":"105 W 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.237953,
+            "long":-91.190016,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.190016,
+               42.237953
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Scooters Bar & Grill",
+            "formatted_address":"10537 Shaw Rd, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.085428,
+            "long":-91.268739,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.268739,
+               42.085428
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Schakey's Place",
+            "formatted_address":"106 W Broadway St, Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.983861,
+            "long":-90.956643,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.956643,
+               41.983861
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Northside Bar",
+            "formatted_address":"114 N Cedar St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.238577,
+            "long":-91.189534,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.189534,
+               42.238577
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Grove Bar & Grill",
+            "formatted_address":"11668 County Rd E17 E 17, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.17265,
+            "long":-91.105264,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.105264,
+               42.17265
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Anamosa Bowling Center/Anamosa Bowling Center",
+            "formatted_address":"117 N Ford St, Anamosa, IA 52205",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Liquor License/Class C Retail Alcohol License",
+            "lat":42.109061,
+            "long":-91.285349,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.285349,
+               42.109061
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Tyler & Downing's Eatery",
+            "formatted_address":"122 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108381,
+            "long":-91.284503,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284503,
+               42.108381
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Jitney",
+            "formatted_address":"126 E 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.238035,
+            "long":-91.188594,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.188594,
+               42.238035
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Rack's Swinging Door LLC",
+            "formatted_address":"127 W Main St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.058777,
+            "long":-91.006555,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.006555,
+               42.058777
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"LA HACIENDA MEXICAN RESTAURANT",
+            "formatted_address":"1304 E 3rd St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.104756,
+            "long":-91.269843,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.269843,
+               42.104756
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Fawn Creek Country Club/Fawn Creek Country Club",
+            "formatted_address":"1601 130th St, Anamosa, IA 52205",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Liquor License/Class C Retail Alcohol License",
+            "lat":42.117548,
+            "long":-91.264624,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.264624,
+               42.117548
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Tucker's Tavern/Tucker's Tavern",
+            "formatted_address":"201 E Main St, Anamosa, IA 52205",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Liquor License/Class C Retail Alcohol License",
+            "lat":42.10818,
+            "long":-91.284223,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284223,
+               42.10818
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Sportsmans Den",
+            "formatted_address":"202 Broadway St, Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.98362,
+            "long":-90.954866,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.954866,
+               41.98362
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Monticello Area Chamber of Commerce",
+            "formatted_address":"204 E 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class B Beer Permit",
+            "lat":42.23829,
+            "long":-91.187519,
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.187519,
+               42.23829
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Debs Sports Bar",
+            "formatted_address":"210 W Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108402,
+            "long":-91.286212,
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.286212,
+               42.108402
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Hillside Sports Bar and Grill",
+            "formatted_address":"21592 Business Highway 151, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.245678,
+            "long":-91.17714,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.17714,
+               42.245678
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Jones County Local LLC",
+            "formatted_address":"22962 County Rd E34, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.082258,
+            "long":-91.325648,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.325648,
+               42.082258
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Whiskey River Pub and Grub",
+            "formatted_address":"248 N Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.240421,
+            "long":-91.183127,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.183127,
+               42.240421
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Bonfire Bar & Grill",
+            "formatted_address":"306 Jackson St, Olin, IA 52320",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.99739,
+            "long":-91.141738,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.141738,
+               41.99739
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hale Tap",
+            "formatted_address":"5522 Sanford St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.012614,
+            "long":-91.05947,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.05947,
+               42.012614
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Diamond Pi Company",
+            "formatted_address":"601 S Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class B Beer Permit",
+            "lat":42.232936,
+            "long":-91.185783,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.185783,
+               42.232936
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Monticello Golf Club",
+            "formatted_address":"712 N Maple St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.24412,
+            "long":-91.18878,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.18878,
+               42.24412
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Legacy Lanes, Inc.",
+            "formatted_address":"901 N Birch St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.249461,
+            "long":-91.199831,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.199831,
+               42.249461
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Little Bear Recreation Club",
+            "formatted_address":"9036 Highway 136, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.063635,
+            "long":-91.014391,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.014391,
+               42.063635
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Legionaire Ballroom",
+            "formatted_address":"Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.98363,
+            "long":-90.95626,
+            "accuracy":1.0,
+            "accuracy_type":"place",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2021.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.95626,
+               41.98363
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Mcotto's Family Restaurant",
+            "formatted_address":"100 Chamber Dr, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.104238,
+            "long":-91.265104,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.265104,
+               42.104238
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hot Shots Bar & Grill",
+            "formatted_address":"101 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108148,
+            "long":-91.285439,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.285439,
+               42.108148
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"AMERICINN LODGE AND SUITES",
+            "formatted_address":"101 Harley Ave, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.124041,
+            "long":-91.264713,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.264713,
+               42.124041
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Eagles Club # 4466",
+            "formatted_address":"102 Lindner Ct, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.250858,
+            "long":-91.193831,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.193831,
+               42.250858
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Ruzicka's Meat Processing Inc",
+            "formatted_address":"10277 Shaw Rd, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class B Beer Permit",
+            "lat":42.082613,
+            "long":-91.267636,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.267636,
+               42.082613
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"La Hacienda Mexican Restaurant",
+            "formatted_address":"103 S Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.237448,
+            "long":-91.184216,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.184216,
+               42.237448
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Lalo's",
+            "formatted_address":"105 W Main St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.058766,
+            "long":-91.00587,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.00587,
+               42.058766
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Scooters Bar & Grill",
+            "formatted_address":"10537 Shaw Rd, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.085428,
+            "long":-91.268739,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.268739,
+               42.085428
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Schakey's Place",
+            "formatted_address":"106 W Broadway St, Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.983861,
+            "long":-90.956643,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.956643,
+               41.983861
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Northside Bar",
+            "formatted_address":"114 N Cedar St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.238577,
+            "long":-91.189534,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.189534,
+               42.238577
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Grove Bar & Grill/The Grove Bar & Grill",
+            "formatted_address":"11668 County Rd E17 E 17, Monticello, IA 52310",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Liquor License/Class C Retail Alcohol License",
+            "lat":42.17265,
+            "long":-91.105264,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.105264,
+               42.17265
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Anamosa Bowling Center",
+            "formatted_address":"117 N Ford St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.109061,
+            "long":-91.285349,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.285349,
+               42.109061
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Tyler & Downing's Eatery",
+            "formatted_address":"122 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108381,
+            "long":-91.284503,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284503,
+               42.108381
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Jitney",
+            "formatted_address":"126 E 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.238035,
+            "long":-91.188594,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.188594,
+               42.238035
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Rack's Swinging Door LLC",
+            "formatted_address":"127 W Main St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.058777,
+            "long":-91.006555,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.006555,
+               42.058777
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"LA HACIENDA MEXICAN RESTAURANT",
+            "formatted_address":"1304 E 3rd St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Liquor License",
+            "lat":42.104756,
+            "long":-91.269843,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.269843,
+               42.104756
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Axe-cade on Main",
+            "formatted_address":"136 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Special Class C Retail Alcohol License",
+            "lat":42.108387,
+            "long":-91.284042,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284042,
+               42.108387
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Fawn Creek Country Club/Fawn Creek Country Club",
+            "formatted_address":"1601 130th St, Anamosa, IA 52205",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Liquor License/Class C Retail Alcohol License",
+            "lat":42.117548,
+            "long":-91.264624,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.264624,
+               42.117548
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Tucker's Tavern/Tucker's Tavern",
+            "formatted_address":"201 E Main St, Anamosa, IA 52205",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Liquor License/Class C Retail Alcohol License",
+            "lat":42.10818,
+            "long":-91.284223,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284223,
+               42.10818
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Sportsmans Den",
+            "formatted_address":"202 Broadway St, Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.98362,
+            "long":-90.954866,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.954866,
+               41.98362
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Monticello Area Chamber of Commerce",
+            "formatted_address":"204 E 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class B Beer Permit",
+            "lat":42.23829,
+            "long":-91.187519,
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.187519,
+               42.23829
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Debs Sports Bar",
+            "formatted_address":"210 W Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108402,
+            "long":-91.286212,
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.286212,
+               42.108402
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Jones County Local LLC",
+            "formatted_address":"22962 County Rd E34, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.082258,
+            "long":-91.325648,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.325648,
+               42.082258
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Whiskey River Pub & Grub",
+            "formatted_address":"248 N Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.240421,
+            "long":-91.183127,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.183127,
+               42.240421
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Las Brasas Restaurant",
+            "formatted_address":"300 W Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108377,
+            "long":-91.287016,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.287016,
+               42.108377
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Bonfire Bar & Grill",
+            "formatted_address":"306 Jackson St, Olin, IA 52320",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.99739,
+            "long":-91.141738,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.141738,
+               41.99739
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hammers Hideaway LLC",
+            "formatted_address":"319 Jackson St, Olin, IA 52320",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.997732,
+            "long":-91.142077,
+            "accuracy":0.9,
+            "accuracy_type":"nearest_rooftop_match",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.142077,
+               41.997732
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hale Tap",
+            "formatted_address":"5522 Sanford St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.012614,
+            "long":-91.05947,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.05947,
+               42.012614
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Diamond Pi Company",
+            "formatted_address":"601 S Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class B Beer Permit",
+            "lat":42.232936,
+            "long":-91.185783,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.185783,
+               42.232936
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Monticello Golf Club",
+            "formatted_address":"712 N Maple St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.24412,
+            "long":-91.18878,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.18878,
+               42.24412
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Legacy Lanes, Inc.",
+            "formatted_address":"901 N Birch St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.249461,
+            "long":-91.199831,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.199831,
+               42.249461
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Little Bear Recreation Club/Little Bear Recreation Club",
+            "formatted_address":"9036 Highway 136, Wyoming, IA 52362",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Liquor License/Class C Retail Alcohol License",
+            "lat":42.063635,
+            "long":-91.014391,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.014391,
+               42.063635
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Legionaire Ballroom",
+            "formatted_address":"Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.98363,
+            "long":-90.95626,
+            "accuracy":1.0,
+            "accuracy_type":"place",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2022.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.95626,
+               41.98363
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Mcotto's Family Restaurant",
+            "formatted_address":"100 Chamber Dr, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.104238,
+            "long":-91.265104,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.265104,
+               42.104238
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hot Shots Bar & Grill",
+            "formatted_address":"101 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108148,
+            "long":-91.285439,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.285439,
+               42.108148
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"AMERICINN LODGE AND SUITES",
+            "formatted_address":"101 Harley Ave, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.124041,
+            "long":-91.264713,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.264713,
+               42.124041
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Eagles Club # 4466",
+            "formatted_address":"102 Lindner Ct, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.250858,
+            "long":-91.193831,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.193831,
+               42.250858
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"La Hacienda Mexican Restaurant",
+            "formatted_address":"103 S Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.237448,
+            "long":-91.184216,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.184216,
+               42.237448
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"GLASS TAP LLC",
+            "formatted_address":"103 W 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.237951,
+            "long":-91.189918,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.189918,
+               42.237951
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Lalo's",
+            "formatted_address":"105 W Main St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.058766,
+            "long":-91.00587,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.00587,
+               42.058766
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Scooters Bar & Grill",
+            "formatted_address":"10537 Shaw Rd, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.085428,
+            "long":-91.268739,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.268739,
+               42.085428
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Thou Art Gallery",
+            "formatted_address":"106 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Special Class C Retail Alcohol License",
+            "lat":42.108375,
+            "long":-91.28512,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.28512,
+               42.108375
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Schakey's Place",
+            "formatted_address":"106 W Broadway St, Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.983861,
+            "long":-90.956643,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.956643,
+               41.983861
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Northside Bar",
+            "formatted_address":"114 N Cedar St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.238577,
+            "long":-91.189534,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.189534,
+               42.238577
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Grove Bar & Grill",
+            "formatted_address":"11668 County Rd E17 E 17, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.17265,
+            "long":-91.105264,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.105264,
+               42.17265
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Anamosa Bowling Center",
+            "formatted_address":"117 N Ford St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.109061,
+            "long":-91.285349,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.285349,
+               42.109061
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Tyler & Downing's Eatery",
+            "formatted_address":"122 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108381,
+            "long":-91.284503,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284503,
+               42.108381
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Jitney/The Monticello Blind Pig",
+            "formatted_address":"126 E 1st St, Monticello, IA 52310",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Liquor License/Class C Retail Alcohol License",
+            "lat":42.238035,
+            "long":-91.188594,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.188594,
+               42.238035
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Rack's Swinging Door LLC",
+            "formatted_address":"127 W Main St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.058777,
+            "long":-91.006555,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.006555,
+               42.058777
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"PORFIRIO'S BAR & GRILL",
+            "formatted_address":"1304 E 3rd St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.104756,
+            "long":-91.269843,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.269843,
+               42.104756
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Axe-cade on Main",
+            "formatted_address":"136 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Special Class C Retail Alcohol License",
+            "lat":42.108387,
+            "long":-91.284042,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284042,
+               42.108387
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Fawn Creek Country Club",
+            "formatted_address":"1601 130th St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.117548,
+            "long":-91.264624,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.264624,
+               42.117548
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Wicks Pizzeria",
+            "formatted_address":"165 W Main St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Special Class C Retail Alcohol License",
+            "lat":42.058756,
+            "long":-91.007535,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.007535,
+               42.058756
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Boondocks",
+            "formatted_address":"200 W Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Special Class C Retail Alcohol License",
+            "lat":42.108379,
+            "long":-91.285688,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.285688,
+               42.108379
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Tucker's Tavern",
+            "formatted_address":"201 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.10818,
+            "long":-91.284223,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284223,
+               42.10818
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Monticello Area Chamber of Commerce, Inc.",
+            "formatted_address":"204 E 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Special Class C Retail Alcohol License",
+            "lat":42.23829,
+            "long":-91.187519,
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.187519,
+               42.23829
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Debs Sports Bar",
+            "formatted_address":"210 W Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108402,
+            "long":-91.286212,
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.286212,
+               42.108402
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"THE JONES COUNTY LOCAL LLC",
+            "formatted_address":"22962 County Rd E34 E 34, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.082258,
+            "long":-91.325648,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.325648,
+               42.082258
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Jones County Local LLC",
+            "formatted_address":"22962 County Rd E34, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.082258,
+            "long":-91.325648,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.325648,
+               42.082258
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Whiskey River Pub & Grub",
+            "formatted_address":"248 N Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.240421,
+            "long":-91.183127,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.183127,
+               42.240421
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Las Brasas Restaurant",
+            "formatted_address":"300 W Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108377,
+            "long":-91.287016,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.287016,
+               42.108377
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Bonfire Bar & Grill",
+            "formatted_address":"306 Jackson St, Olin, IA 52320",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.99739,
+            "long":-91.141738,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.141738,
+               41.99739
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hammers Hideaway LLC/Hammers Hideaway LLC",
+            "formatted_address":"319 Jackson St, Olin, IA 52320",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Liquor License/Class C Retail Alcohol License",
+            "lat":41.997732,
+            "long":-91.142077,
+            "accuracy":0.9,
+            "accuracy_type":"nearest_rooftop_match",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.142077,
+               41.997732
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hale Tap",
+            "formatted_address":"5522 Sanford St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.012614,
+            "long":-91.05947,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.05947,
+               42.012614
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Diamond Pi Company",
+            "formatted_address":"601 S Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class B Beer Permit",
+            "lat":42.232936,
+            "long":-91.185783,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.185783,
+               42.232936
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Monticello Golf Club",
+            "formatted_address":"712 N Maple St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.24412,
+            "long":-91.18878,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.18878,
+               42.24412
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Legacy Lanes, Inc.",
+            "formatted_address":"901 N Birch St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.249461,
+            "long":-91.199831,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.199831,
+               42.249461
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Little Bear Recreation Club",
+            "formatted_address":"9036 Highway 136, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.063635,
+            "long":-91.014391,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.014391,
+               42.063635
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Legionaire Ballroom",
+            "formatted_address":"Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.98363,
+            "long":-90.95626,
+            "accuracy":1.0,
+            "accuracy_type":"place",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2023.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.95626,
+               41.98363
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Mcotto's Family Restaurant",
+            "formatted_address":"100 Chamber Dr, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.104238,
+            "long":-91.265104,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.265104,
+               42.104238
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hot Shots Bar & Grill",
+            "formatted_address":"101 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108148,
+            "long":-91.285439,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.285439,
+               42.108148
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"AMERICINN LODGE AND SUITES",
+            "formatted_address":"101 Harley Ave, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.124041,
+            "long":-91.264713,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.264713,
+               42.124041
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Eagles Club # 4466",
+            "formatted_address":"102 Lindner Ct, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.250858,
+            "long":-91.193831,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.193831,
+               42.250858
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"La Hacienda Mexican Restaurant",
+            "formatted_address":"103 S Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.237448,
+            "long":-91.184216,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.184216,
+               42.237448
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"GLASS TAP LLC",
+            "formatted_address":"103 W 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.237951,
+            "long":-91.189918,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.189918,
+               42.237951
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Lalo's",
+            "formatted_address":"105 W Main St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.058766,
+            "long":-91.00587,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.00587,
+               42.058766
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Scooters Bar & Grill",
+            "formatted_address":"10537 Shaw Rd, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.085428,
+            "long":-91.268739,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.268739,
+               42.085428
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Thou Art Gallery",
+            "formatted_address":"106 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Special Class C Retail Alcohol License",
+            "lat":42.108375,
+            "long":-91.28512,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.28512,
+               42.108375
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Schakey's Place",
+            "formatted_address":"106 W Broadway St, Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.983861,
+            "long":-90.956643,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.956643,
+               41.983861
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Northside Bar",
+            "formatted_address":"114 N Cedar St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.238577,
+            "long":-91.189534,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.189534,
+               42.238577
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Grove Bar & Grill",
+            "formatted_address":"11668 County Rd E17 E 17, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.17265,
+            "long":-91.105264,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.105264,
+               42.17265
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Anamosa Bowling Center",
+            "formatted_address":"117 N Ford St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.109061,
+            "long":-91.285349,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.285349,
+               42.109061
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Tyler & Downing's Eatery",
+            "formatted_address":"122 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108381,
+            "long":-91.284503,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284503,
+               42.108381
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"The Monticello Blind Pig",
+            "formatted_address":"126 E 1st St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.238035,
+            "long":-91.188594,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.188594,
+               42.238035
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Rack's Swinging Door LLC",
+            "formatted_address":"127 W Main St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.058777,
+            "long":-91.006555,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.006555,
+               42.058777
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Boondocks Emporium",
+            "formatted_address":"130 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.108391,
+            "long":-91.284173,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284173,
+               42.108391
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"PORFIRIO'S BAR & GRILL",
+            "formatted_address":"1304 E 3rd St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.104756,
+            "long":-91.269843,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.269843,
+               42.104756
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Axe-cade on Main",
+            "formatted_address":"136 E Main St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Special Class C Retail Alcohol License",
+            "lat":42.108387,
+            "long":-91.284042,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284042,
+               42.108387
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Fawn Creek Country Club",
+            "formatted_address":"1601 130th St, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.117548,
+            "long":-91.264624,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.264624,
+               42.117548
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Wicks Pizzeria",
+            "formatted_address":"165 W Main St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Special Class C Retail Alcohol License",
+            "lat":42.058756,
+            "long":-91.007535,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.007535,
+               42.058756
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Tucker's Tavern/Tucker's Tavern",
+            "formatted_address":"201 E Main St, Anamosa, IA 52205",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License/Class C Retail Alcohol License",
+            "lat":42.10818,
+            "long":-91.284223,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.284223,
+               42.10818
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Deb's Sports Bar/Debs Sports Bar",
+            "formatted_address":"210 W Main St, Anamosa, IA 52205",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License/Class C Retail Alcohol License",
+            "lat":42.108402,
+            "long":-91.286212,
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.286212,
+               42.108402
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Wapsipinicon Country Club",
+            "formatted_address":"21309 County Rd E34, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.10013,
+            "long":-91.293812,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.293812,
+               42.10013
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"THE JONES COUNTY LOCAL LLC",
+            "formatted_address":"22962 County Rd E34 E 34, Anamosa, IA 52205",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.082258,
+            "long":-91.325648,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.325648,
+               42.082258
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Whiskey River Pub & Grub",
+            "formatted_address":"248 N Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.240421,
+            "long":-91.183127,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.183127,
+               42.240421
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"EDGE THE",
+            "formatted_address":"250 N Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Special Class C Retail Alcohol License",
+            "lat":42.240599,
+            "long":-91.183049,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.183049,
+               42.240599
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"LAS BRASAS RESTAURANTE LLC/Las Brasas Restaurant",
+            "formatted_address":"300 W Main St, Anamosa, IA 52205",
+            "lic_type":"On/On",
+            "n_licenses":2,
+            "n_on":2,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License/Class C Retail Alcohol License",
+            "lat":42.108377,
+            "long":-91.287016,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.287016,
+               42.108377
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hammers Hideaway LLC",
+            "formatted_address":"319 Jackson St, Olin, IA 52320",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.997732,
+            "long":-91.142077,
+            "accuracy":0.9,
+            "accuracy_type":"nearest_rooftop_match",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.142077,
+               41.997732
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Hale Tap",
+            "formatted_address":"5522 Sanford St, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.012614,
+            "long":-91.05947,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.05947,
+               42.012614
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"DIAMOND PI COMPANY",
+            "formatted_address":"601 S Main St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Special Class C Retail Alcohol License",
+            "lat":42.232936,
+            "long":-91.185783,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.185783,
+               42.232936
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Monticello Golf Club",
+            "formatted_address":"712 N Maple St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.24412,
+            "long":-91.18878,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.18878,
+               42.24412
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Legacy Lanes, Inc.",
+            "formatted_address":"901 N Birch St, Monticello, IA 52310",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.249461,
+            "long":-91.199831,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.199831,
+               42.249461
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Little Bear Recreation Club",
+            "formatted_address":"9036 Highway 136, Wyoming, IA 52362",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":42.063635,
+            "long":-91.014391,
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "source":"Statewide IA",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.014391,
+               42.063635
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "d_b_a":"Legionaire Ballroom",
+            "formatted_address":"Oxford Junction, IA 52323",
+            "lic_type":"On",
+            "n_licenses":1,
+            "n_on":1,
+            "n_off":0,
+            "licenses":"Class C Retail Alcohol License",
+            "lat":41.98363,
+            "long":-90.95626,
+            "accuracy":1.0,
+            "accuracy_type":"place",
+            "source":"TIGER/Line® dataset from the US Census Bureau",
+            "geocode_date":"2024-05-14",
+            "geocode_method":"Geocodio",
+            "type":"on",
+            "year":2024.0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.95626,
+               41.98363
+            ]
+         }
+      }
+   ]
+}
