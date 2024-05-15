@@ -461,19 +461,35 @@
                                 CSAI.resetStyle(e.target);
                                 }
 
-                                    function onEachFeatureAVI4(feature, layer) {
+                                function resetHighlightAOD_per_10_14(e) {
+                                AOD_per_10_14.resetStyle(e.target);
+                                }   
+
+                    function onEachFeatureAOD_per_10_14(feature, layer) {
                                 layer.on({
                                     mouseover: highlightFeature,
-                                    mouseout: resetHighlightAVI
+                                    mouseout: resetHighlightAOD_per_10_14
                                 });
                                 if (feature.properties) {
-                                    layer.bindPopup("<b>AVI: </b>" + feature.properties.AVI );
+                                    layer.bindPopup("<b>% 10-14: </b>" + feature.properties.per_10_14.toFixed(2) );
                                     }
                                     }
 
-                                    function resetHighlightAVI(e) {
-                                AVI.resetStyle(e.target);
-                                }   
+                                    function resetHighlightAOD_per_15_20(e) {
+                                AOD_per_15_20.resetStyle(e.target);
+                                }  
+
+                     function onEachFeatureAOD_per_15_20(feature, layer) {
+                                layer.on({
+                                    mouseover: highlightFeature,
+                                    mouseout: resetHighlightAOD_per_15_20
+                                });
+                                if (feature.properties) {
+                                    layer.bindPopup("<b>% 15-20: </b>" + feature.properties.per_15_20.toFixed(2) );
+                                    }
+                                    }
+
+                            
 
                     function resetHighlightBO(e) {
                                 BSAI.resetStyle(e.target);
@@ -587,15 +603,21 @@
                                             }
 
                         
-                    function getColorAVI4(d) {
-                            return   d > 4 ? '#c67718' :
-                                d > 3   ? '#f29526' :
-                                d > 2   ? '#fbb664' :
-                                d > 1   ? '#fdcc92' :
-                                d > 0   ? '#fed9ad80' :
+                    function getColorAOD_per_10_14(d) {
+                            return     d > 9.230  ? '#f29526' :
+                                d >  5.769  ? '#fbb664' :
+                                d > 3.498  ? '#fdcc92' :
+                                d > 1.097   ? '#fed9ad80' :
                                             '#white';
                                             }
-                        
+
+                  function getColorAOD_per_15_20(d) {
+                            return   d > 9.313   ? '#f29526' :
+                                d >  7.328  ? '#fbb664' :
+                                d > 3.916  ? '#fdcc92' :
+                                d > -1   ? '#fed9ad80' :
+                                            '#white';
+                                            }         
                     function styleC1(feature) {
                             return {
                                 fillColor: getColorC1((feature.properties.SAIoutlet_miles)),
@@ -620,9 +642,19 @@
 
                   
 
-                    function styleAVI4(feature) {
+                    function styleAOD_per_10_14(feature) {
                             return {
-                                fillColor: getColorAVI4((feature.properties.AVI)),
+                                fillColor: getColorAOD_per_10_14((feature.properties.per_10_14)),
+                                weight: 2,
+                                opacity: 1,
+                                color: 'black',
+                                fillOpacity: 0.9
+                            };
+                        }
+
+                        function styleAOD_per_15_20(feature) {
+                            return {
+                                fillColor: getColorAOD_per_15_20((feature.properties.per_15_20)),
                                 weight: 2,
                                 opacity: 1,
                                 color: 'black',
@@ -762,10 +794,12 @@
                     var BSAI_narralc= L.geoJson(Bdata, {style: styleb5, onEachFeature: onEachFeatureBNA});
                     var BClusters =  L.geoJson(cluster, {style: stylecluster});
                     var deselect = L.geoJson(Cdata, {style: styleC1, onEachFeature: onEachFeatureIO});
-                    var AVI4 = L.geoJson(AVI4, {style: styleAVI4, onEachFeature: onEachFeatureAVI4}).bringToBack(0).addTo(map4);
+                    var AOD_per_10_14 = L.geoJson(AOD, {style: styleAOD_per_10_14, onEachFeature: onEachFeatureAOD_per_10_14}).bringToBack(0).addTo(map4);
+                    var AOD_per_15_20 = L.geoJson(AOD, {style: styleAOD_per_15_20, onEachFeature: onEachFeatureAOD_per_15_20});
 
                     var basemapB1 = {   
-                        "Alcohol Vulnerability Index (beta)" : AVI4, 
+                        "Youth Population 10-14" : AOD_per_10_14, 
+                        "Youth Population 15-20" : AOD_per_15_20, 
                         "Calls Related to Families": BSAI_family,
                         "Calls Related to Violence": BSAI_violent,
                         "Calls Related to Alcohol": BSAI_alc,
