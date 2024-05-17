@@ -1,0 +1,1804 @@
+var tobacco = {
+   "type":"FeatureCollection",
+   "name":"jones_oce_2011-2023",
+   "crs":{
+      "type":"name",
+      "properties":{
+         "name":"urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+   },
+   "features":[
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"CASEY'S GENERAL STORE",
+            "street_address":"204 E MAIN",
+            "city":"WYOMING",
+            "state":"IA",
+            "zip":"52362",
+            "search_address":"204 E MAIN, WYOMING, IA 52362",
+            "lat":42.058775,
+            "long":-91.003754,
+            "formatted_address":"204 E Main St, Wyoming, IA 52362",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2019",
+            "inspection_year_range":"2012-2019",
+            "inspection_no_violation":6,
+            "inspection_violation":0,
+            "inspection_total":6,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.003754,
+               42.058775
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"COON'S CORNER COMPANY",
+            "street_address":"136 BROADWAY ST",
+            "city":"OXFORD JUNCTION",
+            "state":"IA",
+            "zip":"52323",
+            "search_address":"136 BROADWAY ST, OXFORD JUNCTION, IA 52323",
+            "lat":41.98362,
+            "long":-90.955377,
+            "formatted_address":"136 Broadway St, Oxford Junction, IA 52323",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2023",
+            "inspection_year_range":"2012-2023",
+            "inspection_no_violation":8,
+            "inspection_violation":0,
+            "inspection_total":8,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.955377,
+               41.98362
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"GREAT PASTIMES",
+            "street_address":"228 N MAIN ST",
+            "city":"MONTICELLO",
+            "state":"IA",
+            "zip":"52310",
+            "search_address":"228 N MAIN ST, MONTICELLO, IA 52310",
+            "lat":42.240104,
+            "long":-91.183276,
+            "formatted_address":"228 N Main St, Monticello, IA 52310",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2022",
+            "inspection_year_range":"2012-2022",
+            "inspection_no_violation":7,
+            "inspection_violation":0,
+            "inspection_total":7,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.183276,
+               42.240104
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"MONTICELLO FAMILY AUTO",
+            "street_address":"616 S MAIN ST",
+            "city":"MONTICELLO",
+            "state":"IA",
+            "zip":"52310",
+            "search_address":"616 S MAIN ST, MONTICELLO, IA 52310",
+            "lat":42.233264,
+            "long":-91.186019,
+            "formatted_address":"616 S Main St, Monticello, IA 52310",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2012",
+            "inspection_year_range":"2012-2012",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.186019,
+               42.233264
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"MONTICELLO GOLF CLUB",
+            "street_address":"712 NORTH MAPLE",
+            "city":"MONTICELLO",
+            "state":"IA",
+            "zip":"52310",
+            "search_address":"712 NORTH MAPLE, MONTICELLO, IA 52310",
+            "lat":42.24412,
+            "long":-91.18878,
+            "formatted_address":"712 N Maple St, Monticello, IA 52310",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2015",
+            "inspection_year_range":"2012-2015",
+            "inspection_no_violation":2,
+            "inspection_violation":0,
+            "inspection_total":2,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.18878,
+               42.24412
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"TED'S SWINGING DOOR",
+            "street_address":"127 W MAIN ST",
+            "city":"WYOMING",
+            "state":"IA",
+            "zip":"52212",
+            "search_address":"127 W MAIN ST, WYOMING, IA 52212",
+            "lat":42.058777,
+            "long":-91.006555,
+            "formatted_address":"127 W Main St, Wyoming, IA 52362",
+            "accuracy":0.9,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2012",
+            "inspection_year_range":"2012-2012",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.006555,
+               42.058777
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"TLZ STOP",
+            "street_address":"122 MAIN ST",
+            "city":"OXFORD JUNCTION",
+            "state":"IA",
+            "zip":"52323",
+            "search_address":"122 MAIN ST, OXFORD JUNCTION, IA 52323",
+            "lat":41.982664,
+            "long":-90.95535,
+            "formatted_address":"122 Main St, Oxford Junction, IA 52323",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2023",
+            "inspection_year_range":"2012-2023",
+            "inspection_no_violation":8,
+            "inspection_violation":0,
+            "inspection_total":8,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.95535,
+               41.982664
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"FAMILY FOODS",
+            "street_address":"402 E MAIN ST",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"402 E MAIN ST, ANAMOSA, IA 52205",
+            "lat":42.108392,
+            "long":-91.281163,
+            "formatted_address":"402 E Main St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2015",
+            "inspection_year_range":"2012-2015",
+            "inspection_no_violation":4,
+            "inspection_violation":0,
+            "inspection_total":4,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.281163,
+               42.108392
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"SUSIE Q'S SOFTTAILS",
+            "street_address":"210 W MAIN ST",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"210 W MAIN ST, ANAMOSA, IA 52205",
+            "lat":42.108402,
+            "long":-91.286212,
+            "formatted_address":"210 W Main St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "min_year":"2012",
+            "max_year":"2012",
+            "inspection_year_range":"2012-2012",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.286212,
+               42.108402
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"ANAMOSA TRAVEL MART",
+            "street_address":"23485 COUNTY ROAD E34",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"23485 COUNTY ROAD E34, ANAMOSA, IA 52205",
+            "lat":42.072659,
+            "long":-91.333937,
+            "formatted_address":"23485 County Rd E34, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2017",
+            "inspection_year_range":"2012-2017",
+            "inspection_no_violation":5,
+            "inspection_violation":0,
+            "inspection_total":5,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.333937,
+               42.072659
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"FAREWAY",
+            "street_address":"433 N FARLEY ST",
+            "city":"MONTICELLO",
+            "state":"IA",
+            "zip":"52310",
+            "search_address":"433 N FARLEY ST, MONTICELLO, IA 52310",
+            "lat":42.241697,
+            "long":-91.191587,
+            "formatted_address":"433 N Farley St, Monticello, IA 52310",
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "min_year":"2012",
+            "max_year":"2023",
+            "inspection_year_range":"2012-2023",
+            "inspection_no_violation":9,
+            "inspection_violation":0,
+            "inspection_total":9,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.191587,
+               42.241697
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"KARDE'S C-STORE",
+            "street_address":"202 N CEDAR ST",
+            "city":"MONTICELLO",
+            "state":"IA",
+            "zip":"52310",
+            "search_address":"202 N CEDAR ST, MONTICELLO, IA 52310",
+            "lat":42.239515,
+            "long":-91.189849,
+            "formatted_address":"202 N Cedar St, Monticello, IA 52310",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2022",
+            "inspection_year_range":"2012-2022",
+            "inspection_no_violation":6,
+            "inspection_violation":0,
+            "inspection_total":6,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.189849,
+               42.239515
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"KUM & GO",
+            "street_address":"501 S MAIN",
+            "city":"MONTICELLO",
+            "state":"IA",
+            "zip":"52310",
+            "search_address":"501 S MAIN, MONTICELLO, IA 52310",
+            "lat":42.23385,
+            "long":-91.18546,
+            "formatted_address":"501 S Main St, Monticello, IA 52310",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2012",
+            "inspection_year_range":"2012-2012",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.18546,
+               42.23385
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"TAPKEN'S CONVENIENCE PLUS",
+            "street_address":"306 S ELM ST",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"306 S ELM ST, ANAMOSA, IA 52205",
+            "lat":42.104704,
+            "long":-91.293685,
+            "formatted_address":"306 S Elm St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2016",
+            "inspection_year_range":"2012-2016",
+            "inspection_no_violation":4,
+            "inspection_violation":0,
+            "inspection_total":4,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.293685,
+               42.104704
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"WAL-MART SUPERCENTER #646",
+            "street_address":"101 115TH ST",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"101 115TH ST, ANAMOSA, IA 52205",
+            "lat":42.101561,
+            "long":-91.265032,
+            "formatted_address":"101 115th St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2022",
+            "inspection_year_range":"2012-2022",
+            "inspection_no_violation":9,
+            "inspection_violation":0,
+            "inspection_total":9,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.265032,
+               42.101561
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"DOLLAR GENERAL #3711",
+            "street_address":"101 E 1ST ST #107",
+            "city":"MONTICELLO",
+            "state":"IA",
+            "zip":"52310",
+            "search_address":"101 E 1ST ST #107, MONTICELLO, IA 52310",
+            "lat":42.238232,
+            "long":-91.189296,
+            "formatted_address":"101 E 1st St, # 107, Monticello, IA 52310",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2013",
+            "max_year":"2016",
+            "inspection_year_range":"2013-2016",
+            "inspection_no_violation":4,
+            "inspection_violation":0,
+            "inspection_total":4,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.189296,
+               42.238232
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"CASEY'S GENERAL STORE",
+            "street_address":"627 S MAIN ST",
+            "city":"MONTICELLO",
+            "state":"IA",
+            "zip":"52310",
+            "search_address":"627 S MAIN ST, MONTICELLO, IA 52310",
+            "lat":42.232483,
+            "long":-91.185937,
+            "formatted_address":"627 S Main St, Monticello, IA 52310",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2019",
+            "inspection_year_range":"2012-2019",
+            "inspection_no_violation":5,
+            "inspection_violation":0,
+            "inspection_total":5,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.185937,
+               42.232483
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"HOLLY'S TOWN SUPER MARKET",
+            "street_address":"160 W MAIN ST",
+            "city":"WYOMING",
+            "state":"IA",
+            "zip":"52362",
+            "search_address":"160 W MAIN ST, WYOMING, IA 52362",
+            "lat":42.059018,
+            "long":-91.007467,
+            "formatted_address":"160 W Main St, Wyoming, IA 52362",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2017",
+            "inspection_year_range":"2012-2017",
+            "inspection_no_violation":5,
+            "inspection_violation":0,
+            "inspection_total":5,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.007467,
+               42.059018
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"CASEY'S GENERAL STORE2690",
+            "street_address":"500 E MAIN ST",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"500 E MAIN ST, ANAMOSA, IA 52205",
+            "lat":42.108415,
+            "long":-91.280165,
+            "formatted_address":"500 E Main St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2014",
+            "inspection_year_range":"2012-2014",
+            "inspection_no_violation":2,
+            "inspection_violation":0,
+            "inspection_total":2,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.280165,
+               42.108415
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"DEB'S SPORTS BAR",
+            "street_address":"210 WEST MAIN ST.",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"210 WEST MAIN ST., ANAMOSA, IA 52205",
+            "lat":42.108402,
+            "long":-91.286212,
+            "formatted_address":"210 W Main St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "min_year":"2012",
+            "max_year":"2022",
+            "inspection_year_range":"2012-2022",
+            "inspection_no_violation":8,
+            "inspection_violation":0,
+            "inspection_total":8,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.286212,
+               42.108402
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"KUM AND GO 662",
+            "street_address":"400 JACKSON STREET",
+            "city":"OLIN",
+            "state":"IA",
+            "zip":"52320",
+            "search_address":"400 JACKSON STREET, OLIN, IA 52320",
+            "lat":41.998122,
+            "long":-91.141732,
+            "formatted_address":"400 Jackson St, Olin, IA 52320",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2012",
+            "inspection_year_range":"2012-2012",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.141732,
+               41.998122
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"MARTELLE C STORE",
+            "street_address":"400 S MILITARY ST",
+            "city":"MARTELLE",
+            "state":"IA",
+            "zip":"52305",
+            "search_address":"400 S MILITARY ST, MARTELLE, IA 52305",
+            "lat":42.020003,
+            "long":-91.360878,
+            "formatted_address":"400 S Military St, Martelle, IA 52305",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2012",
+            "max_year":"2016",
+            "inspection_year_range":"2012-2016",
+            "inspection_no_violation":3,
+            "inspection_violation":0,
+            "inspection_total":3,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.360878,
+               42.020003
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"RJ GENERAL STORE",
+            "street_address":"204 JACKSON ST",
+            "city":"OLIN",
+            "state":"IA",
+            "zip":"52320",
+            "search_address":"204 JACKSON ST, OLIN, IA 52320",
+            "lat":41.996237,
+            "long":-91.141724,
+            "formatted_address":"204 Jackson St, Olin, IA 52320",
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "min_year":"2012",
+            "max_year":"2012",
+            "inspection_year_range":"2012-2012",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.141724,
+               41.996237
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"KUM & GO 662",
+            "street_address":"400 JACKSON STREET",
+            "city":"OLIN",
+            "state":"IA",
+            "zip":"52320",
+            "search_address":"400 JACKSON STREET, OLIN, IA 52320",
+            "lat":41.998122,
+            "long":-91.141732,
+            "formatted_address":"400 Jackson St, Olin, IA 52320",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2014",
+            "max_year":"2014",
+            "inspection_year_range":"2014-2014",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.141732,
+               41.998122
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"DOLLAR GENERAL #3685",
+            "street_address":"314 W MAIN ST",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"314 W MAIN ST, ANAMOSA, IA 52205",
+            "lat":42.10836,
+            "long":-91.287757,
+            "formatted_address":"314 W Main St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2013",
+            "max_year":"2023",
+            "inspection_year_range":"2013-2023",
+            "inspection_no_violation":9,
+            "inspection_violation":0,
+            "inspection_total":9,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.287757,
+               42.10836
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"RJ'S GENERAL",
+            "street_address":"704 JACKSON ST.",
+            "city":"OLIN",
+            "state":"IA",
+            "zip":"52320",
+            "search_address":"704 JACKSON ST., OLIN, IA 52320",
+            "lat":42.00125,
+            "long":-91.141762,
+            "formatted_address":"704 Jackson St, Olin, IA 52320",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2013",
+            "max_year":"2013",
+            "inspection_year_range":"2013-2013",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.141762,
+               42.00125
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"K-FOOD MART",
+            "street_address":"616 S MAIN ST",
+            "city":"MONTICELLO",
+            "state":"IA",
+            "zip":"52310",
+            "search_address":"616 S MAIN ST, MONTICELLO, IA 52310",
+            "lat":42.233264,
+            "long":-91.186019,
+            "formatted_address":"616 S Main St, Monticello, IA 52310",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2015",
+            "max_year":"2015",
+            "inspection_year_range":"2015-2015",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.186019,
+               42.233264
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"KARDES 151",
+            "street_address":"2100 S. MAIN ST.",
+            "city":"MONTICELLO",
+            "state":"IA",
+            "zip":"52310",
+            "search_address":"2100 S. MAIN ST., MONTICELLO, IA 52310",
+            "lat":42.209862,
+            "long":-91.189908,
+            "formatted_address":"2100 S Main St, Monticello, IA 52310",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2015",
+            "max_year":"2015",
+            "inspection_year_range":"2015-2015",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.189908,
+               42.209862
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"KNUCKLHEADS PUB-N-GRUB",
+            "street_address":"205 W MAIN ST.",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"205 W MAIN ST., ANAMOSA, IA 52205",
+            "lat":42.108133,
+            "long":-91.2859,
+            "formatted_address":"205 W Main St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2015",
+            "max_year":"2015",
+            "inspection_year_range":"2015-2015",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.2859,
+               42.108133
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"EAGLES CLUB",
+            "street_address":"102 LINDNER COURT",
+            "city":"MONTICELLO",
+            "state":"IA",
+            "zip":"52310",
+            "search_address":"102 LINDNER COURT, MONTICELLO, IA 52310",
+            "lat":42.250858,
+            "long":-91.193831,
+            "formatted_address":"102 Lindner Ct, Monticello, IA 52310",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2016",
+            "max_year":"2016",
+            "inspection_year_range":"2016-2016",
+            "inspection_no_violation":2,
+            "inspection_violation":1,
+            "inspection_total":3,
+            "charge_minor_sale":1,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":1
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.193831,
+               42.250858
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"CASEY'S GENERAL STORE #2908",
+            "street_address":"1752 HWY 64 E",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"1752 HWY 64 E, ANAMOSA, IA 52205",
+            "lat":42.103313,
+            "long":-91.263687,
+            "formatted_address":"1752 Highway 64 E, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2016",
+            "max_year":"2019",
+            "inspection_year_range":"2016-2019",
+            "inspection_no_violation":5,
+            "inspection_violation":0,
+            "inspection_total":5,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.263687,
+               42.103313
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"KARDE'S 151",
+            "street_address":"2100 S. MAIN ST.",
+            "city":"MONTICELLO",
+            "state":"IA",
+            "zip":"52310",
+            "search_address":"2100 S. MAIN ST., MONTICELLO, IA 52310",
+            "lat":42.209862,
+            "long":-91.189908,
+            "formatted_address":"2100 S Main St, Monticello, IA 52310",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2016",
+            "max_year":"2023",
+            "inspection_year_range":"2016-2023",
+            "inspection_no_violation":6,
+            "inspection_violation":0,
+            "inspection_total":6,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.189908,
+               42.209862
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"CASEY'S GENERAL STORE 2690",
+            "street_address":"500 E MAIN ST",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"500 E MAIN ST, ANAMOSA, IA 52205",
+            "lat":42.108415,
+            "long":-91.280165,
+            "formatted_address":"500 E Main St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2016",
+            "max_year":"2019",
+            "inspection_year_range":"2016-2019",
+            "inspection_no_violation":5,
+            "inspection_violation":0,
+            "inspection_total":5,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.280165,
+               42.108415
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"KNUCKLHEADS PUB 'N' GRUB",
+            "street_address":"205 W MAIN ST.",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"205 W MAIN ST., ANAMOSA, IA 52205",
+            "lat":42.108133,
+            "long":-91.2859,
+            "formatted_address":"205 W Main St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2016",
+            "max_year":"2016",
+            "inspection_year_range":"2016-2016",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.2859,
+               42.108133
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"SUNDSTOP",
+            "street_address":"400 JACKSON STREET",
+            "city":"OLIN",
+            "state":"IA",
+            "zip":"52320",
+            "search_address":"400 JACKSON STREET, OLIN, IA 52320",
+            "lat":41.998122,
+            "long":-91.141732,
+            "formatted_address":"400 Jackson St, Olin, IA 52320",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2016",
+            "max_year":"2016",
+            "inspection_year_range":"2016-2016",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.141732,
+               41.998122
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"FAREWAY",
+            "street_address":"402 E MAIN ST",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"402 E MAIN ST, ANAMOSA, IA 52205",
+            "lat":42.108392,
+            "long":-91.281163,
+            "formatted_address":"402 E Main St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2017",
+            "max_year":"2022",
+            "inspection_year_range":"2017-2022",
+            "inspection_no_violation":5,
+            "inspection_violation":0,
+            "inspection_total":5,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.281163,
+               42.108392
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"GIGGLE JUICE LIQUOR STATION",
+            "street_address":"600 W MAIN ST",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"600 W MAIN ST, ANAMOSA, IA 52205",
+            "lat":42.108303,
+            "long":-91.290907,
+            "formatted_address":"600 W Main St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2017",
+            "max_year":"2023",
+            "inspection_year_range":"2017-2023",
+            "inspection_no_violation":4,
+            "inspection_violation":0,
+            "inspection_total":4,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.290907,
+               42.108303
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"TAPKEN'S CONVENIENCE PLUS / CENEX",
+            "street_address":"306 S ELM ST",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"306 S ELM ST, ANAMOSA, IA 52205",
+            "lat":42.104704,
+            "long":-91.293685,
+            "formatted_address":"306 S Elm St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2017",
+            "max_year":"2022",
+            "inspection_year_range":"2017-2022",
+            "inspection_no_violation":5,
+            "inspection_violation":0,
+            "inspection_total":5,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.293685,
+               42.104704
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"DOLLAR GENERAL #3711",
+            "street_address":"720 E OAK STREET",
+            "city":"MONTICELLO",
+            "state":"IA",
+            "zip":"52310",
+            "search_address":"720 E OAK STREET, MONTICELLO, IA 52310",
+            "lat":42.232417,
+            "long":-91.180102,
+            "formatted_address":"720 E Oak St, Monticello, IA 52310",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2016",
+            "max_year":"2023",
+            "inspection_year_range":"2016-2023",
+            "inspection_no_violation":4,
+            "inspection_violation":0,
+            "inspection_total":4,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.180102,
+               42.232417
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"SUNDSTOP CONVENIENCE STORE",
+            "street_address":"400 JACKSON STREET",
+            "city":"OLIN",
+            "state":"IA",
+            "zip":"52320",
+            "search_address":"400 JACKSON STREET, OLIN, IA 52320",
+            "lat":41.998122,
+            "long":-91.141732,
+            "formatted_address":"400 Jackson St, Olin, IA 52320",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2016",
+            "max_year":"2022",
+            "inspection_year_range":"2016-2022",
+            "inspection_no_violation":3,
+            "inspection_violation":0,
+            "inspection_total":3,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.141732,
+               41.998122
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"ANAMOSA TRAVEL MART / BP",
+            "street_address":"23485 COUNTY ROAD E34",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"23485 COUNTY ROAD E34, ANAMOSA, IA 52205",
+            "lat":42.072659,
+            "long":-91.333937,
+            "formatted_address":"23485 County Rd E34, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2017",
+            "max_year":"2019",
+            "inspection_year_range":"2017-2019",
+            "inspection_no_violation":3,
+            "inspection_violation":0,
+            "inspection_total":3,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.333937,
+               42.072659
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"MARTELLE C STORE / SUNDSTOP CONVENIENCE STORE",
+            "street_address":"400 S MILITARY ST",
+            "city":"MARTELLE",
+            "state":"IA",
+            "zip":"52305",
+            "search_address":"400 S MILITARY ST, MARTELLE, IA 52305",
+            "lat":42.020003,
+            "long":-91.360878,
+            "formatted_address":"400 S Military St, Martelle, IA 52305",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2017",
+            "max_year":"2019",
+            "inspection_year_range":"2017-2019",
+            "inspection_no_violation":2,
+            "inspection_violation":0,
+            "inspection_total":2,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.360878,
+               42.020003
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"DOLLAR GENERAL",
+            "street_address":"208 E MAIN STREET",
+            "city":"WYOMING",
+            "state":"IA",
+            "zip":"52362",
+            "search_address":"208 E MAIN STREET, WYOMING, IA 52362",
+            "lat":42.058732,
+            "long":-91.003972,
+            "formatted_address":"208 E Main St, Wyoming, IA 52362",
+            "accuracy":1.0,
+            "accuracy_type":"range_interpolation",
+            "min_year":"2021",
+            "max_year":"2022",
+            "inspection_year_range":"2021-2022",
+            "inspection_no_violation":2,
+            "inspection_violation":0,
+            "inspection_total":2,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.003972,
+               42.058732
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"UP IN SMOKE",
+            "street_address":"405 E MAIN ST.",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"405 E MAIN ST., ANAMOSA, IA 52205",
+            "lat":42.108175,
+            "long":-91.281001,
+            "formatted_address":"405 E Main St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2022",
+            "max_year":"2022",
+            "inspection_year_range":"2022-2022",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.281001,
+               42.108175
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"CASEY'S",
+            "street_address":"627 S MAIN ST",
+            "city":"MONTICELLO",
+            "state":"IA",
+            "zip":"52310",
+            "search_address":"627 S MAIN ST, MONTICELLO, IA 52310",
+            "lat":42.232483,
+            "long":-91.185937,
+            "formatted_address":"627 S Main St, Monticello, IA 52310",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2022",
+            "max_year":"2023",
+            "inspection_year_range":"2022-2023",
+            "inspection_no_violation":2,
+            "inspection_violation":0,
+            "inspection_total":2,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.185937,
+               42.232483
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"CASEY'S",
+            "street_address":"204 E MAIN",
+            "city":"WYOMING",
+            "state":"IA",
+            "zip":"52362",
+            "search_address":"204 E MAIN, WYOMING, IA 52362",
+            "lat":42.058775,
+            "long":-91.003754,
+            "formatted_address":"204 E Main St, Wyoming, IA 52362",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2022",
+            "max_year":"2023",
+            "inspection_year_range":"2022-2023",
+            "inspection_no_violation":2,
+            "inspection_violation":0,
+            "inspection_total":2,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.003754,
+               42.058775
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"HOLLY'S SUPER MARKET",
+            "street_address":"160 W MAIN ST",
+            "city":"WYOMING",
+            "state":"IA",
+            "zip":"52362",
+            "search_address":"160 W MAIN ST, WYOMING, IA 52362",
+            "lat":42.059018,
+            "long":-91.007467,
+            "formatted_address":"160 W Main St, Wyoming, IA 52362",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2022",
+            "max_year":"2022",
+            "inspection_year_range":"2022-2022",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.007467,
+               42.059018
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"CASEY'S",
+            "street_address":"23485 COUNTY ROAD E34",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"23485 COUNTY ROAD E34, ANAMOSA, IA 52205",
+            "lat":42.072659,
+            "long":-91.333937,
+            "formatted_address":"23485 County Rd E34, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2022",
+            "max_year":"2023",
+            "inspection_year_range":"2022-2023",
+            "inspection_no_violation":2,
+            "inspection_violation":0,
+            "inspection_total":2,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.333937,
+               42.072659
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"CASEY'S #2908",
+            "street_address":"1752 HWY 64 E",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"1752 HWY 64 E, ANAMOSA, IA 52205",
+            "lat":42.103313,
+            "long":-91.263687,
+            "formatted_address":"1752 Highway 64 E, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2022",
+            "max_year":"2023",
+            "inspection_year_range":"2022-2023",
+            "inspection_no_violation":2,
+            "inspection_violation":0,
+            "inspection_total":2,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.263687,
+               42.103313
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"CASEY'S 2690",
+            "street_address":"500 E MAIN ST",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"500 E MAIN ST, ANAMOSA, IA 52205",
+            "lat":42.108415,
+            "long":-91.280165,
+            "formatted_address":"500 E Main St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2022",
+            "max_year":"2023",
+            "inspection_year_range":"2022-2023",
+            "inspection_no_violation":2,
+            "inspection_violation":0,
+            "inspection_total":2,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.280165,
+               42.108415
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"UP IN SMOKE",
+            "street_address":"405 EAST MAIN STREET",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"405 EAST MAIN STREET, ANAMOSA, IA 52205",
+            "lat":42.108175,
+            "long":-91.281001,
+            "formatted_address":"405 E Main St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2023",
+            "max_year":"2023",
+            "inspection_year_range":"2023-2023",
+            "inspection_no_violation":0,
+            "inspection_violation":1,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":1,
+            "charge_total":1
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.281001,
+               42.108175
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"KARDE'S C-STORE / BP",
+            "street_address":"202 N CEDAR ST",
+            "city":"MONTICELLO",
+            "state":"IA",
+            "zip":"52310",
+            "search_address":"202 N CEDAR ST, MONTICELLO, IA 52310",
+            "lat":42.239515,
+            "long":-91.189849,
+            "formatted_address":"202 N Cedar St, Monticello, IA 52310",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2023",
+            "max_year":"2023",
+            "inspection_year_range":"2023-2023",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.189849,
+               42.239515
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"TAPKEN'S  / CENEX",
+            "street_address":"306 S ELM ST",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"306 S ELM ST, ANAMOSA, IA 52205",
+            "lat":42.104704,
+            "long":-91.293685,
+            "formatted_address":"306 S Elm St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2023",
+            "max_year":"2023",
+            "inspection_year_range":"2023-2023",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.293685,
+               42.104704
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"WAL-MART #646",
+            "street_address":"101 115TH ST",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"101 115TH ST, ANAMOSA, IA 52205",
+            "lat":42.101561,
+            "long":-91.265032,
+            "formatted_address":"101 115th St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2023",
+            "max_year":"2023",
+            "inspection_year_range":"2023-2023",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.265032,
+               42.101561
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"FAREWAY MEAT & GROCERY",
+            "street_address":"402 E MAIN ST",
+            "city":"ANAMOSA",
+            "state":"IA",
+            "zip":"52205",
+            "search_address":"402 E MAIN ST, ANAMOSA, IA 52205",
+            "lat":42.108392,
+            "long":-91.281163,
+            "formatted_address":"402 E Main St, Anamosa, IA 52205",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2023",
+            "max_year":"2023",
+            "inspection_year_range":"2023-2023",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.281163,
+               42.108392
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "retailer_name":"MARTELLE C-STORE",
+            "street_address":"400 S MILITARY ST",
+            "city":"MARTELLE",
+            "state":"IA",
+            "zip":"52305",
+            "search_address":"400 S MILITARY ST, MARTELLE, IA 52305",
+            "lat":42.020003,
+            "long":-91.360878,
+            "formatted_address":"400 S Military St, Martelle, IA 52305",
+            "accuracy":1.0,
+            "accuracy_type":"rooftop",
+            "min_year":"2022",
+            "max_year":"2022",
+            "inspection_year_range":"2022-2022",
+            "inspection_no_violation":1,
+            "inspection_violation":0,
+            "inspection_total":1,
+            "charge_minor_sale":0,
+            "charge_tobacco_under21_sale":0,
+            "charge_total":0
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.360878,
+               42.020003
+            ]
+         }
+      }
+   ]
+}

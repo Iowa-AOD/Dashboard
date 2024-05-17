@@ -43,10 +43,14 @@
             <script src = "crashes_2023.geojson"></script>
             
             <script src = "schools.geojson"></script>
+            <script src = "jones_oce_2011-2023.geojson"></script>
+            <script src = "jones_oce_2011-2023_minor.geojson"></script>
+
             <script src = "CedarRapidsSAI"></script>
             <script src = "OnOutletCluster"></script>
             <script src = "OffOutletCluster"></script>
             <script src = "AVIV4"></script>
+
 
             <div class="content">
                 <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
@@ -251,6 +255,13 @@
                         margin-top: 8px;
                         }
 
+                    .legend .smoking {
+                        border-radius: 50%;
+                        width: 10px;
+                        height: 10px;
+                        margin-top: 8px;
+                        }
+
                     .mfp-hide {
                             display: none!important;
                         }
@@ -357,6 +368,24 @@
                                 opacity: 1,
                                 fillOpacity: 0.8
                                 };    
+
+                    var circle3 = {
+                                radius: 5,
+                                fillColor: "grey",
+                                color: "black",
+                                weight: .5,
+                                opacity: 1,
+                                fillOpacity: 0.8
+                                };  
+                                
+                    var circle4 = {
+                                radius: 5,
+                                fillColor: "red",
+                                color: "black",
+                                weight: .5,
+                                opacity: 1,
+                                fillOpacity: 0.8
+                                }; 
                     
                     var on= L.geoJSON(onoutlets, { 
                             filter: function(feature, layer) {
@@ -435,6 +464,34 @@
                                 onEachFeature: function (feature, layer) {
                                 popupOptions = {maxWidth: 200}; 
                                 layer.bindPopup("<b> Severity: </b>" + feature.properties.Crash_Severity )
+                                },
+                                } 
+                                ).bringToFront(100);
+
+                    var tobacco = L.geoJSON(tobacco,  { 
+                                filter: function(feature, layer) {
+                                    return feature.type == "Feature";
+                                },
+                                pointToLayer: function(feature, coordinates) {
+                                return L.circleMarker(coordinates, circle3);
+                                },
+                                onEachFeature: function (feature, layer) {
+                                popupOptions = {maxWidth: 200}; 
+                                layer.bindPopup("<b> Retailer Name: </b>" + feature.properties.retailer_name )
+                                },
+                                } 
+                                ).bringToFront(100);
+
+                    var tobacco_minor = L.geoJSON(tobacco_minor,  { 
+                                filter: function(feature, layer) {
+                                    return feature.type == "Feature" ;
+                                },
+                                pointToLayer: function(feature, coordinates) {
+                                return L.circleMarker(coordinates, circle4);
+                                },
+                                onEachFeature: function (feature, layer) {
+                                popupOptions = {maxWidth: 200}; 
+                                layer.bindPopup("<b> Retailer Name: </b>" + feature.properties.retailer_name )
                                 },
                                 } 
                                 ).bringToFront(100);
@@ -814,7 +871,10 @@
                             "Off-Premise Establishments": off,
                             "Alcohol Clusters": BClusters,
                             "Schools": schools, 
-                            "Alcohol-Related Automobile Crashes": crashes
+                            "Alcohol-Related Automobile Crashes": crashes, 
+                            "Tobacco Retailers": tobacco,
+                            "Tobacco Retailers: Sales to Minor Violation": tobacco_minor,
+
                             };			
 
 
