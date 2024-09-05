@@ -75,8 +75,9 @@
         // Create a TimeDimension layer
         var timedimensionLayer = L.timeDimension.layer.geoJson(geojsonLayer, {
             updateTimeDimension: true,
-            addlastPoint: true,
-            waitForReady: true
+            addlastPoint: false,  // Disable cumulative display
+            waitForReady: true,
+            duration: 'PT1M'  // Show each point only during its time step
         });
 
         timedimensionLayer.addTo(map);

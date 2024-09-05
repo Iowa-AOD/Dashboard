@@ -51,6 +51,7 @@
             <script src = "OnOutletCluster"></script>
             <script src = "OffOutletCluster"></script>
             <script src = "AVIV4"></script>
+            <script src = "Jones_place_boundaries.geojson"></script>
 
 
             <div class="content">
@@ -443,7 +444,7 @@
                                 },
                                 onEachFeature: function (feature, layer) {
                                 popupOptions = {maxWidth: 200}; 
-                                layer.bindPopup("<b> Name: </b>" + feature.properties.SchoolName)
+                                layer.bindPopup("<b> Name: </b>" + feature.properties.name2)
                                 },
                                 } 
                                 ).bringToFront(100);
@@ -495,7 +496,8 @@
                                 } 
                                 ).bringToFront(100);
                 
-                   // highlightFeature Functions 
+                   // highlightFeature Functions          
+
                     function highlightFeature(e) {
                          var layer = e.target;
                             layer.setStyle({
@@ -508,18 +510,6 @@
                             layer.bringToBack();
                         }
                     }
-
-                    function resetHighlightIO(e) {
-                                ISAI.resetStyle(e.target);
-                                }
-
-                    function resetHighlightCO(e){
-                                CSAI.resetStyle(e.target);
-                                }
-
-                                function resetHighlightAOD_per_10_14(e) {
-                                AOD_per_10_14.resetStyle(e.target);
-                                }   
 
                     function onEachFeatureAOD_per_10_14(feature, layer) {
                                 layer.on({
@@ -545,31 +535,16 @@
                                     }
                                     }
 
-                            
-
-                    function resetHighlightBO(e) {
-                                JSAI.resetStyle(e.target);
-                                }
-                    function resetHighlightBF(e) {
-                                JSAI_family.resetStyle(e.target);
-                                }
-                    function resetHighlightBV(e) {
-                                JSAI_violent.resetStyle(e.target);
-                                }   
-                    function resetHighlightBA(e) {
-                                JSAI_substances.resetStyle(e.target);
-                                }                              
-                    function resetHighlightBNA(e) {
-                                JSAI_narralc.resetStyle(e.target);
-                                }                              
-                    function resetHighlightBOn(e) {
-                                JSAI_On.resetStyle(e.target);
-                                }        
-                    function resetHighlightBOff(e) {
-                                JSAI_Off.resetStyle(e.target);
-                                }                           
-                     
-                    //onEachFeature Functions  
+                    function onEachFeatureAOD_cities(feature, layer) {
+                              //  layer.on({
+                              //      mouseover: highlightFeature,
+                              //      mouseout: resetHighlightAOD_boundaries
+                              //  });
+                                if (feature.properties) {
+                                    layer.bindPopup("<b>City Boundary: </b>" + feature.properties.NAME);
+                                    }
+                                    }              
+                                     
                     function onEachFeatureIO(feature, layer) {
                                 layer.on({
                                     mouseover: highlightFeature,
@@ -580,7 +555,7 @@
                                     }
                                     }
 
-                                    function onEachFeatureBO(feature, layer) {
+                    function onEachFeatureBO(feature, layer) {
                                 layer.on({
                                     mouseover: highlightFeature,
                                     mouseout: resetHighlightBO
@@ -650,6 +625,50 @@
                                     }
                                     }
            
+
+
+                    // Reset highlight on each feature
+
+                    function resetHighlightIO(e) {
+                                ISAI.resetStyle(e.target);
+                                }
+
+                    function resetHighlightCO(e){
+                                CSAI.resetStyle(e.target);
+                                }
+
+                    function resetHighlightAOD_per_10_14(e) {
+                                AOD_per_10_14.resetStyle(e.target);
+                                }   
+
+                    function resetHighlightAOD_boundaries(e) {
+                                Jboundaries.resetStyle(e.target);
+                                }   
+
+                    function resetHighlightBO(e) {
+                                JSAI.resetStyle(e.target);
+                                }
+                    function resetHighlightBF(e) {
+                                JSAI_family.resetStyle(e.target);
+                                }
+                    function resetHighlightBV(e) {
+                                JSAI_violent.resetStyle(e.target);
+                                }   
+                    function resetHighlightBA(e) {
+                                JSAI_substances.resetStyle(e.target);
+                                }                              
+                    function resetHighlightBNA(e) {
+                                JSAI_narralc.resetStyle(e.target);
+                                }                              
+                    function resetHighlightBOn(e) {
+                                JSAI_On.resetStyle(e.target);
+                                }        
+                    function resetHighlightBOff(e) {
+                                JSAI_Off.resetStyle(e.target);
+                                }                      
+                     
+              
+                                    
                     //get color functions 
                     function getColorC1(d) {
                             return   d > 16.077736? '#c67718' :
@@ -677,10 +696,10 @@
                     function styleC1(feature) {
                             return {
                                 fillColor: getColorC1((feature.properties.SAIoutlet_miles)),
-                                weight: 2,
-                                opacity: 1,
+                                weight: 0,
+                                opacity: 0,
                                 color: 'black',
-                                fillOpacity: 0.9
+                                fillOpacity: 0
                             };
                         }
 
@@ -696,15 +715,26 @@
                             };
                         }
 
+                    function styleboundaries(feature) {
+                            return {
+                                fillColor: 'blue',
+                                weight: 3,
+                                opacity: 1,
+                                radius: 10, 
+                                color: 'blue',
+                                fillOpacity: 0.2
+                            };
+                        }
+
                   
 
                     function styleAOD_per_10_14(feature) {
                             return {
                                 fillColor: getColorAOD_per_10_14((feature.properties.per_10_14)),
                                 weight: 2,
-                                opacity: 1,
+                                opacity: .5,
                                 color: 'black',
-                                fillOpacity: 0.9
+                                fillOpacity: 0.5
                             };
                         }
 
@@ -712,9 +742,9 @@
                             return {
                                 fillColor: getColorAOD_per_15_20((feature.properties.per_15_20)),
                                 weight: 2,
-                                opacity: 1,
+                                opacity: .5,
                                 color: 'black',
-                                fillOpacity: 0.9
+                                fillOpacity: 0.5
                             };
                         }
 
@@ -777,9 +807,9 @@
                             return {
                                 fillColor: getColorb1((feature.properties.SAIoutlet_miles)),
                                 weight: 2,
-                                opacity: 1,
+                                opacity: .5,
                                 color: 'black',
-                                fillOpacity: 0.9
+                                fillOpacity: 0.5
                             };
                         }
 
@@ -787,9 +817,9 @@
                             return {
                                 fillColor: getColorb2((feature.properties.SAI_family)),
                                 weight: 2,
-                                opacity: 1,
+                                opacity: .5,
                                 color: 'black',
-                                fillOpacity: 0.9
+                                fillOpacity: 0.5
                             };
                         }
 
@@ -797,9 +827,9 @@
                             return {
                                 fillColor: getColorb3((feature.properties.SAI_violence)),
                                 weight: 2,
-                                opacity: 1,
+                                opacity: .5,
                                 color: 'black',
-                                fillOpacity: 0.9
+                                fillOpacity: 0.5
                             };
                         }
 
@@ -807,9 +837,9 @@
                             return {
                                 fillColor: getColorb4((feature.properties.SAI_substance)),
                                 weight: 2,
-                                opacity: 1,
+                                opacity: .5,
                                 color: 'black',
-                                fillOpacity: 0.9
+                                fillOpacity: 0.5
                             };
                         }
 
@@ -817,9 +847,9 @@
                             return {
                                 fillColor: getColorb5((feature.properties.SAInarralc1_miles)),
                                 weight: 2,
-                                opacity: 1,
+                                opacity: .5,
                                 color: 'black',
-                                fillOpacity: 0.9
+                                fillOpacity: 0.5
                             };
                         }
                        
@@ -827,9 +857,9 @@
                             return {
                                 fillColor: getColorb6((feature.properties.SAIOnoutlet_miles)),
                                 weight: 2,
-                                opacity: 1,
+                                opacity: .5,
                                 color: 'black',
-                                fillOpacity: 0.9
+                                fillOpacity: 0.5
                             };
                         }
 
@@ -837,9 +867,9 @@
                             return {
                                 fillColor: getColorb7((feature.properties.SAIOffoutlet_miles)),
                                 weight: 2,
-                                opacity: 1,
+                                opacity: .5,
                                 color: 'black',
-                                fillOpacity: 0.9
+                                fillOpacity: 0.5
                             };
                         }
 
@@ -848,7 +878,8 @@
                     var JSAI_violent= L.geoJson(cfs, {style: styleb3, onEachFeature: onEachFeatureBV});
                     var JSAI_substances= L.geoJson(cfs, {style: styleb4, onEachFeature: onEachFeatureBA});
                     //var JSAI_narralc= L.geoJson(cfs, {style: styleb5, onEachFeature: onEachFeatureBNA});
-                    var BClusters =  L.geoJson(cluster, {style: stylecluster});
+                    var Jboundaries = L.geoJson(boundaries, {style: styleboundaries, onEachFeature: onEachFeatureAOD_cities});
+                    var JClusters =  L.geoJson(cluster, {style: stylecluster});
                     var deselect = L.geoJson(Cdata, {style: styleC1, onEachFeature: onEachFeatureIO});
                     var AOD_per_10_14 = L.geoJson(AOD, {style: styleAOD_per_10_14, onEachFeature: onEachFeatureAOD_per_10_14}).bringToBack(0).addTo(map4);
                     var AOD_per_15_20 = L.geoJson(AOD, {style: styleAOD_per_15_20, onEachFeature: onEachFeatureAOD_per_15_20});
@@ -868,7 +899,8 @@
                     var overlayMapsB1 = {
                             "On-Premise Establishments": on,
                             "Off-Premise Establishments": off,
-                            "Alcohol Clusters": BClusters,
+                            "Alcohol Clusters": JClusters,
+                            "City Boundaries": Jboundaries,
                             "Schools": schools, 
                             "Alcohol-Related Automobile Crashes": crashes, 
                             "Tobacco Retailers": tobacco,
