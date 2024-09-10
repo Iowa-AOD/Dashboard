@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet Map with Date Range Slider, Circle Markers, and Layer Control</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nouislider/distribute/nouislider.min.css">
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+        .slider {
+            position: absolute;
+            top: 520px;
+            left: 20px;
+            width: 90%;
+            z-index: 2;
+        }
+        .value {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        .noUi-tooltip {
+            z-index: 1000;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 5px;
+            font-size: 14px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+<div class="slider">
+    <div id="time-slider"></div>
+    <p class="value">
+        Selected Date Range: <span id="start-date"></span> to <span id="end-date"></span>
+    </p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/nouislider/distribute/nouislider.min.js"></script>
+<script>
+    // Initialize the Leaflet map
+    var map = L.map('map').setView([41.976, -91.665], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19
+    }).addTo(map);
+
+  // Test data for violence-related calls for service
+var violence_cfs_jitter = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.665, 41.976] // Example coordinates
+      },
+      "properties": {
+        "type": "violence",
+        "time": "2023-01-10T08:30:00Z" // ISO 8601 time format
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.673, 41.983] // Example coordinates
+      },
+      "properties": {
+        "type": "violence",
+        "time": "2023-01-11T12:45:00Z"
+      }
+    }
+  ]
+};
+
+// Test data for substance-related calls for service
+var substance_cfs_jitter = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.668, 41.978] // Example coordinates
+      },
+      "properties": {
+        "type": "substance",
+        "time": "2023-02-15T10:15:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.671, 41.975] // Example coordinates
+      },
+      "properties": {
+        "type": "substance",
+        "time": "2023-02-16T15:30:00Z"
+      }
+    }
+  ]
+};
+
+// Test data for family-related calls for service
+var family_cfs_jitter = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.670, 41.979] // Example coordinates
+      },
+      "properties": {
+        "type": "family",
+        "time": "2023-03-20T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.662, 41.982] // Example coordinates
+      },
+      "properties": {
+        "type": "family",
+        "time": "2023-03-21T14:20:00Z"
+      }
+    }
+  ]
+};
+
+    // Convert GeoJSON features to an array of objects with timestamps
+    function geoJsonToEvents(geojson) {
+        return geojson.features.map(feature => ({
+            lat: feature.geometry.coordinates[1],
+            lng: feature.geometry.coordinates[0],
+            timestamp: new Date(feature.properties.time).getTime(),
+            description: feature.properties.type
+        }));
+    }
+
+    var violenceEvents = geoJsonToEvents(violence_cfs_jitter);
+    var substanceEvents = geoJsonToEvents(substance_cfs_jitter);
+    var familyEvents = geoJsonToEvents(family_cfs_jitter);
+
+    // Create marker groups for each event layer
+    var violenceLayer = L.layerGroup();
+    var substanceLayer = L.layerGroup();
+    var familyLayer = L.layerGroup();
+
+    // Function to convert timestamp to ISO date string
+    function timestampToIso(timestamp) {
+        const date = new Date(timestamp);
+        return isNaN(date.getTime()) ? '' : date.toISOString().split('T')[0];
+    }
+
+    // Function to update circle markers for the selected layer and date range
+    function updateMarkers(startTimestamp, endTimestamp, eventData, markerLayer, color) {
+        markerLayer.clearLayers();
+
+        // Add circle markers within the selected date range
+        eventData.forEach(event => {
+            if (event.timestamp >= startTimestamp && event.timestamp <= endTimestamp) {
+                L.circleMarker([event.lat, event.lng], {
+                    radius: 8,
+                    color: color,
+                    fillOpacity: 0.7
+                }).addTo(markerLayer)
+                    .bindPopup(event.description);
+            }
+        });
+    }
+
+    // Initialize the noUiSlider
+    var slider = document.getElementById('time-slider');
+    noUiSlider.create(slider, {
+        start: [violenceEvents[0].timestamp, familyEvents[familyEvents.length - 1].timestamp],
+        connect: true,
+        range: {
+            'min': violenceEvents[0].timestamp,
+            'max': familyEvents[familyEvents.length - 1].timestamp
+        },
+        step: 24 * 60 * 60 * 1000, // 1 day in milliseconds
+        tooltips: [true, true],
+        format: {
+            to: function (value) {
+                return timestampToIso(Number(value)); // Ensure the value is a number
+            },
+            from: function (value) {
+                return Number(value); // Ensure the value is a number
+            }
+        }
+    });
+
+    // Update displayed values and markers when the slider changes
+    slider.noUiSlider.on('update', function (values) {
+        var startTimestamp = new Date(values[0]).getTime(); // Convert date string to timestamp
+        var endTimestamp = new Date(values[1]).getTime();
+
+        document.getElementById('start-date').textContent = values[0];
+        document.getElementById('end-date').textContent = values[1];
+
+        // Update markers for all layers
+        updateMarkers(startTimestamp, endTimestamp, violenceEvents, violenceLayer, 'red');
+        updateMarkers(startTimestamp, endTimestamp, substanceEvents, substanceLayer, 'blue');
+        updateMarkers(startTimestamp, endTimestamp, familyEvents, familyLayer, 'green');
+    });
+
+    // Initialize the map with markers for the default range
+    updateMarkers(violenceEvents[0].timestamp, familyEvents[familyEvents.length - 1].timestamp, violenceEvents, violenceLayer, 'red');
+
+    // Add the layers to the map
+    violenceLayer.addTo(map); // Start with violence layer active
+
+    // Add base layers and overlays to layer control
+    var baseLayers = {
+        "Violence Calls (Red)": violenceLayer,
+        "Substance Calls (Blue)": substanceLayer,
+        "Family Calls (Green)": familyLayer
+    };
+
+    var overlays = {
+        "Show Violence Calls": violenceLayer,
+        "Show Substance Calls": substanceLayer,
+        "Show Family Calls": familyLayer
+    };
+
+    // Add layer control (with both base layers and overlays)
+    L.control.layers(baseLayers, overlays).addTo(map);
+</script>
+
+</body>
+</html>

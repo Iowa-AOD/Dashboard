@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leaflet Map with Heatmap Layer as Image</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+  <div id="map" style="width: 100%; height: 600px;"></div>
+  <script>
+    var map = L.map('map').setView([42.1213, -91.1319], 11);
+
+    // Add base layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Add the heatmap as an image overlay
+    var imageUrl = 'leaflet_heatmap.png';  // Path to your exported PNG heatmap
+   // var imageBounds = [[42.1213, -91.1319], [42.1233, -91.1339]];  // Adjust based on the geographic bounds of the heatmap
+  
+  //  L.imageOverlay(imageUrl, imageBounds).addTo(map);
+  L.imageOverlay(imageUrl).addTo(map);
+  </script>
+</body>
+</html>

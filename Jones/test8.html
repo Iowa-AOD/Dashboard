@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet Map with Date Range Slider, Colored Markers, and Layer Control</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nouislider/distribute/nouislider.min.css">
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+        .slider {
+            position: absolute;
+            top: 520px;
+            left: 20px;
+            width: 90%;
+            z-index: 2;
+        }
+        .value {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        .noUi-tooltip {
+            z-index: 1000;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 5px;
+            font-size: 14px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+<div class="slider">
+    <div id="time-slider"></div>
+    <p class="value">
+        Selected Date Range: <span id="start-date"></span> to <span id="end-date"></span>
+    </p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/nouislider/distribute/nouislider.min.js"></script>
+<script>
+    // Initialize the Leaflet map
+    var map = L.map('map').setView([51.505, -0.09], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19
+    }).addTo(map);
+
+    // Sample event data with ISO date strings and coordinates
+    var eventData1 = [
+        { date: '2024-01-01T00:00:00Z', lat: 51.505, lng: -0.09, description: 'Event 1 - Layer 1' },
+        { date: '2024-02-15T00:00:00Z', lat: 51.51, lng: -0.1, description: 'Event 2 - Layer 1' }
+    ];
+    var eventData2 = [
+        { date: '2024-03-10T00:00:00Z', lat: 51.52, lng: -0.11, description: 'Event 3 - Layer 2' },
+        { date: '2024-05-05T00:00:00Z', lat: 51.53, lng: -0.12, description: 'Event 4 - Layer 2' }
+    ];
+    var eventData3 = [
+        { date: '2024-06-01T00:00:00Z', lat: 51.54, lng: -0.13, description: 'Event 5 - Layer 3' },
+        { date: '2024-07-01T00:00:00Z', lat: 51.55, lng: -0.14, description: 'Event 6 - Layer 3' }
+    ];
+
+    // Convert event dates from ISO string to timestamp (in milliseconds)
+    eventData1.forEach(event => event.timestamp = new Date(event.date).getTime());
+    eventData2.forEach(event => event.timestamp = new Date(event.date).getTime());
+    eventData3.forEach(event => event.timestamp = new Date(event.date).getTime());
+
+    // Create custom icons with different colors
+    var redIcon = new L.Icon({
+        iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-red.png',
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+    });
+
+    var blueIcon = new L.Icon({
+        iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-blue.png',
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+    });
+
+    var greenIcon = new L.Icon({
+        iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-green.png',
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+    });
+
+    // Create marker groups for each event layer
+    var layer1 = L.layerGroup();
+    var layer2 = L.layerGroup();
+    var layer3 = L.layerGroup();
+
+    // Function to convert timestamp to ISO date string
+    function timestampToIso(timestamp) {
+        const date = new Date(timestamp);
+        return isNaN(date.getTime()) ? '' : date.toISOString().split('T')[0];
+    }
+
+    // Function to update markers for the selected layer and date range
+    function updateMarkers(startTimestamp, endTimestamp, eventData, markerLayer, icon) {
+        console.log("Updating markers with range:", new Date(startTimestamp), new Date(endTimestamp));
+
+        // Clear existing markers in this layer
+        markerLayer.clearLayers();
+
+        // Add markers within the selected date range
+        eventData.forEach(event => {
+            if (event.timestamp >= startTimestamp && event.timestamp <= endTimestamp) {
+                L.marker([event.lat, event.lng], { icon: icon }).addTo(markerLayer)
+                    .bindPopup(event.description);
+            }
+        });
+    }
+
+    // Initialize the noUiSlider
+    var slider = document.getElementById('time-slider');
+    noUiSlider.create(slider, {
+        start: [eventData1[0].timestamp, eventData3[eventData3.length - 1].timestamp],
+        connect: true,
+        range: {
+            'min': eventData1[0].timestamp,
+            'max': eventData3[eventData3.length - 1].timestamp
+        },
+        step: 24 * 60 * 60 * 1000, // 1 day in milliseconds
+        tooltips: [true, true],
+        format: {
+            to: function (value) {
+                return timestampToIso(Number(value)); // Ensure the value is a number
+            },
+            from: function (value) {
+                return Number(value); // Ensure the value is a number
+            }
+        }
+    });
+
+    // Update displayed values and markers when the slider changes
+    slider.noUiSlider.on('update', function (values) {
+        var startTimestamp = new Date(values[0]).getTime(); // Convert date string to timestamp
+        var endTimestamp = new Date(values[1]).getTime();
+
+        // Update displayed date range
+        document.getElementById('start-date').textContent = values[0];
+        document.getElementById('end-date').textContent = values[1];
+
+        // Update markers for all layers based on the active overlays
+        updateMarkers(startTimestamp, endTimestamp, eventData1, layer1, redIcon);
+        updateMarkers(startTimestamp, endTimestamp, eventData2, layer2, blueIcon);
+        updateMarkers(startTimestamp, endTimestamp, eventData3, layer3, greenIcon);
+    });
+
+    // Initialize the map with markers for the default range
+    updateMarkers(eventData1[0].timestamp, eventData3[eventData3.length - 1].timestamp, eventData1, layer1, redIcon);
+
+    // Add the layers to the map
+    layer1.addTo(map); // Start with layer 1 active
+
+    // Add base layers and overlays to layer control
+    var baseLayers = {
+        "Layer 1 (Red)": layer1,
+        "Layer 2 (Blue)": layer2,
+        "Layer 3 (Green)": layer3
+    };
+
+    var overlays = {
+        "Show Layer 1": layer1,
+        "Show Layer 2": layer2,
+        "Show Layer 3": layer3
+    };
+
+    // Add layer control (with both base layers and overlays)
+    L.control.layers(baseLayers, overlays).addTo(map);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaflet Map with Monthly Time Slider</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <!-- Leaflet TimeDimension CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-timedimension@1.1.0/dist/leaflet.timedimension.control.min.css" />
+    <!-- Leaflet TimeDimension JS -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-timedimension@1.1.0/dist/leaflet.timedimension.min.js"></script>
+
+    <!-- Iso8601 JS Period -->
+    <script src="https://cdn.jsdelivr.net/npm/iso8601-js-period@0.2.1/iso8601.min.js"></script>
+
+     <!-- Moment.js -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+
+
+    <script src ="violence_clusters_2023.geojson"></script>
+
+    <style>
+        #map {
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script>
+
+
+        // Initialize the map
+        var map = L.map('map', {
+            zoom: 11,
+            timeDimension: true,
+            timeDimensionOptions: {
+                timeInterval: "2023-01-01T00:00:00Z/2023-12-31T23:59:59Z",  // Correct ISO8601 time interval
+        period: "P1M"    },
+    center: [42.1213, -91.1319],
+        });
+
+        // Add a tile layer to the map
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19
+        }).addTo(map);
+
+       
+
+        // Update GeoJSON data to include time property
+        violence_clust.features.forEach(function(feature) {
+            feature.properties.time = (feature.properties.month);
+        });
+
+        // Create a GeoJSON layer
+        var geojsonLayer = L.geoJson(violence_clust, {
+            style: function (feature) {
+                return {
+                    color: '#ff7800',  // Line color
+                    weight: 2,
+                    opacity: 1
+                };
+            }
+        });
+
+        // Create a TimeDimension layer
+        var timedimensionLayer = L.timeDimension.layer.geoJson(geojsonLayer, {
+            updateTimeDimension: true,
+            addlastPoint: false,  // Disable cumulative display
+            waitForReady: true,
+            duration: 'PT1M',//Duration of one month
+            timeAttribute: 'time'  // Specify the attribute name used for time
+        });
+
+        timedimensionLayer.addTo(map);
+
+// Custom TimeDimension control
+ // Custom TimeDimension control
+ L.Control.TimeDimensionCustom = L.Control.TimeDimension.extend({
+                    _getDisplayDateFormat: function(date){
+                        var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+                        var d = new Date(date);
+                        var month = months[d.getUTCMonth()];
+                        var year = d.getUTCFullYear();
+                        return month + " " + year;  // Format as "MMMM YYYY"
+                    }
+                });
+
+var timeDimensionControl = new L.Control.TimeDimensionCustom({
+    playerOptions: {
+        buffer: 1,
+        minBufferReady: -1
+    }
+});
+
+map.addControl(timeDimensionControl);
+</script>
+</body>
+</html>

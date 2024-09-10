@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet Map with Date Range Slider</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nouislider/distribute/nouislider.min.css">
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+        .slider {
+            position: absolute;
+            top: 520px;
+            left: 20px;
+            width: 90%;
+            z-index: 2;
+        }
+        .value {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        .noUi-tooltip {
+            z-index: 1000;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 5px;
+            font-size: 14px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+<div class="slider">
+    <div id="time-slider"></div>
+    <p class="value">
+        Selected Date Range: <span id="start-date"></span> to <span id="end-date"></span>
+    </p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/nouislider/distribute/nouislider.min.js"></script>
+<script>
+    // Initialize the Leaflet map
+    var map = L.map('map').setView([51.505, -0.09], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19
+    }).addTo(map);
+
+    // Sample event data with ISO date strings and coordinates
+    var eventData = [
+        { date: '2024-01-01T00:00:00Z', lat: 51.505, lng: -0.09, description: 'Event 1' },
+        { date: '2024-02-15T00:00:00Z', lat: 51.51, lng: -0.1, description: 'Event 2' },
+        { date: '2024-03-10T00:00:00Z', lat: 51.52, lng: -0.11, description: 'Event 3' },
+        { date: '2024-05-05T00:00:00Z', lat: 51.53, lng: -0.12, description: 'Event 4' }
+    ];
+
+    // Convert event dates from ISO string to timestamp (in milliseconds)
+    eventData.forEach(event => {
+        event.timestamp = new Date(event.date).getTime();
+    });
+
+    // Function to convert timestamp (in milliseconds) to ISO date string
+    function timestampToIso(timestamp) {
+        const date = new Date(timestamp);
+        return isNaN(date.getTime()) ? '' : date.toISOString().split('T')[0];
+    }
+
+    // Function to add markers based on date range
+    function updateMarkers(startTimestamp, endTimestamp) {
+        console.log("Updating markers with range:", new Date(startTimestamp), new Date(endTimestamp));
+
+        // Clear existing markers
+        map.eachLayer(layer => {
+            if (layer instanceof L.Marker) {
+                map.removeLayer(layer);
+            }
+        });
+
+        // Add markers within the selected date range
+        eventData.forEach(event => {
+            if (event.timestamp >= startTimestamp && event.timestamp <= endTimestamp) {
+                L.marker([event.lat, event.lng]).addTo(map)
+                    .bindPopup(event.description);
+            }
+        });
+    }
+
+    // Initialize the noUiSlider
+    var slider = document.getElementById('time-slider');
+    noUiSlider.create(slider, {
+        start: [eventData[0].timestamp, eventData[eventData.length - 1].timestamp],
+        connect: true,
+        range: {
+            'min': eventData[0].timestamp,
+            'max': eventData[eventData.length - 1].timestamp
+        },
+        step: 24 * 60 * 60 * 1000, // 1 day in milliseconds
+        tooltips: [true, true],
+        format: {
+            to: function (value) {
+                return timestampToIso(Number(value)); // Ensure the value is a number
+            },
+            from: function (value) {
+                return Number(value); // Ensure the value is a number
+            }
+        }
+    });
+
+    // Update displayed values and markers when the slider changes
+    slider.noUiSlider.on('update', function (values) {
+        var startTimestamp = new Date(values[0]).getTime(); // Convert date string to timestamp
+        var endTimestamp = new Date(values[1]).getTime();
+
+        console.log("Slider updated:", {start: values[0], end: values[1]}); // Debugging
+
+        // Validate date range
+        if (isNaN(startTimestamp) || isNaN(endTimestamp)) {
+            console.error("Invalid timestamp values:", values);
+            return;
+        }
+
+        // Update displayed date range
+        document.getElementById('start-date').textContent = values[0];
+        document.getElementById('end-date').textContent = values[1];
+
+        // Update map markers
+        updateMarkers(startTimestamp, endTimestamp);
+    });
+
+    // Initialize the map with markers for the default range
+    updateMarkers(eventData[0].timestamp, eventData[eventData.length - 1].timestamp);
+</script>
+
+</body>
+</html>
